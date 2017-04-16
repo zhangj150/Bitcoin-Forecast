@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<!--        <title>D3 Demo: Making a scatterplot with SVG</title> -->
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+        <style type="text/css">
+            body{
+              font:"Arial";
+            }
+            .bar {
+            fill: #5f89ad;
+            }
+
+            .axis {
+                font-size: 13px;
+            }
+
+            .axis path,
+            .axis line {
+                fill: none;
+                display: none;
+            }
+
+            .label {
+                font-size: 13px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <script>
+            var data=[{product:'Blockchain',freq:8202},
+                      {product:'Bitcoin',freq:27464},
+                      {product:'Ethereum',freq:475},
+                      {product:'Tezos',freq:1},
+                      {product:'MaidSafe',freq:9},
+                      {product:'Factom',freq:50},
+                      {product:'Synereo',freq:19},
+                      {product:'Steemit',freq:672},
+                      {product:'Hyperledger',freq:125},
+                      {product:'ConsenSys',freq:33}
+                      ];
+            //Width and height
+            var margin = {top:15, right:25, bottom:15, left: 60};
+            var width = 960 - margin.left - margin.right,
+                height = 500 - margin.top - margin.bottom;
+            //Create SVG element
+            var svg = d3.select("body")
+                        .append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                        .append("g")
+                        .attr("transform","translate(" + margin.left + "," + margin.top + ")");
+
+            var x = d3.scale.linear()
+                            .range([0,width])
+                            .domain([0,d3.max(data,function(d){
+                                return d.freq;
+                            })]);
+
+            var y = d3.scale.ordinal()
+                            .rangeRoundBands([height,0],.1)
+                            .domain(data.map(function(d){
+                              return d.product;
+                            }));
+
+            var yAxis = d3.svg.axis()
+                              .scale(y)
+                              .tickSize(0)
+                              .orient("left");
+
+            var gy = svg.append("g")
+                        .attr("class","y axis")
+                        .call(yAxis)
+
+            var bars = svg.selectAll(".bar")
+                          .data(data)
+                          .enter()
+                          .append("g");
+
+            bars.append("rect")
+                // .attr("class","bar")
+                .attr("y",function(d){
+                  return y(d.product);
+                })
+                .attr("height", y.rangeBand())
+                .attr("x",0)
+                .attr("width",function(d){
+                  return x(d.freq);
+                })
+                .attr("fill","#5f89ad")
+                .on("mouseover",function(){
+                  d3.select(this)
+                    .attr("fill","red");
+              })
+              .on("mouseout", function(d,i){
+                  d3.select(this).attr("fill",function(){
+                    return "#5f89ad";
+                  });
+              })
+
+
+            bars.append("text")
+                .attr("class","below")
+                .attr("y",function(d){
+                  return y(d.product) + y.rangeBand()
+                })
+                .attr("x",function(d){
+                  return x(d.freq);
+                })
+                .attr("text-anchor","end")
+                .text(function(d){
+                  return (d.freq);
+                })
+
+
+        </script>
+    </body>
+</html>

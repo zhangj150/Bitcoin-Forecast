@@ -14,6 +14,7 @@
 
             .axis {
                 font-size: 13px;
+                font:"Arial";
             }
 
             .axis path,
@@ -24,6 +25,7 @@
 
             .label {
                 font-size: 13px;
+                font:"Arial";
             }
 
         </style>
@@ -42,8 +44,8 @@
                       {product:'ConsenSys',freq:33}
                       ];
             //Width and height
-            var margin = {top:15, right:25, bottom:15, left: 60};
-            var width = 960 - margin.left - margin.right,
+            var margin = {top:15, right:25, bottom:15, left: 80};
+            var width = 1200 - margin.left - margin.right,
                 height = 500 - margin.top - margin.bottom;
             //Create SVG element
             var svg = d3.select("body")
@@ -109,7 +111,7 @@
                 .attr("x",function(d){
                   return x(d.freq);
                 })
-                .attr("text-anchor","end")
+                .attr("text-anchor","start")
                 .text(function(d){
                   return (d.freq);
                 })

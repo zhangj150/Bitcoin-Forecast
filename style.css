@@ -131,7 +131,8 @@ body {
 
 div.homeGraph {
   background-color: #ffffff;
-  opacity: 0.6
+  opacity: 0.6;
+  width: 1000px;
 }
 
 div.buttonAlign {

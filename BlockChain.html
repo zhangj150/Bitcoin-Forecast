@@ -23,18 +23,28 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <br>
+        <div id="siteTitle">
         <h1>Birth of Blockchain</h1>
-
+        </div>
     <!-- <div class = "dropdown">
         <button onclick = "dropdownFunction()" class = "dropdown">Dropdown Menu</button>
             <div id = "dropDownContent" class = "dropDownContent">
                 <input type = "text" placeholder="Search for industries" id = "userInput"> -->
-        <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Click Me to Search</button>
+        <select onchange="loadData()" id="metric">
+          <option >All</option>
+          <option >Blockchain</option>
+          <option >Bitcoin</option>
+          <option >Ethereum</option>
+
+        </select>
+        <!--<div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Get Specific</button>
+
             <div id="myDropdown" class="dropdown-content">
                 <input type="text" placeholder="Keywords for search" id="myInput" onkeyup="filterFunction()">
-                <a href = "Blockchain">Blockchain</a>
-                <a href = "Bitcoin">Bitcoin</a>
+
+                <a href = "Blockchain">Blockchain(s)</a>
+                <a href = "Bitcoin">Bitcoin(s)</a>
                 <a href = "Ethereum">Ethereum</a>
                 <a href = "Tezos">Tezos</a>
                 <a href = "MaidSafe">MaidSafe</a>
@@ -43,17 +53,20 @@
                 <a href = "Steemit">Steemit</a>
                 <a href = "Hyperledger">Hyperledger</a>
                 <a href = "ConsenSys">ConsenSys</a>
-            </div>
+            </div>-->
         <div class= "image">
             <img src = "http://www.blockchaintechnologies.com/img/blockchain-consensus.jpg" style = "height:200px;" alt = "blockchain">
         </div>
         <div class ="homeGraph">
-          <svg width="960" height="500"></svg>
+          <svg width="800" height="500"></svg>
           <script src="https://d3js.org/d3.v4.min.js"></script>
           <script>
 
+
+var loadData = function() {
+          d3.selectAll("svg > *").remove();
           var svg = d3.select("svg"),
-              margin = {top: 20, right: 20, bottom: 30, left: 50},
+              margin = {top: 20, right: 30, bottom: 20, left: 50},
               width = +svg.attr("width") - margin.left - margin.right,
               height = +svg.attr("height") - margin.top - margin.bottom,
               g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -69,8 +82,10 @@
           var line = d3.line()
               .x(function(d) { return x(d.date); })
               .y(function(d) { return y(d.mentions); });
+          var metric = document.getElementById('metric').selectedOptions[0].text;
+          var dataFile = 'data/' + metric + '.tsv'
 
-          d3.tsv("ALL_line_graph_dates_mentions.tsv", function(d) {
+          d3.tsv(dataFile, function(d) {
             d.date = parseTime(d.date);
             d.mentions = +d.mentions;
             return d;
@@ -105,7 +120,7 @@
                 .attr("stroke-width", 1.5)
                 .attr("d", line);
           });
-
+}
           </script>
 
         </div>

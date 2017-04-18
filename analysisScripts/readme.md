@@ -6,3 +6,7 @@ matplotlib
 
 pandas (for Python3)
 
+statsmodels
+
+scikit-learn
+

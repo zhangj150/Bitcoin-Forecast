@@ -33,9 +33,9 @@ p1 {
 
 div.image {
     position:fixed;
-    right:30px;
-    height:200px;
-    width:400px;
+    right:5px;
+    height:180px;
+    width:340px;
 }
 
 .dropdown-content {
@@ -127,6 +127,11 @@ body {
     background-color: #444;
   }
   */
+}
+
+div.homeGraph {
+  background-color: #ffffff;
+  opacity: 0.6
 }
 
 div.buttonAlign {

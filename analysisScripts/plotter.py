@@ -23,9 +23,16 @@ def visualizeBitcoinPrices(filename):
 
     return dataset
 
+def visualizeNumMentions(filename):
+    parser = lambda date: pandas.datetime.strptime(date, '%m/%d/%Y') #tell it how to parse the date in files
+    dataset = pandas.read_csv(filename, parse_dates=[0], usecols=[0,1], engine='python')
+    dataset.set_index(['Column 1 1'], inplace=True)
+    #dataset = dataset[1].replace(to_replace=0, method='ffill')
+    return dataset
 def main():
-    sentiments = visualize("data/BITCOIN_82453_GD2.0_CLEAN(2).csv")
-    bitcoinPrices = visualizeBitcoinPrices('data/bitcoinprices.csv')
+    sentiments = visualize("../data/BITCOIN_82453_GD2.0_CLEAN(2).csv")
+    bitcoinPrices = visualizeBitcoinPrices('../data/bitcoinprices.csv')
+    mentions = visualizeNumMentions("../data/lineGraph/BITCOIN_S_line_graph_dates_mentions.csv")
 
     fig = plt.figure()
 
@@ -34,10 +41,14 @@ def main():
     plot1.plot(sentiments)
     plot1.plot(pandas.rolling_mean(sentiments, window=10, min_periods=3)) #rolling mean for sentiments data
     
+    plot2 = fig.add_subplot(312)
+    plot2.set_title("Number of mentions")
+    plot2.plot(mentions)
+    plot2.plot(pandas.rolling_mean(mentions, window=10, min_periods=3))
 
-    plot2 = fig.add_subplot(313)
-    plot2.set_title("bitcoin prices over time")
-    plot2.plot(bitcoinPrices)
+    plot3 = fig.add_subplot(313)
+    plot3.set_title("bitcoin prices over time")
+    plot3.plot(bitcoinPrices)
 
     plt.show()
 

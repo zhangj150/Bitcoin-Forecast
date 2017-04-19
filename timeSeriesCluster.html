@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
 <meta charset="utf-8">
 <style> /* set the CSS */
 
@@ -28,7 +30,26 @@ div.tooltip {
 }
 
 </style>
+<header>
+
+      <div class = "nav">
+      <ul>
+         <li class="home"><a href="Blockchain.html">Home</a></li>
+         <li class="AboutUs"><a href="AboutUs.html">About Us</a></li>
+         <li class="moreAboutProject"><a href="MoreAboutProject.html">About Project</a></li>
+         <li class="timeSeriesCluster"><a href="timeSeriesCluster.html">Clustering</a></li>
+
+      </ul>
+
+      </div>
+</header>
+<div class="container-fluid">
 <body>
+<br>
+
+<h1 style="color:black">Time Series Clustering</h1>
+<h2 style="color:black">Blockchain-related mentions over time</h2>
+<p>Insert paragraph about 27 clusters forming via CKmeans.1d package.</p>
 
 <!-- load the d3.js library -->    
 <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -89,7 +110,7 @@ d3.csv("data/timeSeriesCluster/ALL_clusters.csv", function(error, data) {
     svg.selectAll("dot")
         .data(data)
       .enter().append("circle")
-        .attr("r", 3.5)
+        .attr("r", 3)
         .attr("cx", function(d) { return x(d.dates); })
         .attr("cy", function(d) { return y(d.occurrences); })
         .style("fill", function(d) { return color(cValue(d));})
@@ -132,15 +153,18 @@ d3.csv("data/timeSeriesCluster/ALL_clusters.csv", function(error, data) {
         .style("text-anchor", "middle")
     .style("font-size", "16px")
         .text("Mentions");
-
+/* 
     svg.append("text")
         .attr("x", (width / 2))
         .attr("y", 0 - (margin.top / 2))
         .attr("text-anchor", "middle")
         .style("font-size", "16px")
         .text("All blockchain-related mentions over time");
+*/
 
 });
 
 </script>
 </body>
+</div>
+</html>

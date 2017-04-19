@@ -4,7 +4,7 @@ from pandas.tools.plotting import autocorrelation_plot
 from statsmodels.tsa.arima_model import ARIMA
 from sklearn.metrics import mean_squared_error
 
-
+#the ether prices was pulled from the Poloniex API in json format
 dataset = pandas.read_json('../data/etherprices.json', convert_dates=['date']) #extract only date and price columns (1 and 7)
 dataset['date'] = pandas.to_datetime(dataset['date'], unit='s')
 dataset.set_index(['date'], inplace=True)

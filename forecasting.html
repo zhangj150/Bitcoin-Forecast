@@ -1,0 +1,15 @@
+<!doctype html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<html lang="en">
+
+<h1 style="color:black">Forecasting Prices of Bitcoin and Ether</h1>
+<p> 
+For this forecasting, we used a rolling window ARIMA method to forecast future prices. We use all the available history of prices to forecast
+the prices in the next 10 timesteps. Then after 10 timesteps, we add the true prices from these past ten timesteps to our history, and build a new ARIMA model using the updated history to forecast the next 10 timesteps after that.
+
+Each timestep is one day in our dataset. The Bitcoin price dataset came from Quandl, and the Ether dataset came from Poloniex.
+</p>
+<img src="images/initialViz.png" alt="bitcoin forecast" style="width:500;height:300;">
+<img src="images/EtherForecast.png" alt="ether forecast" style="width:500;height:300;">

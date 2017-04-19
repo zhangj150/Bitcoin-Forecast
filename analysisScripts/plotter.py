@@ -30,17 +30,18 @@ def visualizeNumMentions(filename):
     #dataset = dataset[1].replace(to_replace=0, method='ffill')
     return dataset
 def main():
-    sentiments = visualize("../data/BITCOIN_82453_GD2.0_CLEAN(2).csv")
+    name = 'consensys'
+    sentiments = visualize("~/Downloads/" + name + ".csv") #edit here
     bitcoinPrices = visualizeBitcoinPrices('../data/bitcoinprices.csv')
     mentions = visualizeNumMentions("../data/lineGraph/BITCOIN_S_line_graph_dates_mentions.csv")
 
     #fig = plt.figure()
 
     #plot1 = fig.add_subplot(311)
-    plt.title("Sentiments Over Time for Bitcoin")
+    plt.title("Sentiments Over Time")
     plt.plot(sentiments)
     plt.plot(pandas.rolling_mean(sentiments, window=10, min_periods=3)) #rolling mean for sentiments data
-    #plt.savefig()
+    plt.savefig('../images/sentiments/' + name + 'Tone.png', bbox_inches='tight')
     
     # plot2 = fig.add_subplot(312)
     # plot2.set_title("Number of mentions")

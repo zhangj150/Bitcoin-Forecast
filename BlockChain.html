@@ -10,48 +10,119 @@
 
         <div class = "nav">
         <ul>
-           <li class="home"><a href="#">Home</a></li>
-           <li class="AboutUs"><a href="AboutUs.html">About Us</a></li>
-           <li class="moreAboutProject"><a href="MoreAboutProject.html">About Project</a></li>
+           <li class="active"><a href="#">Home</a></li>
+           <li class="AboutUs"><a href="#">About Us</a></li>
+           <li class="moreAboutProject"><a href="#">About Project</a></li>
 
         </ul>
 
         </div>
     </header>
     <script type="text/javascript" src="Blockchain.js"></script>
-
+    <script src="https://d3js.org/d3.v3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+            var data=[{product:'Blockchain',freq:8202},
+                      {product:'Bitcoin',freq:27464},
+                      {product:'Ethereum',freq:475},
+                      {product:'Tezos',freq:1},
+                      {product:'MaidSafe',freq:9},
+                      {product:'Factom',freq:50},
+                      {product:'Synereo',freq:19},
+                      {product:'Steemit',freq:672},
+                      {product:'Hyperledger',freq:125},
+                      {product:'ConsenSys',freq:33}
+                      ];
+            //Width and height
+            var margin = {top:15, right:25, bottom:15, left: 80};
+            var width = 1200 - margin.left - margin.right,
+                height = 500 - margin.top - margin.bottom;
+            //Create SVG element
+            var svg = d3.select("body")
+                        .append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                        .append("g")
+                        .attr("transform","translate(" + margin.left + "," + margin.top + ")");
+
+            var x = d3.scale.linear()
+                            .range([0,width])
+                            .domain([0,d3.max(data,function(d){
+                                return d.freq;
+                            })]);
+
+            var y = d3.scale.ordinal()
+                            .rangeRoundBands([height,0],.1)
+                            .domain(data.map(function(d){
+                              return d.product;
+                            }));
+
+            var yAxis = d3.svg.axis()
+                              .scale(y)
+                              .tickSize(0)
+                              .orient("left");
+
+            var gy = svg.append("g")
+                        .attr("class","y axis")
+                        .call(yAxis)
+
+            var bars = svg.selectAll(".bar")
+                          .data(data)
+                          .enter()
+                          .append("g");
+
+            bars.append("rect")
+                // .attr("class","bar")
+                .attr("y",function(d){
+                  return y(d.product);
+                })
+                .attr("height", y.rangeBand())
+                .attr("x",0)
+                .attr("width",function(d){
+                  return x(d.freq);
+                })
+                .attr("fill","#D3D3D3")
+                .on("mouseover",function(){
+                  d3.select(this)
+                    .attr("fill","white");
+              })
+              .on("mouseout", function(d,i){
+                  d3.select(this).attr("fill",function(){
+                    return "#D3D3D3";
+                  });
+              })
+
+
+            bars.append("text")
+                .attr("class","below")
+                .attr("y",function(d){
+                  return y(d.product) + y.rangeBand()
+                })
+                .attr("x",function(d){
+                  return x(d.freq);
+                })
+                .attr("text-anchor","start")
+                .style("fill","white")
+                .text(function(d){
+                  return (d.freq);
+                })
+
+
+        </script>
     <br>
-        <div id="siteTitle">
         <h1>Birth of Blockchain</h1>
-        </div>
+
     <!-- <div class = "dropdown">
         <button onclick = "dropdownFunction()" class = "dropdown">Dropdown Menu</button>
             <div id = "dropDownContent" class = "dropDownContent">
                 <input type = "text" placeholder="Search for industries" id = "userInput"> -->
-        <select onchange="loadData()" id="metric">
-          <option >All</option>
-          <option >Blockchain</option>
-          <option >Bitcoin</option>
-          <option >Ethereum</option>
-          <option >Consensys</option>
-          <option >Factom</option>
-          <option >Synero</option>
-          <option >Maidsafe</option>
-          <option >NXT</option>
-          <option >Synero</option>
-          <option >Hyperledger</option>
-
-        </select>
-        <!--<div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Get Specific</button>
-
+        <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Click Me to Search</button>
             <div id="myDropdown" class="dropdown-content">
                 <input type="text" placeholder="Keywords for search" id="myInput" onkeyup="filterFunction()">
-
-                <a href = "Blockchain">Blockchain(s)</a>
-                <a href = "Bitcoin">Bitcoin(s)</a>
+                <a href = "Blockchain">Blockchain</a>
+                <a href = "Bitcoin">Bitcoin</a>
                 <a href = "Ethereum">Ethereum</a>
                 <a href = "Tezos">Tezos</a>
                 <a href = "MaidSafe">MaidSafe</a>
@@ -60,76 +131,9 @@
                 <a href = "Steemit">Steemit</a>
                 <a href = "Hyperledger">Hyperledger</a>
                 <a href = "ConsenSys">ConsenSys</a>
-            </div>-->
+            </div>
         <div class= "image">
             <img src = "http://www.blockchaintechnologies.com/img/blockchain-consensus.jpg" style = "height:200px;" alt = "blockchain">
-        </div>
-        <div class ="homeGraph">
-          <svg width="800" height="500"></svg>
-          <script src="https://d3js.org/d3.v4.min.js"></script>
-          <script>
-
-
-var loadData = function() {
-          d3.selectAll("svg > *").remove();
-          var svg = d3.select("svg"),
-              margin = {top: 20, right: 30, bottom: 20, left: 50},
-              width = +svg.attr("width") - margin.left - margin.right,
-              height = +svg.attr("height") - margin.top - margin.bottom,
-              g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-          var parseTime = d3.timeParse("%d-%b-%y");
-
-          var x = d3.scaleTime()
-              .rangeRound([0, width]);
-
-          var y = d3.scaleLinear()
-              .rangeRound([height, 0]);
-
-          var line = d3.line()
-              .x(function(d) { return x(d.date); })
-              .y(function(d) { return y(d.mentions); });
-          var metric = document.getElementById('metric').selectedOptions[0].text;
-          var dataFile = 'data/' + metric + '.tsv'
-
-          d3.tsv(dataFile, function(d) {
-            d.date = parseTime(d.date);
-            d.mentions = +d.mentions;
-            return d;
-          }, function(error, data) {
-            if (error) throw error;
-
-            x.domain(d3.extent(data, function(d) { return d.date; }));
-            y.domain(d3.extent(data, function(d) { return d.mentions; }));
-
-            g.append("g")
-                .attr("transform", "translate(0," + height + ")")
-                .call(d3.axisBottom(x))
-              .select(".domain")
-                .remove();
-
-            g.append("g")
-                .call(d3.axisLeft(y))
-              .append("text")
-                .attr("fill", "#000")
-                .attr("transform", "rotate(-90)")
-                .attr("y", 6)
-                .attr("dy", "0.71em")
-                .attr("text-anchor", "end")
-                .text("Mentions");
-
-            g.append("path")
-                .datum(data)
-                .attr("fill", "none")
-                .attr("stroke", "steelblue")
-                .attr("stroke-linejoin", "round")
-                .attr("stroke-linecap", "round")
-                .attr("stroke-width", 1.5)
-                .attr("d", line);
-          });
-}
-          </script>
-
         </div>
         <p1>
         The data we use are based on GDELT 2.0 dataset.

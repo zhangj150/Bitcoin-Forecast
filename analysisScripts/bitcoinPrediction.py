@@ -24,16 +24,14 @@ predictions = []
 print("got to for loop")
 k = 5 #forecast the next k time steps
 for i in range(0, len(test)-k+1, 1):
-    model = ARIMA(history, order=(3,1,0))
-    model_fit = model.fit(disp=0)
-    output,stderr,conf = model_fit.forecast(steps=k)
-    #print(output)
-    #predicted1, predicted2 = output[0], output[1]
-    #print (predicted1, predicted2)
-    if (i%k == 0):
+    if (i%k==0):
+        model = ARIMA(history, order=(3,1,0)) #update the model every k timesteps with new history
+        model_fit = model.fit(disp=0)
+        output,stderr,conf = model_fit.forecast(steps=k)
+
         for f in range(k):
             predictions.append(output[f])
-            history.append(test[i+f])
+            history.append(test[i+f]) #every k timesteps, append to the history the real prices from past k timesteps
             print('predicted=%f, expected=%f' % (output[f], test[i+f]))
 print (len(test), len(predictions))
 error = mean_squared_error(test[0:len(predictions)], predictions)

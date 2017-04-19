@@ -74,7 +74,7 @@ var svg = d3.select("body")
               "translate(" + margin.left + "," + margin.top + ")");
 
 // Get the data
-d3.csv("ALL_clusters.csv", function(error, data) {
+d3.csv("data/timeSeriesCluster/ALL_clusters.csv", function(error, data) {
     data.forEach(function(d) {
         d.dates = parseDate(d.dates);
         d.occurrences = +d.occurrences;

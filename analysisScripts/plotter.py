@@ -29,19 +29,20 @@ def visualizeNumMentions(filename):
     dataset.set_index(['Column 1 1'], inplace=True)
     #dataset = dataset[1].replace(to_replace=0, method='ffill')
     return dataset
-def main():
-    name = 'consensys'
-    sentiments = visualize("~/Downloads/" + name + ".csv") #edit here
+def doIt(name):
+    #name = 'consensys'
+    sentiments = visualize("../data/sentimentData/" + name + ".csv") #edit here
     bitcoinPrices = visualizeBitcoinPrices('../data/bitcoinprices.csv')
     mentions = visualizeNumMentions("../data/lineGraph/BITCOIN_S_line_graph_dates_mentions.csv")
 
     #fig = plt.figure()
 
     #plot1 = fig.add_subplot(311)
+    plt.figure(figsize=(10, 5))
     plt.title("Sentiments Over Time")
     plt.plot(sentiments)
     plt.plot(pandas.rolling_mean(sentiments, window=10, min_periods=3)) #rolling mean for sentiments data
-    plt.savefig('../images/sentiments/' + name + 'Tone.png', bbox_inches='tight')
+    plt.savefig('../images/sentiments/' + name + 'Tone.png', dpi=800, bbox_inches='tight')
     
     # plot2 = fig.add_subplot(312)
     # plot2.set_title("Number of mentions")
@@ -52,6 +53,17 @@ def main():
     # plot3.set_title("bitcoin prices over time")
     # plot3.plot(bitcoinPrices)
 
-    plt.show()
+    #plt.show()
+def main():
+    doIt('blockchain')
+    doIt('consensys')
+    doIt('ethereum')
+    doIt('factor')
+    doIt('hyperledger')
+    doIt('maidsafe')
+    doIt('NXT29')
+    doIt('steemit')
+    doIt('synereo')
+    doIt('tezos')
 
 if __name__ == "__main__": main()

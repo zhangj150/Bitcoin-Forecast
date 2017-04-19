@@ -1,4 +1,4 @@
-dependencies:
+## Dependencies:
 
 Python3
 
@@ -10,7 +10,7 @@ statsmodels
 
 scikit-learn
 
-#### Installation:
+## Installation:
 
 ##### Python 3
 You can download Python 3.x [here](https://www.python.org/downloads/)

@@ -24,7 +24,7 @@ predictions = []
 print("got to for loop")
 k = 5 #forecast the next k time steps
 for i in range(0, len(test)-k+1, 1):
-    model = ARIMA(history, order=(1,1,0))
+    model = ARIMA(history, order=(3,1,0))
     model_fit = model.fit(disp=0)
     output,stderr,conf = model_fit.forecast(steps=k)
     #print(output)
@@ -43,5 +43,5 @@ plt.plot(test)
 plt.plot(predictions, color='orange')
 plt.title("Bitcoin Prices (blue) vs Predicted (orange)")
 plt.ylabel("Bitcoin Value in USD")
-#plt.xlabel("Time")
+plt.xlabel("Time")
 plt.show()

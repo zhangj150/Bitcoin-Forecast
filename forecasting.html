@@ -9,7 +9,7 @@
 For this forecasting, we used a rolling window ARIMA method to forecast future prices. We use all the available history of prices to forecast
 the prices in the next 10 timesteps. Then after 10 timesteps, we add the true prices from these past ten timesteps to our history, and build a new ARIMA model using the updated history to forecast the next 10 timesteps after that.
 
-Each timestep is one day in our dataset. The Bitcoin price dataset came from Quandl, and the Ether dataset came from Poloniex.
+Each timestep is one day in our dataset. The Bitcoin price dataset came from <a href="https://www.quandl.com/collections/markets/bitcoin-data">Quandl</a>, and the Ether dataset came from <a href="https://poloniex.com/public?command=returnChartData&currencyPair=BTC_ETH&start=1435699200&end=9999999999&period=14400">Poloniex</a>.
 </p>
 <img src="images/initialViz.png" alt="bitcoin forecast" style="width:500;height:300;">
 <img src="images/EtherForecast.png" alt="ether forecast" style="width:500;height:300;">

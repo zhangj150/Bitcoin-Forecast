@@ -34,21 +34,22 @@ def main():
     bitcoinPrices = visualizeBitcoinPrices('../data/bitcoinprices.csv')
     mentions = visualizeNumMentions("../data/lineGraph/BITCOIN_S_line_graph_dates_mentions.csv")
 
-    fig = plt.figure()
+    #fig = plt.figure()
 
-    plot1 = fig.add_subplot(311)
-    plot1.set_title("sentiments over time")
-    plot1.plot(sentiments)
-    plot1.plot(pandas.rolling_mean(sentiments, window=10, min_periods=3)) #rolling mean for sentiments data
+    #plot1 = fig.add_subplot(311)
+    plt.title("Sentiments Over Time for Bitcoin")
+    plt.plot(sentiments)
+    plt.plot(pandas.rolling_mean(sentiments, window=10, min_periods=3)) #rolling mean for sentiments data
+    #plt.savefig()
     
-    plot2 = fig.add_subplot(312)
-    plot2.set_title("Number of mentions")
-    plot2.plot(mentions)
-    plot2.plot(pandas.rolling_mean(mentions, window=10, min_periods=3))
+    # plot2 = fig.add_subplot(312)
+    # plot2.set_title("Number of mentions")
+    # plot2.plot(mentions)
+    # plot2.plot(pandas.rolling_mean(mentions, window=10, min_periods=3))
 
-    plot3 = fig.add_subplot(313)
-    plot3.set_title("bitcoin prices over time")
-    plot3.plot(bitcoinPrices)
+    # plot3 = fig.add_subplot(313)
+    # plot3.set_title("bitcoin prices over time")
+    # plot3.plot(bitcoinPrices)
 
     plt.show()
 

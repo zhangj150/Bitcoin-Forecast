@@ -10,9 +10,9 @@
 
         <div class = "nav">
         <ul>
-           <li class="active"><a href="#">Home</a></li>
-           <li class="AboutUs"><a href="#">About Us</a></li>
-           <li class="moreAboutProject"><a href="#">About Project</a></li>
+                    <li class="home"><a href="#">Home</a></li>
+                    <li class="AboutUs"><a href="AboutUs.html">About Us</a></li>
+                   <li class="moreAboutProject"><a href="MoreAboutProject.html">About Project</a></li>
 
         </ul>
 
@@ -22,7 +22,7 @@
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script>
+    <!--<script>
             var data=[{product:'Blockchain',freq:8202},
                       {product:'Bitcoin',freq:27464},
                       {product:'Ethereum',freq:475},
@@ -109,7 +109,7 @@
                 })
 
 
-        </script>
+        </script>-->
     <br>
         <h1>Birth of Blockchain</h1>
 
@@ -117,7 +117,21 @@
         <button onclick = "dropdownFunction()" class = "dropdown">Dropdown Menu</button>
             <div id = "dropDownContent" class = "dropDownContent">
                 <input type = "text" placeholder="Search for industries" id = "userInput"> -->
-        <div class="dropdown">
+                <select onchange="loadData()" id="metric">
+                   <option >All</option>
+                   <option >Blockchain</option>
+                   <option >Bitcoin</option>
+                   <option >Ethereum</option>
+                   <option >Consensys</option>
+                   <option >Factom</option>
+                   <option >Synero</option>
+                   <option >Maidsafe</option>
+                   <option >NXT</option>
+                   <option >Synero</option>
+                   <option >Hyperledger</option>
+
+               </select>
+        <!--<div class="dropdown">
         <button onclick="myFunction()" class="dropbtn">Click Me to Search</button>
             <div id="myDropdown" class="dropdown-content">
                 <input type="text" placeholder="Keywords for search" id="myInput" onkeyup="filterFunction()">
@@ -131,10 +145,78 @@
                 <a href = "Steemit">Steemit</a>
                 <a href = "Hyperledger">Hyperledger</a>
                 <a href = "ConsenSys">ConsenSys</a>
-            </div>
+            </div>-->
+
         <div class= "image">
             <img src = "http://www.blockchaintechnologies.com/img/blockchain-consensus.jpg" style = "height:200px;" alt = "blockchain">
         </div>
+        <div class ="homeGraph">
+           <svg width="800" height="500"></svg>
+           <script src="https://d3js.org/d3.v4.min.js"></script>
+           <script>
+
+
+ var loadData = function() {
+           d3.selectAll("svg > *").remove();
+           var svg = d3.select("svg"),
+               margin = {top: 20, right: 30, bottom: 20, left: 50},
+               width = +svg.attr("width") - margin.left - margin.right,
+               height = +svg.attr("height") - margin.top - margin.bottom,
+               g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+           var parseTime = d3.timeParse("%d-%b-%y");
+
+           var x = d3.scaleTime()
+               .rangeRound([0, width]);
+
+           var y = d3.scaleLinear()
+               .rangeRound([height, 0]);
+
+           var line = d3.line()
+               .x(function(d) { return x(d.date); })
+               .y(function(d) { return y(d.mentions); });
+           var metric = document.getElementById('metric').selectedOptions[0].text;
+           var dataFile = 'data/' + metric + '.tsv'
+
+           d3.tsv(dataFile, function(d) {
+             d.date = parseTime(d.date);
+             d.mentions = +d.mentions;
+             return d;
+           }, function(error, data) {
+             if (error) throw error;
+
+             x.domain(d3.extent(data, function(d) { return d.date; }));
+             y.domain(d3.extent(data, function(d) { return d.mentions; }));
+
+             g.append("g")
+                 .attr("transform", "translate(0," + height + ")")
+                 .call(d3.axisBottom(x))
+               .select(".domain")
+                 .remove();
+
+             g.append("g")
+                 .call(d3.axisLeft(y))
+               .append("text")
+                 .attr("fill", "#000")
+                 .attr("transform", "rotate(-90)")
+                 .attr("y", 6)
+                 .attr("dy", "0.71em")
+                 .attr("text-anchor", "end")
+                 .text("Mentions");
+
+             g.append("path")
+                 .datum(data)
+                 .attr("fill", "none")
+                 .attr("stroke", "steelblue")
+                 .attr("stroke-linejoin", "round")
+                 .attr("stroke-linecap", "round")
+                 .attr("stroke-width", 1.5)
+                 .attr("d", line);
+           });
+ }
+           </script>
+
+         </div>
         <p1>
         The data we use are based on GDELT 2.0 dataset.
         </p1>

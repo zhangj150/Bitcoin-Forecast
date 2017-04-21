@@ -4,7 +4,7 @@
 <meta name="viewpoint" charset="UTF-8" ontect="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
 <div class="container-fluid">
-  <body background = "http://www.blockchaintechnologies.com/img/blockchain-ledger.jpg">
+  <body>
 
     <header>
 
@@ -12,9 +12,9 @@
         <ul>
                     <li class="active"><a href="#">Home</a></li>
                     <li class="AboutUs"><a href="AboutUs.html">About Us</a></li>
-                   <li class="moreAboutProject"><a href="MoreAboutProject.html">About Project</a></li>
                    <li class="timeSeriesCluster"><a href="timeSeriesCluster.html">Clustering</a></li>
                    <li class="Forecasting"><a href="Forecasting.html">Forecasting</a></li>
+                   <li class="moreAboutProject"><a href="MoreAboutProject.html">More Info</a></li>
         </ul>
 
         </div>
@@ -112,25 +112,27 @@
 
         </script>-->
     <br>
-        <h1>Birth of Blockchain</h1>
+        <h1 style="color:black">Birth of <span style="color:orange">Blockchain</span></h1>
+        <br>
+        <p>Insert paragraph about our general motivations</p>
+        <br>
 
     <!-- <div class = "dropdown">
         <button onclick = "dropdownFunction()" class = "dropdown">Dropdown Menu</button>
             <div id = "dropDownContent" class = "dropDownContent">
                 <input type = "text" placeholder="Search for industries" id = "userInput"> -->
                 <select onchange="loadData()" id="metric">
+                <option selected disabled>Choose term</option>
                    <option >All</option>
                    <option >Blockchain</option>
                    <option >Bitcoin</option>
-                   <option >Ethereum</option>
                    <option >Consensys</option>
+                   <option >Ethereum</option>
                    <option >Factom</option>
-                   <option >Synero</option>
+                   <option >Hyperledger</option>
                    <option >Maidsafe</option>
                    <option >NXT</option>
-                   <option >Synero</option>
-                   <option >Hyperledger</option>
-
+                   <option >Synereo</option>
                </select>
         <!--<div class="dropdown">
         <button onclick="myFunction()" class="dropbtn">Click Me to Search</button>
@@ -148,11 +150,8 @@
                 <a href = "ConsenSys">ConsenSys</a>
             </div>-->
 
-        <div class= "image">
-            <img src = "http://www.blockchaintechnologies.com/img/blockchain-consensus.jpg" style = "height:200px;" alt = "blockchain">
-        </div>
         <div class ="homeGraph">
-           <svg width="800" height="500"></svg>
+           <svg width="1000" height="1000"></svg>
            <script src="https://d3js.org/d3.v4.min.js"></script>
            <script>
 
@@ -161,8 +160,8 @@
            d3.selectAll("svg > *").remove();
            var svg = d3.select("svg"),
                margin = {top: 20, right: 30, bottom: 20, left: 50},
-               width = +svg.attr("width") - margin.left - margin.right,
-               height = +svg.attr("height") - margin.top - margin.bottom,
+               width = 1000 - margin.left - margin.right,
+               height = 500 - margin.top - margin.bottom,
                g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
            var parseTime = d3.timeParse("%d-%b-%y");
@@ -178,6 +177,7 @@
                .y(function(d) { return y(d.mentions); });
            var metric = document.getElementById('metric').selectedOptions[0].text;
            var dataFile = 'data/' + metric + '.tsv'
+           var imageFile = 'images/sentiments/' + metric + '.png'
 
            d3.tsv(dataFile, function(d) {
              d.date = parseTime(d.date);
@@ -213,7 +213,18 @@
                  .attr("stroke-linecap", "round")
                  .attr("stroke-width", 1.5)
                  .attr("d", line);
+            if (metric != "All") {
+              var images = d3.selectAll("svg > *")
+                .append("svg:image")
+                .attr("xlink:href", imageFile)
+                .attr("width", 930)
+                .attr("height", 930)
+                .attr("transform", "translate(-30,275)");
+            }
+            
+
            });
+
  }
            </script>
 

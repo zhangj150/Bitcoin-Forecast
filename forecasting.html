@@ -3,16 +3,16 @@
 <link rel="stylesheet" href="style.css">
 <meta charset="utf-8">
 <html lang="en">
-
+<div class="container-fluid">
 <header>
 
       <div class = "nav">
       <ul>
          <li class="home"><a href="Blockchain.html">Home</a></li>
          <li class="AboutUs"><a href="AboutUs.html">About Us</a></li>
-         <li class="moreAboutProject"><a href="MoreAboutProject.html">About Project</a></li>
          <li class="timeseries"><a href="timeSeriesCluster.html">Clustering</a></li>
          <li class="active"><a href="Forecasting.html">Forecasting</a></li>
+         <li class="moreAboutProject"><a href="MoreAboutProject.html">More Info</a></li>
 
       </ul>
 
@@ -22,9 +22,11 @@
 <h1 style="color:black">Forecasting Prices of Bitcoin and Ether</h1>
 <p> 
 For this forecasting, we used a rolling window ARIMA method to forecast future prices. We use all the available history of prices to forecast
-the prices in the next 10 timesteps. Then after 10 timesteps, we add the true prices from these past ten timesteps to our history, and build a new ARIMA model using the updated history to forecast the next 10 timesteps after that.
+the prices in the next 10 timesteps. </p><p>Then after 10 timesteps, we add the true prices from these past ten timesteps to our history, and build a new ARIMA model using the updated history to forecast the next 10 timesteps after that.
 
 Each timestep is one day in our dataset. The Bitcoin price dataset came from <a href="https://www.quandl.com/collections/markets/bitcoin-data">Quandl</a>, and the Ether dataset came from <a href="https://poloniex.com/public?command=returnChartData&currencyPair=BTC_ETH&start=1435699200&end=9999999999&period=14400">Poloniex</a>.
 </p>
 <img src="images/initialViz.png" alt="bitcoin forecast" style="width:500;height:300;">
 <img src="images/EtherForecast.png" alt="ether forecast" style="width:500;height:300;">
+</div>
+</html>

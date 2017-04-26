@@ -49,8 +49,9 @@ div.tooltip {
 
 <h1 style="color:black">Time Series Clustering</h1>
 <h2 style="color:black">Blockchain-related mentions over time</h2>
-<p>Insert paragraph about 27 clusters forming via CKmeans.1d package.</p>
-
+<p>Univariate time series clustering via the Ckmeans.1d.dp algorithm identified 27 optimal clusters estimated by Bayesian information criterion and weighted by number of event mentions. </p> 
+<p>The Ckmeans.1d.dp algorithm minimizes sum of squares within-cluster distances. Unlike heuristic clustering methods like Kmeans, Ckmeans.1d.dp consistently creates reproducible, optimal clusters. </p>
+<p>The time series clustering chart below shows all the number of blockchain-related event mentions per day over time. By hovering over any circle in the figure below, the specific date and number of blockchain-related mentions on that date can be viewed. </p>
 <!-- load the d3.js library -->
 <script src="http://d3js.org/d3.v3.min.js"></script>
 

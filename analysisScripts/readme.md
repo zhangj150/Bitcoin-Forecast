@@ -27,5 +27,13 @@ sudo python3 setup.py install
 Instructions can be found [here](http://pandas.pydata.org/pandas-docs/stable/install.html)
 
 ##### statsmodels
+```
 
+git clone git://github.com/statsmodels/statsmodels.git
+cd statsmodels
+python3 setup.py install
 
+```
+##### scikit-learn
+(may require Numpy and Scipy)
+Instructions [here](http://scikit-learn.org/stable/developers/advanced_installation.html)

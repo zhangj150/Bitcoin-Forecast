@@ -19,8 +19,8 @@
       </div>
 </header>
 
-<h1 style="color:black">Forecasting Prices of Bitcoin and Ether</h1>
-<p> 
+<h1 style="font-size: 42px; color:black">Forecasting Prices of Bitcoin and Ethereum</h1>
+<p>
 For this forecasting, we used a rolling window ARIMA method to forecast future prices. We use all the available history of prices to forecast
 the prices in the next 10 timesteps. </p><p>Then after 10 timesteps, we add the true prices from these past ten timesteps to our history, and build a new ARIMA model using the updated history to forecast the next 10 timesteps after that.
 

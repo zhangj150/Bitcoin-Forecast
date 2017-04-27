@@ -22,7 +22,7 @@ growing_urls = ""
 
 cluster_num = 27
 
-with open("cluster_%s.csv" % cluster_num, "r") as data_file:
+with open("data/timeSeriesCluster/cluster_%s.csv" % cluster_num, "r") as data_file:
     reader = csv.reader(data_file)
     for line in reader:
         if line[3] not in parents:  # new term to enter into dictionary
@@ -56,6 +56,6 @@ for key in dictionary:
 json_txt = '[{"parent": null, "name": "Cluster %s", "children": \n\t[%s' % (cluster_num, all_stuff)
 json_txt = json_txt[:-4] + "\n]}]"
 
-with open("cluster%s.json" % cluster_num, "w") \
+with open("data/timeSeriesCluster/cluster%s.json" % cluster_num, "w") \
         as out_file:
     out_file.write(json_txt)

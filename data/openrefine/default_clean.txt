@@ -1,0 +1,70 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Actor1CharOffset",
+    "columnName": "Actor1CharOffset"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Actor2CharOffset",
+    "columnName": "Actor2CharOffset"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ActionCharOffset",
+    "columnName": "ActionCharOffset"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column InRawText",
+    "columnName": "InRawText"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MentionDocLen",
+    "columnName": "MentionDocLen"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MentionDocTranslationInfo",
+    "columnName": "MentionDocTranslationInfo"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column GLOBALEVENTID",
+    "columnName": "GLOBALEVENTID"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MentionTimeDate",
+    "columnName": "MentionTimeDate"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MentionType",
+    "columnName": "MentionType"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column SentenceID",
+    "columnName": "SentenceID"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Extras",
+    "columnName": "Extras"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column EventTimeDate using expression grel:value.slice(4,6) + '/' + value.slice(6,8) + '/' + value.slice(0,4)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "EventTimeDate",
+    "expression": "grel:value.slice(4,6) + '/' + value.slice(6,8) + '/' + value.slice(0,4)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]

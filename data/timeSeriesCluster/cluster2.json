@@ -1,0 +1,944 @@
+[{"parent": null, "name": "Cluster 2", "children": 
+	[{"parent": "Cluster 2", "name": "dispatchtimes.com", "_children": 
+		[{"parent": "dispatchtimes.com", "name": "http://www.dispatchtimes.com/maine-cops-pay-bitcoin-ransom-to-end-office-hostage-drama/2281/"}]},
+		{"parent": "Cluster 2", "name": "kunm.org", "_children": 
+		[{"parent": "kunm.org", "name": "http://kunm.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "kunm.org", "name": "http://kunm.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "indystar.com", "_children": 
+		[{"parent": "indystar.com", "name": "http://www.indystar.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "reason.com", "_children": 
+		[{"parent": "reason.com", "name": "http://reason.com/blog/2015/04/09/overstocks-patrick-byrne-talks-bitcoin-n"},{"parent": "reason.com", "name": "http://reason.com/blog/2015/04/12/vid-overstocks-patrick-byrne-on-bitcoin"},{"parent": "reason.com", "name": "http://reason.com/blog/2015/04/19/overstockcom-bitcoin-integration"}]},
+		{"parent": "Cluster 2", "name": "leaprate.com", "_children": 
+		[{"parent": "leaprate.com", "name": "http://leaprate.com/2015/03/caribbean-bitcoin-exchange-startup-bitt-secures-seed-round-1-5m-in-capital/"},{"parent": "leaprate.com", "name": "http://leaprate.com/2015/03/uk-bitcoin-exchange-coinfloor-partners-with-lhv-europes-most-xbt-friendly-bank/"},{"parent": "leaprate.com", "name": "https://leaprate.com/2015/03/caribbean-bitcoin-exchange-startup-bitt-secures-seed-round-1-5m-in-capital/"},{"parent": "leaprate.com", "name": "http://leaprate.com/2015/04/new-york-and-chicagos-big-hitters-go-bitcoin/"},{"parent": "leaprate.com", "name": "http://leaprate.com/2015/04/australias-central-bank-decides-not-to-regulate-bitcoin/"},{"parent": "leaprate.com", "name": "http://leaprate.com/2015/04/coinsetter-acquires-defunct-canadian-bitcoin-exchange-cavirtex/"}]},
+		{"parent": "Cluster 2", "name": "tdg.ch", "_children": 
+		[{"parent": "tdg.ch", "name": "http://www.tdg.ch/monde/faits-divers/enqueteurs-accuses-vol-million-bitcoins/story/10128303"},{"parent": "tdg.ch", "name": "http://www.tdg.ch/monde/faits-divers/Enqueteurs-accuses-du-vol-de-plus-d-un-million-en-bitcoins/story/10128303"},{"parent": "tdg.ch", "name": "http://www.tdg.ch/monde/faits-divers/Enqueteurs-accuses-du-vol-de-plus-d-un-million-en-bitcoins/story/10128303"},{"parent": "tdg.ch", "name": "http://www.tdg.ch/monde/faits-divers/enqueteurs-accuses-vol-million-bitcoins/story/10128303"}]},
+		{"parent": "Cluster 2", "name": "barrons.com", "_children": 
+		[{"parent": "barrons.com", "name": "http://blogs.barrons.com/focusonfunds/2015/03/30/wsj-wall-street-warms-to-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "imperialvalleynews.com", "_children": 
+		[{"parent": "imperialvalleynews.com", "name": "http://www.imperialvalleynews.com/index.php/news/california-news/2508-former-federal-agents-charged-with-bitcoin-money-laundering-and-wire-fraud.html"}]},
+		{"parent": "Cluster 2", "name": "wfmz.com", "_children": 
+		[{"parent": "wfmz.com", "name": "http://m.wfmz.com/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "duluthnewstribune.com", "_children": 
+		[{"parent": "duluthnewstribune.com", "name": "http://www.duluthnewstribune.com/news/3711097-us-agents-charged-silk-road-bitcoin-theft"}]},
+		{"parent": "Cluster 2", "name": "hppr.org", "_children": 
+		[{"parent": "hppr.org", "name": "http://hppr.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "hppr.org", "name": "http://hppr.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "rozhlas.cz", "_children": 
+		[{"parent": "rozhlas.cz", "name": "http://www.rozhlas.cz/zpravy/domaciekonomika/_zprava/bitcoiny-uz-na-poste-a-v-sazce-nekoupite-sluzba-skoncila-po-sesti-tydnech--1471239"}]},
+		{"parent": "Cluster 2", "name": "nt.se", "_children": 
+		[{"parent": "nt.se", "name": "http://www.nt.se/nyheter/in-och-utrikes/agenter-stal-miljoner-i-bitcoin-10879569.aspx"}]},
+		{"parent": "Cluster 2", "name": "nikkei.com", "_children": 
+		[{"parent": "nikkei.com", "name": "http://asia.nikkei.com/Politics-Economy/Economy/Southeast-Asians-get-to-grips-with-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "postpioneer.com", "_children": 
+		[{"parent": "postpioneer.com", "name": "http://www.postpioneer.com/politics/ore-man-seeks-arrest-for-donating-bitcoin-to-edward-snowden-h6599.html"}]},
+		{"parent": "Cluster 2", "name": "wvtf.org", "_children": 
+		[{"parent": "wvtf.org", "name": "http://wvtf.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "wvtf.org", "name": "http://wvtf.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "justice.gov", "_children": 
+		[{"parent": "justice.gov", "name": "http://www.justice.gov/opa/pr/former-federal-agents-charged-bitcoin-money-laundering-and-wire-fraud"}]},
+		{"parent": "Cluster 2", "name": "housepricecrash.co.uk", "_children": 
+		[{"parent": "housepricecrash.co.uk", "name": "http://www.housepricecrash.co.uk/forum/index.php?/topic/204238-london-stakes-its-claim-as-global-bitcoin-hub/"}]},
+		{"parent": "Cluster 2", "name": "entornointeligente.com", "_children": 
+		[{"parent": "entornointeligente.com", "name": "http://www.entornointeligente.com/articulo/5560976/ESPANA-El-apoyo-de-los-grandes-inversores-de-EE-UU-podria-dar-un-impulso-definitivo-al-bitcoin-rss-08042015"}]},
+		{"parent": "Cluster 2", "name": "menafn.com", "_children": 
+		[{"parent": "menafn.com", "name": "http://www.menafn.com/1094170556/The-Future-of-Bitcoin"}]},
+		{"parent": "Cluster 2", "name": "corren.se", "_children": 
+		[{"parent": "corren.se", "name": "http://www.corren.se/nyheter/varlden/agenter-stal-miljoner-i-bitcoin-7903555.aspx"}]},
+		{"parent": "Cluster 2", "name": "indiatimes.com", "_children": 
+		[{"parent": "indiatimes.com", "name": "http://economictimes.indiatimes.com/news/emerging-businesses/startups/pay-through-bitcoin-soon-indian-investors-show-interest-in-online-payment-system/articleshow/46792317.cms"}]},
+		{"parent": "Cluster 2", "name": "sfgate.com", "_children": 
+		[{"parent": "sfgate.com", "name": "http://www.sfgate.com/news/article/School-computers-held-hostage-for-bitcoins-6157622.php"},{"parent": "sfgate.com", "name": "http://www.sfgate.com/news/article/School-computers-held-hostage-for-bitcoins-6157622.php"}]},
+		{"parent": "Cluster 2", "name": "tweeddailynews.com.au", "_children": 
+		[{"parent": "tweeddailynews.com.au", "name": "http://www.tweeddailynews.com.au//news/call-to-remove-gst-from-bitcoin/2599762/"},{"parent": "tweeddailynews.com.au", "name": "http://www.tweeddailynews.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "wdsu.com", "_children": 
+		[{"parent": "wdsu.com", "name": "http://www.wdsu.com/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "watoday.com.au", "_children": 
+		[{"parent": "watoday.com.au", "name": "http://www.watoday.com.au/queensland/police-return-seized-bitcoin-atm-20150417-1mnnh2.html"}]},
+		{"parent": "Cluster 2", "name": "clickorlando.com", "_children": 
+		[{"parent": "clickorlando.com", "name": "http://www.clickorlando.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "kdal610.com", "_children": 
+		[{"parent": "kdal610.com", "name": "http://kdal610.com/news/articles/2015/mar/30/former-us-agents-charged-for-bitcoin-theft-during-black-market-probe/"}]},
+		{"parent": "Cluster 2", "name": "v3.co.uk", "_children": 
+		[{"parent": "v3.co.uk", "name": "http://www.v3.co.uk/v3-uk/news/2402204/two-us-agents-charged-with-silk-road-bitcoin-thefts"}]},
+		{"parent": "Cluster 2", "name": "nymag.com", "_children": 
+		[{"parent": "nymag.com", "name": "http://nymag.com/daily/intelligencer/2015/03/agents-investigating-silk-road-stole-bitcoins.html"},{"parent": "nymag.com", "name": "http://nymag.com/daily/intelligencer/2015/03/agents-investigating-silk-road-stole-bitcoins.html"}]},
+		{"parent": "Cluster 2", "name": "dagensjuridik.se", "_children": 
+		[{"parent": "dagensjuridik.se", "name": "http://www.dagensjuridik.se/2015/03/svenskt-bitcoinbolag-vill-inte-lamna-uppgifter-till-skatteverket-avslojar-vara-kunder"},{"parent": "dagensjuridik.se", "name": "http://www.dagensjuridik.se/2015/03/svenskt-bitcoinbolag-gar-till-domstol-vagrar-lamna-uppgifter-om-kunder-till-skatteverket"}]},
+		{"parent": "Cluster 2", "name": "business-standard.com", "_children": 
+		[{"parent": "business-standard.com", "name": "http://www.business-standard.com/article/companies/soon-buy-a-flat-pay-restaurant-bills-using-bitcoin-115032600991_1.html"}]},
+		{"parent": "Cluster 2", "name": "zerohedge.com", "_children": 
+		[{"parent": "zerohedge.com", "name": "http://www.zerohedge.com/news/2015-03-30/federal-agents-investigating-bitcoin-money-laundering-stole-over-1-million-bitcoin"},{"parent": "zerohedge.com", "name": "http://www.zerohedge.com/news/2015-04-01/greek-finmin-greece-will-adopt-bitcoin-if-eurogroup-doesnt-give-us-deal"},{"parent": "zerohedge.com", "name": "http://www.zerohedge.com/news/2015-04-06/skynet-almost-sentient-hfts-start-trading-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "brisbanetimes.com.au", "_children": 
+		[{"parent": "brisbanetimes.com.au", "name": "http://www.brisbanetimes.com.au//breaking-news-national/bitcoins-not-a-threat-to-australia-rba-20150407-3tmtp.html"},{"parent": "brisbanetimes.com.au", "name": "http://www.brisbanetimes.com.au//breaking-news-national/bitcoins-not-a-threat-to-australia-rba-20150407-3tmtp.html"},{"parent": "brisbanetimes.com.au", "name": "http://www.brisbanetimes.com.au/queensland/police-return-seized-bitcoin-atm-20150417-1mnnh2.html"}]},
+		{"parent": "Cluster 2", "name": "casino.org", "_children": 
+		[{"parent": "casino.org", "name": "http://www.casino.org/news/uk-reveals-plans-to-regulate-bitcoin-and-other-digital-currencies"}]},
+		{"parent": "Cluster 2", "name": "hpr2.org", "_children": 
+		[{"parent": "hpr2.org", "name": "http://hpr2.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "hpr2.org", "name": "http://hpr2.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "resourceinvestor.com", "_children": 
+		[{"parent": "resourceinvestor.com", "name": "http://www.resourceinvestor.com/2015/03/20/no-rest-bitcoin-traders"}]},
+		{"parent": "Cluster 2", "name": "wfmynews2.com", "_children": 
+		[{"parent": "wfmynews2.com", "name": "http://www.wfmynews2.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "st.nu", "_children": 
+		[{"parent": "st.nu", "name": "http://www.st.nu/allmant/utrikes/agenter-stal-miljoner-i-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "heraldsun.com.au", "_children": 
+		[{"parent": "heraldsun.com.au", "name": "http://www.heraldsun.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fni0xqi4-1227294580064"},{"parent": "heraldsun.com.au", "name": "http://www.heraldsun.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fni0xqi4-1227294580064?nk=abff955d24d8e077b6393ad5be58ff2e"},{"parent": "heraldsun.com.au", "name": "http://www.heraldsun.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fni0xqi4-1227294580064?nk=4b37ed65ebae04d886f99e59d1f67f3e"},{"parent": "heraldsun.com.au", "name": "http://www.heraldsun.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fni0xqi4-1227294580064?nk=c875c45942d46aaa8687c943983bb736"},{"parent": "heraldsun.com.au", "name": "http://www.heraldsun.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fni0xqi4-1227294580064?nk=c875c45942d46aaa8687c943983bb736"},{"parent": "heraldsun.com.au", "name": "http://www.heraldsun.com.au/business/breaking-news/bitcoin-no-threat-to-financial-system-rba/story-fnn9c0hb-1227294650490?nk=72e341905728cf840946a0a0bc9c5a56"},{"parent": "heraldsun.com.au", "name": "http://www.heraldsun.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fni0xqi4-1227294580064?nk=abff955d24d8e077b6393ad5be58ff2e"},{"parent": "heraldsun.com.au", "name": "http://www.heraldsun.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fni0xqi4-1227294580064"},{"parent": "heraldsun.com.au", "name": "http://www.heraldsun.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fni0xqi4-1227294580064?nk=4b37ed65ebae04d886f99e59d1f67f3e"},{"parent": "heraldsun.com.au", "name": "http://www.heraldsun.com.au/business/bitcoin-may-get-telstras-call-as-telco-considers-digital-payments/story-fni0dcne-1227296101068?nk=c60f10b1d3f700a88a850f65aad46031"},{"parent": "heraldsun.com.au", "name": "http://www.heraldsun.com.au/business/bitcoin-may-get-telstras-call-as-telco-considers-digital-payments/story-fni0dcne-1227296101068?nk=1e949e5cf90e0ff93de196da6216c7bd"},{"parent": "heraldsun.com.au", "name": "http://www.heraldsun.com.au/business/bitcoin-may-get-telstras-call-as-telco-considers-digital-payments/story-fni0dcne-1227296101068?nk=6f56bede493e44c9d98da25202c3ced3"}]},
+		{"parent": "Cluster 2", "name": "greatfallstribune.com", "_children": 
+		[{"parent": "greatfallstribune.com", "name": "http://www.greatfallstribune.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "99bitcoins.com", "_children": 
+		[{"parent": "99bitcoins.com", "name": "http://99bitcoins.com/us-bitcoin-mining-companies-invasive-information-requests-coinbase/"},{"parent": "99bitcoins.com", "name": "http://99bitcoins.com/us-bitcoin-mining-companies-invasive-information-requests-coinbase/"},{"parent": "99bitcoins.com", "name": "http://99bitcoins.com/bitcoin-exchange-buttercoin-shut-down-lack-funding/"},{"parent": "99bitcoins.com", "name": "http://99bitcoins.com/bitcoin-exchange-buttercoin-shut-down-lack-funding/"},{"parent": "99bitcoins.com", "name": "http://99bitcoins.com/bitcoin-white-house-rand-paul-first-presidential-candidate-cryptocurrency-donations/"},{"parent": "99bitcoins.com", "name": "http://99bitcoins.com/bitcoin-white-house-rand-paul-first-presidential-candidate-cryptocurrency-donations/"},{"parent": "99bitcoins.com", "name": "http://99bitcoins.com/coinsetter-expands-services-acquisition-canadian-bitcoin-exchange-cavirtex/"},{"parent": "99bitcoins.com", "name": "http://99bitcoins.com/coinsetter-expands-services-acquisition-canadian-bitcoin-exchange-cavirtex/"}]},
+		{"parent": "Cluster 2", "name": "heraldrecorder.org", "_children": 
+		[{"parent": "heraldrecorder.org", "name": "http://www.heraldrecorder.org/technology/maine-police-departments-scrambling-even-forcing-them-to-pay-a-ransom-in-bitcoin-2015767.html"},{"parent": "heraldrecorder.org", "name": "http://www.heraldrecorder.org/technology/maine-police-departments-scrambling-even-forcing-them-to-pay-a-ransom-in-bitcoin-2015767/"}]},
+		{"parent": "Cluster 2", "name": "freep.com", "_children": 
+		[{"parent": "freep.com", "name": "http://www.freep.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "abc-7.com", "_children": 
+		[{"parent": "abc-7.com", "name": "http://www.abc-7.com/story/28650575/2-former-federal-agents-charged-with-stealing-bitcoin-during-silk-road-probe"}]},
+		{"parent": "Cluster 2", "name": "canaltech.com.br", "_children": 
+		[{"parent": "canaltech.com.br", "name": "http://canaltech.com.br/noticia/juridico/Investigadores-do-caso-Silk-Road-sao-acusados-de-roubar-bitcoins/"},{"parent": "canaltech.com.br", "name": "http://canaltech.com.br/noticia/juridico/Investigadores-do-caso-Silk-Road-sao-acusados-de-roubar-bitcoins/"}]},
+		{"parent": "Cluster 2", "name": "kionrightnow.com", "_children": 
+		[{"parent": "kionrightnow.com", "name": "http://www.kionrightnow.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "dailytelegraph.com.au", "_children": 
+		[{"parent": "dailytelegraph.com.au", "name": "http://www.dailytelegraph.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fni0xqi3-1227294580064?nk=69d71ded86c2eb5e5a01108d215bf2d9"},{"parent": "dailytelegraph.com.au", "name": "http://www.dailytelegraph.com.au/business/breaking-news/bitcoin-no-threat-to-financial-system-rba/story-fnn9c0gv-1227294650490?nk=02973530cf2f9bbfd9f701a0a326d358"},{"parent": "dailytelegraph.com.au", "name": "http://www.dailytelegraph.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fni0xqi3-1227294580064?nk=69d71ded86c2eb5e5a01108d215bf2d9"}]},
+		{"parent": "Cluster 2", "name": "abc17news.com", "_children": 
+		[{"parent": "abc17news.com", "name": "http://www.abc17news.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "mobilepaymentstoday.com", "_children": 
+		[{"parent": "mobilepaymentstoday.com", "name": "http://www.mobilepaymentstoday.com/news/bitcoin-atm-rollout-pending-for-canadian-exchange/"}]},
+		{"parent": "Cluster 2", "name": "coindesk.com", "_children": 
+		[{"parent": "coindesk.com", "name": "http://www.coindesk.com/treasury-report-uks-bitcoin-startups-react/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/bitcoin-in-the-headlines-uk-regulation-trumps-dark-market-collapse/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/ukraine-to-crackdown-on-separatist-bitcoin-accounts/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/boost-vc-bitcoin-bitproof-ownership/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/cex-io-cuts-bitcoin-trading-fees-amid-mining-market-woes/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/startups-speak-out-russia-bitcoin-ban/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/lhv-bank-partners-with-bitcoin-exchange-coinfloor/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/three-blockchain-startups-selected-for-barclays-accelerator/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/sberbank-blockchain-investments/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/swedish-bitcoin-firm-in-court-battle-to-protect-customer-data/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/isle-of-man-introduces-regulation-for-bitcoin-businesses/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/bitcoin-investment-trust-grayscale-launch/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/lawnmower-beta-spare-change-to-bitcoin/"},{"parent": "coindesk.com", "name": "https://www.coindesk.com/startups-speak-out-russia-bitcoin-ban/"},{"parent": "coindesk.com", "name": "https://www.coindesk.com/swedish-bitcoin-firm-in-court-battle-to-protect-customer-data/"},{"parent": "coindesk.com", "name": "https://www.coindesk.com/lawnmower-beta-spare-change-to-bitcoin/"},{"parent": "coindesk.com", "name": "https://www.coindesk.com/boost-vc-bitcoin-bitproof-ownership/"},{"parent": "coindesk.com", "name": "https://www.coindesk.com/bitcoin-investment-trust-grayscale-launch/"},{"parent": "coindesk.com", "name": "https://www.coindesk.com/isle-of-man-introduces-regulation-for-bitcoin-businesses/"},{"parent": "coindesk.com", "name": "https://www.coindesk.com/sberbank-blockchain-investments/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/bny-mellon-wall-street-rewards-bitcoin/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/overstock-venture-capital-investment-bitcoin-peernova/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/silk-road-dea-carl-force-bitcoin-tax-expert/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/bitcoin-petition-bitlicense-safe-harbor/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/czech-police-seize-345000-property-linked-to-bitcoin-hack/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/bitcoin-gem-raises-1-3m-launches-multi-sig-api-worldwide/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/coinbase-seeks-details-us-bitcoin-mining/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/federal-agents-arrest-boston-bitcoin-gun-buyer-in-sting-operation/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/bitcoin-alternative-leocoin-pyramid/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/bitquick-us-cash-bitcoin-market/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/bitcoin-marketplace-buttercoin-folds-despite-1-3-million-investment/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/rand-paul-presidential-campaign-bitcoin-donations/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/australian-central-bank-bitcoin-regulation-not-worth-the-cost/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/cardinalcommerce-bitcoin-mass-adoption/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/bitcoin-pizza-day-celebrating-pizza-bought-10000-btc/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/telecom-giant-orange-to-back-bitcoin-in-silicon-valley/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/state-of-bitcoin-q1-2015-record-investment-buoys-ecosystem/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/jp-morgan-ceo-we-can-learn-from-technologies-like-bitcoin/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/21-inc-sponsor-silicon-valley-bitcoin-job-fair/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/how-bitrated-is-aiming-to-put-trust-back-in-bitcoin/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/finnish-startup-denarium-launches-low-cost-physical-bitcoins/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/bruce-fenton-bitcoin-foundation-executive-director/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/finnish-startup-denarium-launches-low-cost-physical-bitcoins/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/new-tool-helps-victims-fight-bitcoin-ransomware/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/buttercoin-ceo-mistake-bitcoin-business/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/alex-winter-talks-bitcoin-drugs-and-his-new-film-deep-web/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/controversial-dark-web-bitcoin-bot-released-from-custody/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/bitcoin-headlines-child-porn-price-disregard/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/5-facts-coindesks-state-bitcoin-report-q1-2015/"},{"parent": "coindesk.com", "name": "http://www.coindesk.com/21-ceo-balaji-srinivasan-bitcoin-job-fair/"}]},
+		{"parent": "Cluster 2", "name": "pymnts.com", "_children": 
+		[{"parent": "pymnts.com", "name": "http://www.pymnts.com/news/2015/silk-road-investigators-charged-with-bitcoin-laundering/"},{"parent": "pymnts.com", "name": "http://www.pymnts.com/in-depth/2015/bitcoin-goes-presidential-and-buttercoin-goes-belly-up/"}]},
+		{"parent": "Cluster 2", "name": "themorningbulletin.com.au", "_children": 
+		[{"parent": "themorningbulletin.com.au", "name": "http://www.themorningbulletin.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "ttonline.org", "_children": 
+		[{"parent": "ttonline.org", "name": "http://www.ttonline.org/2015/03/22/bitcoin-coming-to-tt/"}]},
+		{"parent": "Cluster 2", "name": "jtconstructionsite.com", "_children": 
+		[{"parent": "jtconstructionsite.com", "name": "http://jtconstructionsite.com/uncategorized/bitcoin-ceo-found-dead-of-possible-suicide-in-singapore/"}]},
+		{"parent": "Cluster 2", "name": "na.se", "_children": 
+		[{"parent": "na.se", "name": "http://na.se/nyheter/varlden/1.2909073-agenter-stal-miljoner-i-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "journaldujura.ch", "_children": 
+		[{"parent": "journaldujura.ch", "name": "http://www.journaldujura.ch/nouvelles-en-ligne/divers/deux-enqueteurs-accuses-davoir-vole-plus-dun-million-en-bitcoins"},{"parent": "journaldujura.ch", "name": "http://www.journaldujura.ch/nouvelles-en-ligne/divers/deux-enqueteurs-accuses-davoir-vole-plus-dun-million-en-bitcoins"}]},
+		{"parent": "Cluster 2", "name": "bloombergview.com", "_children": 
+		[{"parent": "bloombergview.com", "name": "http://www.bloombergview.com/articles/2015-03-30/bitcoin-secret-agents-were-pirates-themselves"}]},
+		{"parent": "Cluster 2", "name": "24heures.ch", "_children": 
+		[{"parent": "24heures.ch", "name": "http://www.24heures.ch/monde/faits-divers/Enqueteurs-accuses-du-vol-de-plus-d-un-million-en-bitcoins/story/10128303"},{"parent": "24heures.ch", "name": "http://www.24heures.ch/monde/faits-divers/enqueteurs-accuses-vol-million-bitcoins/story/10128303"},{"parent": "24heures.ch", "name": "http://www.24heures.ch/monde/faits-divers/enqueteurs-accuses-vol-million-bitcoins/story/10128303"},{"parent": "24heures.ch", "name": "http://www.24heures.ch/monde/faits-divers/Enqueteurs-accuses-du-vol-de-plus-d-un-million-en-bitcoins/story/10128303"}]},
+		{"parent": "Cluster 2", "name": "abs-cbnnews.com", "_children": 
+		[{"parent": "abs-cbnnews.com", "name": "http://www.abs-cbnnews.com/business/04/18/15/why-london-wants-be-global-bitcoin-hub"}]},
+		{"parent": "Cluster 2", "name": "iif.com", "_children": 
+		[{"parent": "iif.com", "name": "https://www.iif.com/publication/html-publication/internet-finance-unleashing-potential-blockchain-technology"}]},
+		{"parent": "Cluster 2", "name": "customstoday.com.pk", "_children": 
+		[{"parent": "customstoday.com.pk", "name": "http://customstoday.com.pk/7-dutch-bitcoin-companies-establish-new-association-to-collectively-counter-fraud/"}]},
+		{"parent": "Cluster 2", "name": "money.pl", "_children": 
+		[{"parent": "money.pl", "name": "http://www.money.pl/gospodarka/wiadomosci/artykul/bitcoin-inspiracja-dla-tradycyjnych-walut"}]},
+		{"parent": "Cluster 2", "name": "htxt.co.za", "_children": 
+		[{"parent": "htxt.co.za", "name": "http://www.htxt.co.za/2015/04/01/there-could-be-malware-lurking-in-your-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "dailymail.co.uk", "_children": 
+		[{"parent": "dailymail.co.uk", "name": "http://www.dailymail.co.uk/wires/reuters/article-3018373/Former-U-S-agents-charged-Bitcoin-theft-black-market-probe.html"},{"parent": "dailymail.co.uk", "name": "http://www.dailymail.co.uk/wires/afp/article-3018511/Federal-agents-stole-Bitcoin-Silk-Road-probe-US.html"},{"parent": "dailymail.co.uk", "name": "http://www.dailymail.co.uk/wires/aap/article-3028456/Bitcoins-not-threat-Australia-RBA.html"},{"parent": "dailymail.co.uk", "name": "http://www.dailymail.co.uk/news/article-3028318/Massachusetts-police-department-forced-pay-hackers-500-Bitcoin-ransom.html"},{"parent": "dailymail.co.uk", "name": "http://www.dailymail.co.uk/wires/aap/article-3028456/Bitcoins-not-threat-Australia-RBA.html"},{"parent": "dailymail.co.uk", "name": "http://www.dailymail.co.uk/wires/reuters/article-3041333/London-stakes-claim-global-bitcoin-hub.html"}]},
+		{"parent": "Cluster 2", "name": "medcitynews.com", "_children": 
+		[{"parent": "medcitynews.com", "name": "http://medcitynews.com/2015/04/pointnurse-sets-collaborative-telemedicine-service-joins-bitcoin-incubator/"}]},
+		{"parent": "Cluster 2", "name": "businesswire.com", "_children": 
+		[{"parent": "businesswire.com", "name": "http://www.businesswire.com/news/home/20150327005824/en/Ciphrex%E2%80%99s-Eric-Lombrozo-Address-Texas-Bitcoin-Conference"},{"parent": "businesswire.com", "name": "http://www.businesswire.com/news/telecomengine/20150327005824/en/Ciphrex%E2%80%99s-Eric-Lombrozo-Address-Texas-Bitcoin-Conference"},{"parent": "businesswire.com", "name": "http://www.businesswire.com/news/home/20150409005293/en/Ciphrex-Co-CEO-Blockchain-Technology-Expert-Lead-Workshop"}]},
+		{"parent": "Cluster 2", "name": "yle.fi", "_children": 
+		[{"parent": "yle.fi", "name": "http://yle.fi/uutiset/kahta_yhdysvaltojen_ex-agenttia_syytetaan_bitcoin-varkaudesta/7899767"}]},
+		{"parent": "Cluster 2", "name": "cbsnews.com", "_children": 
+		[{"parent": "cbsnews.com", "name": "http://www.cbsnews.com/news/dea-agent-secret-service-member-allegedly-stole-bitcoins-on-silk-road/"},{"parent": "cbsnews.com", "name": "http://www.cbsnews.com/news/dea-agent-secret-service-member-allegedly-stole-bitcoins-on-silk-road/"}]},
+		{"parent": "Cluster 2", "name": "wgal.com", "_children": 
+		[{"parent": "wgal.com", "name": "http://www.wgal.com/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "hereisthecity.com", "_children": 
+		[{"parent": "hereisthecity.com", "name": "http://hereisthecity.com/en-gb/2015/03/31/ex-federal-agents-charged-with-stealing-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "cointelegraph.com", "_children": 
+		[{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113751/south-korea-bitcoin-growth-fueled-by-startups-and-community"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113755/bitcoin-in-india-on-the-rise-says-sunny-ray-unocoin-co-founder"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113758/weekend-roundup-uk-gvt-announces-%C2%A310m-research-funding-rakuten-embraces-bitcoin"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113766/russian-ministry-of-finance-anti-bitcoin-law-will-finally-be-passed-this-year"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113778/beijings-big-push-for-startups-should-foster-an-ideal-environment-for-the-bitcoin-industry"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113782/neteller-adds-bitcoin-deposit-feature-singaporean-bank-organizes-blockchain-hackathon"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113783/hong-kong-announces-bitcoin-will-remain-deregulated"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113782/neteller-adds-bitcoin-deposit-feature-singaporean-bank-organizes-blockchain-hackathon"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113795/europe-caps-payment-fees-at-02-undermining-bitcoins-appeal"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113795/europe-caps-payment-fees-at-02-undermining-bitcoins-appeal"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113801/council-on-foreign-relations-calls-bitcoin-nuts-paypal-fined-77-million"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113804/paul-snow-rides-21-miles-on-a-unicycle-to-texas-bitcoin-conference"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113811/bitcoin-embassy-amsterdam-founder-booted-from-organization-starts-second-embassy"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113819/bitcoin-should-be-used-as-a-currency-tool-rather-than-a-currency-itself"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113817/everything-is-set-for-the-first-ever-bitcoin-conference-in-africa"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113823/socom-monitoring-bitcoin-for-terrorism-funding-t-mobile-poland-gets-own-btm"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113824/amid-double-taxation-australia-govt-now-links-bitcoin-to-corporate-tax-evasion"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113822/university-professor-to-canada-senate-bitcoin-users-must-get-their-money-back"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113834/former-feds-charged-with-stealing-silk-road-bitcoins-23-of-all-bitcoins-have-been-mined"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113833/us-secret-agents-charged-with-silk-road-bitcoin-theft-extortion-of-dread-pirate-roberts"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113834/former-feds-charged-with-stealing-silk-road-bitcoins-23-of-all-bitcoins-have-been-mined"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113857/russias-bitcoin-ban-expected-in-august-expert-recommends-businesses-get-out"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113867/spain-makes-first-bitcoin-related-arrest-legal-fight-unfolds-involving-ripple-bitstamp-and-jed-mccaleb"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113865/obama-effect-results-in-200-bitcoin-donations-to-edward-snowden"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113869/factom-president-real-time-auditing-of-govt-spending-will-bring-a-new-level-of-accountability"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113879/dutch-bitcoin-companies-establish-new-association-to-represent-shared-interests"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113900/rand-paul-becomes-first-major-us-presidential-candidate-to-accept-bitcoin-donations"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113903/bitcoin-regulation-not-worth-the-cost-us-presidential-candidate-accepts-btc"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113922/jp-morgan-ceo-we-will-compete-with-bitcoin-startups-partnering-where-it-makes-sense"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113926/kievs-economic-blockade-boosts-bitcoin-usage-in-separatist-east"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113927/rand-pauls-opponents-are-more-likely-to-join-him-on-bitcoin-than-attack"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113937/paypal-confirms-btc-acceptance-bitmesh-unveils-bitcoin-internet-prototype"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113939/after-hectic-week-for-foundation-mit-offers-to-host-a-bitcoin-standards-center"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113945/hillary-clinton-doesnt-want-bitcoins-btcgawcom-reported-to-fbi"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113943/satoshi-citadel-industries-completing-the-bitcoin-ecosystem-with-buybitcoinph-acquisition"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113945/hillary-clinton-doesnt-want-bitcoins-btcgawcom-reported-to-fbi"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113953/bitcoin-baron-hacker-arrested-by-police-in-arizona"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113950/singapore-govt-backed-finttech-accelerator-boosts-3-bitcoin-startups"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113969/iwf-and-bitcoin-exchanges-fight-child-pornography-btc-emerging-as-an-everyday-currency"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/113986/australias-biggest-telecom-telstra-eying-bitcoin"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/114002/inside-bitcoins-returns-to-hong-kong-with-blockchain-focus"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/114002/inside-bitcoins-returns-to-hong-kong-with-blockchain-focus"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/114005/bitcoin-exchange-quadrigacx-to-install-bitcoin-atms-in-canadas-major-cities"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/114004/singapore-to-become-asias-blockchain-hub-blocknet-launches-think-tank"},{"parent": "cointelegraph.com", "name": "http://cointelegraph.com/news/114002/inside-bitcoins-returns-to-hong-kong-with-blockchain-focus"}]},
+		{"parent": "Cluster 2", "name": "peoplesdailyng.com", "_children": 
+		[{"parent": "peoplesdailyng.com", "name": "http://www.peoplesdailyng.com/kenyan-startups-tackle-expensive-remittances-through-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "blouinnews.com", "_children": 
+		[{"parent": "blouinnews.com", "name": "http://blogs.blouinnews.com/blouinbeattechnology/2015/04/06/indias-burgeoning-bitcoin-market/"}]},
+		{"parent": "Cluster 2", "name": "krvs.org", "_children": 
+		[{"parent": "krvs.org", "name": "http://krvs.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "krvs.org", "name": "http://krvs.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "guardian.co.tt", "_children": 
+		[{"parent": "guardian.co.tt", "name": "http://www.guardian.co.tt/business-guardian/2015-03-22/bitcoin-coming-tt"}]},
+		{"parent": "Cluster 2", "name": "cryptocoinsnews.com", "_children": 
+		[{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/china-app-store-bans-wiper-messaging-adds-bitcoin-functionality/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/netherlands-startup-launches-email-postage-scheme-using-bitcoin/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/bitt-begins-bitcoin-caribbean-expansion-trinidad-tobago/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/bitcoin-value-nearing-turning-point/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/retail-giant-rakuten-com-now-accepting-bitcoin-via-bitnet/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/bitcoin-exchange-buttercoin-closing/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/australian-central-bank-rules-bitcoin-regulation-stance/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/new-jersey-begin-double-taxation-bitcoin/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/bitcoin-price-advancing-critical-support/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/samsung-researching-bitcoin-future-uses/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/exclusive-bitcoin-interview-igot-co-founder-taking-merchant-rebittance-markets/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/major-conference-asia-hear-different-views-bitcoins-future/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/major-conference-asia-hear-different-views-bitcoins-future/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/vote-bitcoin-friendly-pirate-party-sundays-2015-finland-parliamentary-election/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/seniors-scamming-conman-dealing-in-bitcoin-sentenced/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/todays-ghent-bitcoincity-event-aims-increase-bitcoin-adoption/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/will-latest-bans-cash-capital-controls-grow-bitcoin/"},{"parent": "cryptocoinsnews.com", "name": "https://www.cryptocoinsnews.com/bitspark-making-bitcoin-easier-use/"}]},
+		{"parent": "Cluster 2", "name": "metro.se", "_children": 
+		[{"parent": "metro.se", "name": "http://www.metro.se/nyheter/agenter-stal-miljoner-i-bitcoin/HdzocD!dh0bd4nWrlyqN5iLVCB5QQ/"}]},
+		{"parent": "Cluster 2", "name": "techworld.com.au", "_children": 
+		[{"parent": "techworld.com.au", "name": "http://www.techworld.com.au/article/572575/new-bitcoin-foundation-chief-eyes-crowdfunding/"}]},
+		{"parent": "Cluster 2", "name": "d24.in", "_children": 
+		[{"parent": "d24.in", "name": "http://d24.in/police-investigators-accused-of-stealing-more-than-a-million-in-bitcoins/"},{"parent": "d24.in", "name": "http://d24.in/police-investigators-accused-of-stealing-more-than-a-million-in-bitcoins/"}]},
+		{"parent": "Cluster 2", "name": "businessspectator.com.au", "_children": 
+		[{"parent": "businessspectator.com.au", "name": "http://www.businessspectator.com.au/news/2015/4/7/currency/bitcoin-no-threat-financial-system-rba"}]},
+		{"parent": "Cluster 2", "name": "ktuu.com", "_children": 
+		[{"parent": "ktuu.com", "name": "http://www.ktuu.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "panampost.com", "_children": 
+		[{"parent": "panampost.com", "name": "http://panampost.com/panam-staff/2015/03/30/silk-road-investigators-charged-with-fraud-bitcoin-theft/"}]},
+		{"parent": "Cluster 2", "name": "nj.com", "_children": 
+		[{"parent": "nj.com", "name": "http://www.nj.com/gloucester-county/index.ssf/2015/03/nj_school_districts_bitcoin_hostage_problem_caused.html"}]},
+		{"parent": "Cluster 2", "name": "tyden.cz", "_children": 
+		[{"parent": "tyden.cz", "name": "http://www.tyden.cz/rubriky/zahranici/amerika/exagenti-obvineni-z-kradeze-milionu-dolaru-v-bitcoinech_338060.html"}]},
+		{"parent": "Cluster 2", "name": "techworld.com", "_children": 
+		[{"parent": "techworld.com", "name": "http://www.techworld.com/news/e-commerce/bitcoin-foundation-new-boss-looks-crowdfunding-secure-future-3607697/"}]},
+		{"parent": "Cluster 2", "name": "thesatellite.com.au", "_children": 
+		[{"parent": "thesatellite.com.au", "name": "http://www.thesatellite.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "businessworld.in", "_children": 
+		[{"parent": "businessworld.in", "name": "http://www.businessworld.in/news/business/internet/zebpay-announces-bitcoin-india-alliance/1789965/page-1.html"},{"parent": "businessworld.in", "name": "http://www.businessworld.in/news/economy/zebpay-announces-bitcoin-india-alliance/1789965/page-1.html"}]},
+		{"parent": "Cluster 2", "name": "wsj.com", "_children": 
+		[{"parent": "wsj.com", "name": "http://blogs.wsj.com/law/2015/03/30/bitcoin-entrepreneur-charlie-shrem-reports-to-prison/"},{"parent": "wsj.com", "name": "http://blogs.wsj.com/moneybeat/2015/04/01/bitbeat-the-wacky-details-of-a-bitcoin-theft-gone-awry/"},{"parent": "wsj.com", "name": "http://blogs.wsj.com/digits/2015/04/02/ubs-to-open-blockchain-research-lab-in-london/"},{"parent": "wsj.com", "name": "http://blogs.wsj.com/cio/2015/04/05/bny-mellon-explores-bitcoins-potential/"},{"parent": "wsj.com", "name": "http://blogs.wsj.com/cio/2015/04/05/bny-mellon-explores-bitcoins-potential/"},{"parent": "wsj.com", "name": "http://blogs.wsj.com/moneybeat/2015/04/07/bitbeat-rebel-board-member-fuels-strife-at-bitcoin-foundation/"},{"parent": "wsj.com", "name": "http://www.wsj.com/articles/charities-seek-donations-in-bitcoin-1428894121"}]},
+		{"parent": "Cluster 2", "name": "bohuslaningen.se", "_children": 
+		[{"parent": "bohuslaningen.se", "name": "http://bohuslaningen.se/nyheter/varlden/1.3877331-agenter-stal-miljoner-i-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "fbi.gov", "_children": 
+		[{"parent": "fbi.gov", "name": "http://www.fbi.gov/sanfrancisco/press-releases/2015/former-federal-agents-charged-with-bitcoin-money-laundering-and-wire-fraud"}]},
+		{"parent": "Cluster 2", "name": "coshoctontribune.com", "_children": 
+		[{"parent": "coshoctontribune.com", "name": "http://www.coshoctontribune.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "q13fox.com", "_children": 
+		[{"parent": "q13fox.com", "name": "http://q13fox.com/2015/03/30/2-former-federal-agents-charged-with-stealing-bitcoin-during-silk-road-probe/"}]},
+		{"parent": "Cluster 2", "name": "rawstory.com", "_children": 
+		[{"parent": "rawstory.com", "name": "http://www.rawstory.com/rs/2015/04/rand-pauls-campaign-website-accepts-bitcoin-donations/"}]},
+		{"parent": "Cluster 2", "name": "chillicothegazette.com", "_children": 
+		[{"parent": "chillicothegazette.com", "name": "http://www.chillicothegazette.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "govexec.com", "_children": 
+		[{"parent": "govexec.com", "name": "http://www.govexec.com/defense/2015/03/feds-charged-stealing-bitcoin/108805/"}]},
+		{"parent": "Cluster 2", "name": "piratetimes.net", "_children": 
+		[{"parent": "piratetimes.net", "name": "http://piratetimes.net/pirate-party-of-finland-may-end-up-in-court-for-collecting-too-many-bitcoins/"},{"parent": "piratetimes.net", "name": "http://piratetimes.net/pirate-party-of-finland-may-end-up-in-court-for-collecting-too-many-bitcoins/"}]},
+		{"parent": "Cluster 2", "name": "americanbanker.com", "_children": 
+		[{"parent": "americanbanker.com", "name": "http://www.americanbanker.com/syndication/ex-us-agents-accused-of-pocketing-bitcoins-during-probe-1073527-1.html"},{"parent": "americanbanker.com", "name": "http://www.americanbanker.com/syndication/ex-us-agents-accused-of-pocketing-bitcoins-during-probe-1073527-1.html"},{"parent": "americanbanker.com", "name": "http://www.americanbanker.com/bankthink/five-reasons-washington-should-leave-bitcoin-alone-1063736-1.html"},{"parent": "americanbanker.com", "name": "http://www.americanbanker.com/news/national-regional/pot-bitcoin-companies-pay-steep-fees-for-bank-access-1073710-1.html"}]},
+		{"parent": "Cluster 2", "name": "whitsundaytimes.com.au", "_children": 
+		[{"parent": "whitsundaytimes.com.au", "name": "http://www.whitsundaytimes.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "eteknix.com", "_children": 
+		[{"parent": "eteknix.com", "name": "http://www.eteknix.com/us-police-forced-to-pay-bitcoin-ransom/"}]},
+		{"parent": "Cluster 2", "name": "allehanda.se", "_children": 
+		[{"parent": "allehanda.se", "name": "http://www.allehanda.se/allmant/utrikes/agenter-stal-miljoner-i-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "infolegal.ro", "_children": 
+		[{"parent": "infolegal.ro", "name": "http://www.infolegal.ro/banca-nationala-a-romaniei-monitorizeaza-tranzactiile-prin-intermediul-monedelor-virtuale-de-tipul-bitcoin/2015/03/27/"}]},
+		{"parent": "Cluster 2", "name": "free-press-release-center.info", "_children": 
+		[{"parent": "free-press-release-center.info", "name": "http://www.free-press-release-center.info/pr00000000000000296531_banx-capital-launches-new-online-bitcoin-exchange.html"}]},
+		{"parent": "Cluster 2", "name": "zdnet.com", "_children": 
+		[{"parent": "zdnet.com", "name": "http://www.zdnet.com/article/silk-road-investigators-charged-with-bitcoin-theft/"},{"parent": "zdnet.com", "name": "http://www.zdnet.com/article/bitcoin-too-small-to-be-a-threat-to-australian-market-rba/"},{"parent": "zdnet.com", "name": "http://www.zdnet.com/article/betting-on-bitcoin-could-africa-be-the-answer-for-the-maligned-cryptocurrency/"}]},
+		{"parent": "Cluster 2", "name": "dawn.com", "_children": 
+		[{"parent": "dawn.com", "name": "http://www.dawn.com/news/1176383/london-stakes-its-claim-as-global-bitcoin-hub"}]},
+		{"parent": "Cluster 2", "name": "jyllands-posten.dk", "_children": 
+		[{"parent": "jyllands-posten.dk", "name": "http://jyllands-posten.dk/international/usa/ECE7594923/Politifolk-stjal-bitcoins-i-hemmelig-efterforskning/"},{"parent": "jyllands-posten.dk", "name": "http://jyllands-posten.dk/international/usa/ECE7594923/Politifolk-stjal-bitcoins-i-hemmelig-efterforskning/"}]},
+		{"parent": "Cluster 2", "name": "theregister.co.uk", "_children": 
+		[{"parent": "theregister.co.uk", "name": "http://www.theregister.co.uk/2015/03/25/hackers_to_new_jersey_schools_we_have_your_network_now_give_us_bitcoin_worth_span_classstrike129kspan_span_classstrike126kspan_124k/"},{"parent": "theregister.co.uk", "name": "http://www.theregister.co.uk/2015/03/30/feds_silk_road_bitcoins/"},{"parent": "theregister.co.uk", "name": "http://www.theregister.co.uk/2015/03/30/feds_silk_road_bitcoins/"}]},
+		{"parent": "Cluster 2", "name": "wibqam.com", "_children": 
+		[{"parent": "wibqam.com", "name": "http://wibqam.com/news/articles/2015/mar/30/former-us-agents-charged-for-bitcoin-theft-during-black-market-probe/"}]},
+		{"parent": "Cluster 2", "name": "coloradoan.com", "_children": 
+		[{"parent": "coloradoan.com", "name": "http://www.coloradoan.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "dealstreetasia.com", "_children": 
+		[{"parent": "dealstreetasia.com", "name": "http://www.dealstreetasia.com/stories/bitcoin-investment-opportunities-asian-prospects-4438/"},{"parent": "dealstreetasia.com", "name": "http://www.dealstreetasia.com/stories/bitcoin-the-future-for-transactions-david-moskowitz-4708/"},{"parent": "dealstreetasia.com", "name": "http://www.dealstreetasia.com/stories/philippines-fintech-startup-satoshi-citadel-acquires-buybitcoin-ph-5143/"}]},
+		{"parent": "Cluster 2", "name": "noordhollandsdagblad.nl", "_children": 
+		[{"parent": "noordhollandsdagblad.nl", "name": "http://www.noordhollandsdagblad.nl/algemeen/technologie/article27353472.ece/Agenten-stalen-bitcoins-bij-onderzoek"},{"parent": "noordhollandsdagblad.nl", "name": "http://www.noordhollandsdagblad.nl/algemeen/technologie/article27353472.ece/Agenten-stalen-bitcoins-bij-onderzoek"}]},
+		{"parent": "Cluster 2", "name": "coinreport.net", "_children": 
+		[{"parent": "coinreport.net", "name": "https://coinreport.net/two-ex-federal-agents-charged-stealing-bitcoin-silk-road-case/"},{"parent": "coinreport.net", "name": "https://coinreport.net/bitcoin-cuban-tourism-sector/"},{"parent": "coinreport.net", "name": "https://coinreport.net/antagonist-bitcoin/"},{"parent": "coinreport.net", "name": "https://coinreport.net/australian-bitcoin-exchange-igot-acquires-kenyas-tagpesa/"},{"parent": "coinreport.net", "name": "https://coinreport.net/bank-new-york-mellon-experimenting-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "politicalwire.com", "_children": 
+		[{"parent": "politicalwire.com", "name": "http://politicalwire.com/tags/bitcoin/"},{"parent": "politicalwire.com", "name": "http://politicalwire.com/2015/04/07/paul-accepts-bitcoin-donations/"}]},
+		{"parent": "Cluster 2", "name": "bostinno.streetwise.co", "_children": 
+		[{"parent": "bostinno.streetwise.co", "name": "http://bostinno.streetwise.co/2015/04/15/mit-media-lab-launches-bitcoin-initiative-to-research-cryptocurrencies/"}]},
+		{"parent": "Cluster 2", "name": "leidschdagblad.nl", "_children": 
+		[{"parent": "leidschdagblad.nl", "name": "http://www.leidschdagblad.nl/algemeen/technologie/article27353472.ece/Agenten-stalen-bitcoins-bij-onderzoek"},{"parent": "leidschdagblad.nl", "name": "http://www.leidschdagblad.nl/algemeen/technologie/article27353472.ece/Agenten-stalen-bitcoins-bij-onderzoek"}]},
+		{"parent": "Cluster 2", "name": "csmonitor.com", "_children": 
+		[{"parent": "csmonitor.com", "name": "http://www.csmonitor.com/Business/2015/0331/Silk-Road-investigators-charged-with-stealing-bitcoin-during-probe"},{"parent": "csmonitor.com", "name": "http://www.csmonitor.com/Business/2015/0331/Silk-Road-investigators-charged-with-stealing-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "ekuriren.se", "_children": 
+		[{"parent": "ekuriren.se", "name": "http://ekuriren.se/nyheter/varlden/1.3073318-agenter-stal-miljoner-i-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "13newsnow.com", "_children": 
+		[{"parent": "13newsnow.com", "name": "http://www.13newsnow.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "msn.com", "_children": 
+		[{"parent": "msn.com", "name": "http://www.msn.com/en-au/money/technology/bitcoins-not-a-threat-to-australia-rba/ar-AAawFbq"},{"parent": "msn.com", "name": "http://www.msn.com/en-au/money/technology/bitcoins-not-a-threat-to-australia-rba/ar-AAawFbq"}]},
+		{"parent": "Cluster 2", "name": "whbl.com", "_children": 
+		[{"parent": "whbl.com", "name": "http://whbl.com/news/articles/2015/mar/30/former-us-agents-charged-for-bitcoin-theft-during-black-market-probe/"}]},
+		{"parent": "Cluster 2", "name": "keranews.org", "_children": 
+		[{"parent": "keranews.org", "name": "http://keranews.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "keranews.org", "name": "http://keranews.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "technologyreview.com", "_children": 
+		[{"parent": "technologyreview.com", "name": "http://www.technologyreview.com/news/536641/a-new-competitor-for-bitcoin-aims-to-be-faster-and-safer/"}]},
+		{"parent": "Cluster 2", "name": "t-online.de", "_children": 
+		[{"parent": "t-online.de", "name": "http://www.t-online.de/nachrichten/panorama/buntes-kurioses/id_73503894/aprilscherz-um-gianis-varoufakis-es-reicht-wir-stellen-auf-bitcoin-um-.html"}]},
+		{"parent": "Cluster 2", "name": "sn.dk", "_children": 
+		[{"parent": "sn.dk", "name": "http://sn.dk/Verden/Politifolk-stjal-bitcoins-i-hemmelig-efterforskning/artikel/478511"},{"parent": "sn.dk", "name": "http://sn.dk/Verden/Politifolk-stjal-bitcoins-i-hemmelig-efterforskning/artikel/478511"}]},
+		{"parent": "Cluster 2", "name": "enewspf.com", "_children": 
+		[{"parent": "enewspf.com", "name": "http://www.enewspf.com/latest-news/law-and-order/federal-and-international/59969-former-federal-agents-charged-with-bitcoin-money-laundering-and-wire-fraud.html"}]},
+		{"parent": "Cluster 2", "name": "nypost.com", "_children": 
+		[{"parent": "nypost.com", "name": "http://nypost.com/2015/03/25/testing-at-school-district-resumed-after-online-attacker-demanded-bitcoins/"},{"parent": "nypost.com", "name": "http://nypost.com/2015/03/25/testing-at-school-district-resumed-after-online-attacker-demanded-bitcoins/"},{"parent": "nypost.com", "name": "http://nypost.com/2015/03/31/ex-feds-busted-for-stealing-bitcoins-during-silk-road-probe/"},{"parent": "nypost.com", "name": "http://nypost.com/2015/03/31/ex-feds-busted-for-stealing-bitcoins-during-silk-road-probe/"},{"parent": "nypost.com", "name": "http://nypost.com/2015/04/13/ex-jpmorgan-exec-staffing-up-new-bitcoin-business/"}]},
+		{"parent": "Cluster 2", "name": "standard.co.uk", "_children": 
+		[{"parent": "standard.co.uk", "name": "http://www.standard.co.uk/business/business-news/silicon-roundup-blockchain-banking-to-be-on-the-slate-for-new-regulator-10123119.html"}]},
+		{"parent": "Cluster 2", "name": "khou.com", "_children": 
+		[{"parent": "khou.com", "name": "http://www.khou.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "makeuseof.com", "_children": 
+		[{"parent": "makeuseof.com", "name": "http://www.makeuseof.com/tag/google-xp-support-utorrent-bitcoin-miner-tech-news-digest/"}]},
+		{"parent": "Cluster 2", "name": "livenews.co.nz", "_children": 
+		[{"parent": "livenews.co.nz", "name": "http://livenews.co.nz/2015/03/31/former-federal-agents-charged-with-bitcoin-money-laundering-and-wire-fraud/"}]},
+		{"parent": "Cluster 2", "name": "dnaindia.com", "_children": 
+		[{"parent": "dnaindia.com", "name": "http://www.dnaindia.com/world/report-former-us-agents-charged-for-bitcoin-theft-during-silk-road-probe-2073464"}]},
+		{"parent": "Cluster 2", "name": "skynews.com.au", "_children": 
+		[{"parent": "skynews.com.au", "name": "http://www.skynews.com.au/business/tech/2015/04/07/bitcoins--not-a-threat-to-australia-.html"},{"parent": "skynews.com.au", "name": "http://www.skynews.com.au/business/business/national/2015/04/07/bitcoins-not-a-threat-to-australia--rba.html"},{"parent": "skynews.com.au", "name": "http://www.skynews.com.au/business/business/national/2015/04/07/bitcoins-not-a-threat-to-australia--rba.html"},{"parent": "skynews.com.au", "name": "http://www.skynews.com.au/business/tech/2015/04/07/bitcoins--not-a-threat-to-australia-.html"}]},
+		{"parent": "Cluster 2", "name": "cincinnati.com", "_children": 
+		[{"parent": "cincinnati.com", "name": "http://www.cincinnati.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "thefiscaltimes.com", "_children": 
+		[{"parent": "thefiscaltimes.com", "name": "http://www.thefiscaltimes.com/latestnews/2015/04/07/Rand-Pauls-campaign-website-accepts-bitcoin-donations"},{"parent": "thefiscaltimes.com", "name": "http://www.thefiscaltimes.com/latestnews/2015/04/15/London-stakes-its-claim-global-bitcoin-hub"}]},
+		{"parent": "Cluster 2", "name": "blogspot.com", "_children": 
+		[{"parent": "blogspot.com", "name": "http://payzanepal.blogspot.com/2015/03/neteller-adds-bitcoin-deposit-option.html"}]},
+		{"parent": "Cluster 2", "name": "wirtschaftsblatt.at", "_children": 
+		[{"parent": "wirtschaftsblatt.at", "name": "http://wirtschaftsblatt.at/home/nachrichten/europa/4699553/Giannis-Varoufakis_Es-reicht-wir-stellen-auf-Bitcoin-um"}]},
+		{"parent": "Cluster 2", "name": "mis-asia.com", "_children": 
+		[{"parent": "mis-asia.com", "name": "http://mis-asia.com/tech/internet/new-bitcoin-foundation-chief-eyes-crowdfunding/"}]},
+		{"parent": "Cluster 2", "name": "arnnet.com.au", "_children": 
+		[{"parent": "arnnet.com.au", "name": "http://www.arnnet.com.au/article/572575/new-bitcoin-foundation-chief-eyes-crowdfunding/"}]},
+		{"parent": "Cluster 2", "name": "tickerreport.com", "_children": 
+		[{"parent": "tickerreport.com", "name": "http://tickerreport.com/press-releases/428407/my-wallet-ltd-is-buying-bitcoin-at-10-more-than-current-market-value/"}]},
+		{"parent": "Cluster 2", "name": "protothema.gr", "_children": 
+		[{"parent": "protothema.gr", "name": "http://www.protothema.gr//economy/article/467122/bitcoin-o-varoufakis-ekane-plaka-alla-o-thanasis-gounaris-hrimatodotise-etsi-to-komma-tou/"},{"parent": "protothema.gr", "name": "http://www.protothema.gr/economy/article/467122/bitcoin-o-varoufakis-ekane-plaka-alla-o-thanasis-gounaris-hrimatodotise-etsi-to-komma-tou/"}]},
+		{"parent": "Cluster 2", "name": "wvpublic.org", "_children": 
+		[{"parent": "wvpublic.org", "name": "http://wvpublic.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "wvpublic.org", "name": "http://wvpublic.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "couriermail.com.au", "_children": 
+		[{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnihsfrf-1227294580064?nk=40ba72210bf43ae7f655c246dfa3e4a6"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnihsfrf-1227294580064?nk=17cb110b3ae92e0f15535bc8a9217540"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnihsfrf-1227294580064?nk=ec60d60150cd2ff943e1765491e4fd79"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnihsfrf-1227294580064?nk=9895dd8fce29c0fc495ead85ef232559"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnihsfrf-1227294580064"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnihsfrf-1227294580064?nk=49a43b1e8b4c81beb402388993e47375"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnihsfrf-1227294580064?nk=17cb110b3ae92e0f15535bc8a9217540"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnihsfrf-1227294580064?nk=ec60d60150cd2ff943e1765491e4fd79"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnihsfrf-1227294580064?nk=9895dd8fce29c0fc495ead85ef232559"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/business/breaking-news/bitcoin-no-threat-to-financial-system-rba/story-fnn9c0gx-1227294650490?nk=dd5af25faa0cedc85066d7338b10dbd5"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/business/breaking-news/bitcoin-no-threat-to-financial-system-rba/story-fnn9c0gx-1227294650490?nk=66b4b9c4c4060f9577af90d879c1f2f4"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnihsfrf-1227294580064?nk=40ba72210bf43ae7f655c246dfa3e4a6"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnihsfrf-1227294580064"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/business/breaking-news/bitcoin-no-threat-to-financial-system-rba/story-fnn9c0gx-1227294650490?nk=4ab216e7bd468bae6b7bbb45bfd0e046"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnihsfrf-1227294580064?nk=49a43b1e8b4c81beb402388993e47375"},{"parent": "couriermail.com.au", "name": "http://www.couriermail.com.au/business/breaking-news/bitcoin-no-threat-to-financial-system-rba/story-fnn9c0gx-1227294650490?nk=2fb169c1f5a1b40ff611a05d98ee3a61"}]},
+		{"parent": "Cluster 2", "name": "ninemsn.com.au", "_children": 
+		[{"parent": "ninemsn.com.au", "name": "http://finance.ninemsn.com.au/newsbusiness/aap/8972702/federal-agents-stole-bitcoin-in-silk-road"}]},
+		{"parent": "Cluster 2", "name": "frasercoastchronicle.com.au", "_children": 
+		[{"parent": "frasercoastchronicle.com.au", "name": "http://www.frasercoastchronicle.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "nordjyske.dk", "_children": 
+		[{"parent": "nordjyske.dk", "name": "http://nordjyske.dk/nyheder/politifolk-stjal-bitcoins-i-hemmelig-efterforskning/1e55cd77-cf7c-410b-97d5-27447479004c/26/1515"},{"parent": "nordjyske.dk", "name": "http://nordjyske.dk/nyheder/politifolk-stjal-bitcoins-i-hemmelig-efterforskning/1e55cd77-cf7c-410b-97d5-27447479004c/26/1515"}]},
+		{"parent": "Cluster 2", "name": "eldiario.es", "_children": 
+		[{"parent": "eldiario.es", "name": "http://www.eldiario.es/hojaderouter/shortcut/bitcoin-wikileaks-assange-nakamoto_6_375922415.html"}]},
+		{"parent": "Cluster 2", "name": "ekstrabladet.dk", "_children": 
+		[{"parent": "ekstrabladet.dk", "name": "http://ekstrabladet.dk/112/politifolk-stjal-bitcoins-i-hemmelig-efterforskning/5503210"},{"parent": "ekstrabladet.dk", "name": "http://ekstrabladet.dk/112/politifolk-stjal-bitcoins-i-hemmelig-efterforskning/5503210"}]},
+		{"parent": "Cluster 2", "name": "globalnews.ca", "_children": 
+		[{"parent": "globalnews.ca", "name": "http://globalnews.ca/news/1913234/federal-agents-accused-of-stealing-1m-in-bitcoin-during-silk-road-probe/"}]},
+		{"parent": "Cluster 2", "name": "newsfactor.com", "_children": 
+		[{"parent": "newsfactor.com", "name": "http://www.newsfactor.com/news/Ex-Feds-Busted-for-Bitcoin-Theft/story.xhtml?story_id=13300G73MN0Y"},{"parent": "newsfactor.com", "name": "http://www.newsfactor.com/news/Ex-Feds-Busted-for-Bitcoin-Theft/story.xhtml?story_id=133004L6IU8I"},{"parent": "newsfactor.com", "name": "http://www.newsfactor.com/news/Ex-Feds-Busted-for-Bitcoin-Theft/story.xhtml?story_id=00100018PL2I"},{"parent": "newsfactor.com", "name": "http://www.newsfactor.com/news/Ex-Feds-Busted-for-Bitcoin-Theft/story.xhtml?story_id=0010004DTY0A"},{"parent": "newsfactor.com", "name": "http://www.newsfactor.com/news/Ex-Feds-Busted-for-Bitcoin-Theft/story.xhtml?story_id=0020008RNW0K"},{"parent": "newsfactor.com", "name": "http://www.newsfactor.com/news/Ex-Feds-Busted-for-Bitcoin-Theft/story.xhtml?story_id=003000D5HU0U"},{"parent": "newsfactor.com", "name": "http://www.newsfactor.com/news/New-Tool-Fights-Bitcoin-Ransomware/story.xhtml?story_id=0330012SV8OO"},{"parent": "newsfactor.com", "name": "http://www.newsfactor.com/news/New-Tool-Fights-Bitcoin-Ransomware/story.xhtml?story_id=0330014ZGGJC"},{"parent": "newsfactor.com", "name": "http://www.newsfactor.com/news/New-Tool-Fights-Bitcoin-Ransomware/story.xhtml?story_id=100003G72YU8"},{"parent": "newsfactor.com", "name": "http://www.newsfactor.com/news/New-Tool-Fights-Bitcoin-Ransomware/story.xhtml?story_id=1000039KXKV4"}]},
+		{"parent": "Cluster 2", "name": "latribune.fr", "_children": 
+		[{"parent": "latribune.fr", "name": "http://www.latribune.fr/entreprises-finance/banques-finance/bitcoin-monnaie-dangereuse-mais-technologie-vertueuse-469259.html"}]},
+		{"parent": "Cluster 2", "name": "iowapublicradio.org", "_children": 
+		[{"parent": "iowapublicradio.org", "name": "http://iowapublicradio.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "iowapublicradio.org", "name": "http://iowapublicradio.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "gladstoneobserver.com.au", "_children": 
+		[{"parent": "gladstoneobserver.com.au", "name": "http://www.gladstoneobserver.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "firstcoastnews.com", "_children": 
+		[{"parent": "firstcoastnews.com", "name": "http://www.firstcoastnews.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "ntnews.com.au", "_children": 
+		[{"parent": "ntnews.com.au", "name": "http://www.ntnews.com.au/news/national/bitcoins-not-a-threat-to-australia-rba/story-fnjbnvyj-1227294580064"},{"parent": "ntnews.com.au", "name": "http://www.ntnews.com.au/news/national/bitcoins-not-a-threat-to-australia-rba/story-fnjbnvyj-1227294580064"}]},
+		{"parent": "Cluster 2", "name": "finanznachrichten.de", "_children": 
+		[{"parent": "finanznachrichten.de", "name": "http://www.finanznachrichten.de/nachrichten-2015-03/33198302-lazycoins-lazycoins-discover-the-new-way-to-trade-bitcoins-in-the-uk-399.htm"},{"parent": "finanznachrichten.de", "name": "http://www.finanznachrichten.de/nachrichten-2015-03/33198302-lazycoins-lazycoins-discover-the-new-way-to-trade-bitcoins-in-the-uk-399.htm"},{"parent": "finanznachrichten.de", "name": "http://www.finanznachrichten.de/nachrichten-2015-03/33238971-rivetz-and-factom-announce-collaboration-rivetz-and-factom-add-device-level-security-to-the-blockchain-ecosystem-256.htm"},{"parent": "finanznachrichten.de", "name": "http://www.finanznachrichten.de/nachrichten-2015-03/33238971-rivetz-and-factom-announce-collaboration-rivetz-and-factom-add-device-level-security-to-the-blockchain-ecosystem-256.htm"},{"parent": "finanznachrichten.de", "name": "http://www.finanznachrichten.de/nachrichten-2015-04/33308515-ribbit-me-forms-strategic-alliance-with-card-capture-international-llc-to-integrate-blockchain-based-ribbitrewards-into-its-expansive-merchant-servic-256.htm"}]},
+		{"parent": "Cluster 2", "name": "arstechnica.com", "_children": 
+		[{"parent": "arstechnica.com", "name": "http://arstechnica.com/business/2015/04/bitcoin-foundation-is-effectively-bankrupt-board-member-says/"},{"parent": "arstechnica.com", "name": "http://arstechnica.com/tech-policy/2015/04/police-chief-paying-the-bitcoin-ransom-was-the-last-resort/"}]},
+		{"parent": "Cluster 2", "name": "neurope.eu", "_children": 
+		[{"parent": "neurope.eu", "name": "http://www.neurope.eu/article/ubs-set-blockchain-lab-london"}]},
+		{"parent": "Cluster 2", "name": "cio.com", "_children": 
+		[{"parent": "cio.com", "name": "http://www.cio.com/article/2909714/new-bitcoin-foundation-chief-eyes-crowdfunding.html"}]},
+		{"parent": "Cluster 2", "name": "weku.fm", "_children": 
+		[{"parent": "weku.fm", "name": "http://weku.fm/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "weku.fm", "name": "http://weku.fm/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "techworm.net", "_children": 
+		[{"parent": "techworm.net", "name": "http://www.techworm.net/2015/04/us-cops-pay-bitcoin-extortion-money-to-decrypt-files-held-hostage-by-hackers.html"}]},
+		{"parent": "Cluster 2", "name": "voanews.com", "_children": 
+		[{"parent": "voanews.com", "name": "http://www.voanews.com/content/kenyan-startups-tackle-expensive-remittances-through-bitcoin/2702724.html"}]},
+		{"parent": "Cluster 2", "name": "online-casinos.com", "_children": 
+		[{"parent": "online-casinos.com", "name": "http://www.online-casinos.com/news/13156-satoshi-secret-slot-launch-bitcoin-conference"}]},
+		{"parent": "Cluster 2", "name": "theamericanregister.com", "_children": 
+		[{"parent": "theamericanregister.com", "name": "http://www.theamericanregister.com/2-ex-fed-agents-arrested-for-stealing-bitcoins/9617/"},{"parent": "theamericanregister.com", "name": "http://www.theamericanregister.com/2-ex-fed-agents-arrested-for-stealing-bitcoins/9617/"},{"parent": "theamericanregister.com", "name": "http://www.theamericanregister.com/maine-police-officials-pay-ransom-in-bitcoin-to-resolve-hostage-situation/11932/"}]},
+		{"parent": "Cluster 2", "name": "sbs.com.au", "_children": 
+		[{"parent": "sbs.com.au", "name": "http://www.sbs.com.au/news/article/2015/04/07/bitcoins-not-threat-australia-rba"},{"parent": "sbs.com.au", "name": "http://www.sbs.com.au/news/article/2015/04/07/bitcoins-not-threat-australia-rba"}]},
+		{"parent": "Cluster 2", "name": "pb.pl", "_children": 
+		[{"parent": "pb.pl", "name": "http://www.pb.pl/4041858"}]},
+		{"parent": "Cluster 2", "name": "hostingdiscussion.com", "_children": 
+		[{"parent": "hostingdiscussion.com", "name": "http://www.hostingdiscussion.com/vps-dedicated-colocation-server-special-offers/39241-bitcoin-vps-openvz-vmware-rdp-linux-cpanel-plesk-anti-ddos.html"},{"parent": "hostingdiscussion.com", "name": "http://www.hostingdiscussion.com/vps-dedicated-colocation-server-special-offers/39288-miami-dedicated-servers-vps-bitcoin-ok.html"},{"parent": "hostingdiscussion.com", "name": "http://www.hostingdiscussion.com/vps-dedicated-colocation-server-special-offers/39301-shineservers-com-quadcore-starts-68-m-bitcoin-accepted.html"}]},
+		{"parent": "Cluster 2", "name": "efinancialnews.com", "_children": 
+		[{"parent": "efinancialnews.com", "name": "http://www.efinancialnews.com/story/2015-04-02/ubs-opens-london-technology-lab-blockchain-bitcoin"},{"parent": "efinancialnews.com", "name": "http://www.efinancialnews.com/story/2015-04-02/ubs-opens-london-technology-lab-blockchain-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "venturebeat.com", "_children": 
+		[{"parent": "venturebeat.com", "name": "http://venturebeat.com/2015/04/09/an-artist-hid-4-87-bitcoins-in-this-painting-puzzle-triggering-a-frenzy-to-solve-it-and-claim-them/"},{"parent": "venturebeat.com", "name": "http://venturebeat.com/2015/04/09/an-artist-hid-4-87-bitcoins-in-this-painting-puzzle-triggering-a-frenzy-to-solve-it-and-claim-them/"}]},
+		{"parent": "Cluster 2", "name": "sfexaminer.com", "_children": 
+		[{"parent": "sfexaminer.com", "name": "http://www.sfexaminer.com/sanfrancisco/march-24-british-rock-bitcoin-lecture-and-more/Content?oid=2924433"}]},
+		{"parent": "Cluster 2", "name": "upi.com", "_children": 
+		[{"parent": "upi.com", "name": "http://www.upi.com/Top_News/US/2015/03/30/Silk-Road-investigators-accused-of-stealing-Bitcoins/7211427744899/"},{"parent": "upi.com", "name": "http://www.upi.com/Top_News/US/2015/03/30/Silk-Road-investigators-accused-of-stealing-Bitcoins/7211427744899/"}]},
+		{"parent": "Cluster 2", "name": "wqad.com", "_children": 
+		[{"parent": "wqad.com", "name": "http://wqad.com/2015/03/30/2-former-federal-agents-charged-with-stealing-bitcoin-during-silk-road-probe/"}]},
+		{"parent": "Cluster 2", "name": "wcqs.org", "_children": 
+		[{"parent": "wcqs.org", "name": "http://wcqs.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "wcqs.org", "name": "http://wcqs.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "kelo.com", "_children": 
+		[{"parent": "kelo.com", "name": "http://kelo.com/news/articles/2015/mar/30/former-us-agents-charged-for-bitcoin-theft-during-black-market-probe/"}]},
+		{"parent": "Cluster 2", "name": "kvue.com", "_children": 
+		[{"parent": "kvue.com", "name": "http://www.kvue.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "imasters.com.br", "_children": 
+		[{"parent": "imasters.com.br", "name": "http://imasters.com.br/noticia/utorrent-ganha-nova-versao-apos-polemica-envolvendo-mineracao-de-bitcoins/"},{"parent": "imasters.com.br", "name": "http://imasters.com.br/noticia/utorrent-ganha-nova-versao-apos-polemica-envolvendo-mineracao-de-bitcoins/"}]},
+		{"parent": "Cluster 2", "name": "independent.ie", "_children": 
+		[{"parent": "independent.ie", "name": "http://www.independent.ie/business/technology/news/uk-aims-to-cash-in-as-a-world-bitcoin-capital-31080539.html"}]},
+		{"parent": "Cluster 2", "name": "vice.com", "_children": 
+		[{"parent": "vice.com", "name": "https://news.vice.com/article/this-is-why-bitcoin-is-being-launched-into-space"},{"parent": "vice.com", "name": "http://motherboard.vice.com/en_ca/read/bitcoin-for-prison"},{"parent": "vice.com", "name": "http://motherboard.vice.com/read/bitcoin-for-prison"}]},
+		{"parent": "Cluster 2", "name": "unt.se", "_children": 
+		[{"parent": "unt.se", "name": "http://www.unt.se/omvarld/agenter-stal-miljoner-i-bitcoin-3662691.aspx"}]},
+		{"parent": "Cluster 2", "name": "4029tv.com", "_children": 
+		[{"parent": "4029tv.com", "name": "http://www.4029tv.com/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "challenges.fr", "_children": 
+		[{"parent": "challenges.fr", "name": "http://www.challenges.fr/entreprise/20140711.CHA6112/comment-tracfin-compte-limiter-l-utilisation-du-bitcoin.html"}]},
+		{"parent": "Cluster 2", "name": "coinspeaker.com", "_children": 
+		[{"parent": "coinspeaker.com", "name": "http://www.coinspeaker.com/2015/03/19/united-kingdom-plans-to-regulate-bitcoin-exchanges-says-treasury-report-7926/"},{"parent": "coinspeaker.com", "name": "http://www.coinspeaker.com/2015/03/31/bitcoin-embassy-opens-in-houston-texas-8233/"},{"parent": "coinspeaker.com", "name": "http://www.coinspeaker.com/2015/03/30/2-former-federal-agents-charged-with-stealing-bitcoin-during-silk-road-probe-8245/"},{"parent": "coinspeaker.com", "name": "http://www.coinspeaker.com/2015/04/01/april-fools-day-greek-pm-may-adopt-bitcoin-worlds-first-bitcoin-miner-powered-by-car-braking-8310/"},{"parent": "coinspeaker.com", "name": "http://www.coinspeaker.com/2015/04/04/indian-investors-are-interested-in-bitcoin-like-payment-system-8409/"},{"parent": "coinspeaker.com", "name": "http://www.coinspeaker.com/2015/04/07/rand-paul-is-first-candidate-to-accept-bitcoin-donations-for-2016-presidential-bid-8583/"},{"parent": "coinspeaker.com", "name": "http://www.coinspeaker.com/2015/04/09/meet-igot-coinbase-and-bitpay-bitcoin-payment-processors-competitor-8596/"},{"parent": "coinspeaker.com", "name": "http://www.coinspeaker.com/2015/04/09/central-bank-of-australia-decided-not-to-regulate-bitcoin-8593/"},{"parent": "coinspeaker.com", "name": "http://www.coinspeaker.com/2015/05/11/blockchain-technology-as-solution-to-financial-problems-in-greece-9232/"},{"parent": "coinspeaker.com", "name": "http://www.coinspeaker.com/2015/04/17/rand-paul-to-visit-bitcoin-event-in-new-york-city-this-weekend-8852/"}]},
+		{"parent": "Cluster 2", "name": "hebdo.ch", "_children": 
+		[{"parent": "hebdo.ch", "name": "http://www.hebdo.ch/news/soci%C3%A9t%C3%A9/deux-enqu%C3%AAteurs-accus%C3%A9s-davoir-vol%C3%A9-plus-dun-million-en-bitcoins"},{"parent": "hebdo.ch", "name": "http://www.hebdo.ch/news/soci%C3%A9t%C3%A9/deux-enqu%C3%AAteurs-accus%C3%A9s-davoir-vol%C3%A9-plus-dun-million-en-bitcoins"}]},
+		{"parent": "Cluster 2", "name": "7thspace.com", "_children": 
+		[{"parent": "7thspace.com", "name": "http://7thspace.com/headlines/505682/lcq4_regulation_of_trading_activities_of_bitcoins.html"},{"parent": "7thspace.com", "name": "http://7thspace.com/headlines/505682/lcq4_regulation_of_trading_activities_of_bitcoins.html"}]},
+		{"parent": "Cluster 2", "name": "localnews8.com", "_children": 
+		[{"parent": "localnews8.com", "name": "http://www.localnews8.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "sunshinecoastdaily.com.au", "_children": 
+		[{"parent": "sunshinecoastdaily.com.au", "name": "http://www.sunshinecoastdaily.com.au//news/call-to-remove-gst-from-bitcoin/2599762/"},{"parent": "sunshinecoastdaily.com.au", "name": "http://www.sunshinecoastdaily.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "bitcoinmagazine.com", "_children": 
+		[{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19649/bitcoin-companies-join-payment-giants-transact-15/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19659/okcoin-expand-consumer-merchant-products/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19665/bitgive-foundation-bitcoin-powered-nonprofit-world-good/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19672/celebrating-world-water-day-profile-bitgives-kenya-water-project/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19698/million-dollar-hackathon-returns-austin-texas/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19701/bitreserve-expands-india-mexico-partners-mexican-billionaire/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19767/bitlicense-comment-period-closes-fred-wilson-coinbase-coin-center-weigh/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19772/houston-bitcoin-embassy-opens/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19840/bill-melinda-gates-foundation-keeps-options-open-bitcoin/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19857/italian-company-becomes-first-legal-entity-incorporated-bitcoin/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19925/bitcoin-exchange-igot-expands-merchant-services-30-countries/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19929/french-telecom-giant-orange-invest-bitcoin-startups/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19949/mississippi-power-company-suing-gaw-miners-350000/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19982/media-lab-director-joi-ito-wants-mit-lead-bitcoin-ecosystem/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/19996/hong-kong-exchange-bitspark-implements-multisig-security-closes-funding-round/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/20033/newly-declared-european-microstate-liberland-plans-create-digital-currency/"},{"parent": "bitcoinmagazine.com", "name": "https://bitcoinmagazine.com/20040/mit-media-lab-announces-launch-mit-digital-currency-initiative-headed-former-white-house-senior-adviser/"}]},
+		{"parent": "Cluster 2", "name": "myce.com", "_children": 
+		[{"parent": "myce.com", "name": "http://www.myce.com/news/fbi-agents-charged-with-silk-road-bitcoin-theft-75586/"}]},
+		{"parent": "Cluster 2", "name": "theage.com.au", "_children": 
+		[{"parent": "theage.com.au", "name": "http://www.theage.com.au//breaking-news-national/bitcoins-not-a-threat-to-australia-rba-20150407-3tmtp.html"},{"parent": "theage.com.au", "name": "http://www.theage.com.au//breaking-news-national/bitcoins-not-a-threat-to-australia-rba-20150407-3tmtp.html"},{"parent": "theage.com.au", "name": "http://www.theage.com.au/queensland/police-return-seized-bitcoin-atm-20150417-1mnnh2.html"}]},
+		{"parent": "Cluster 2", "name": "techsonian.com", "_children": 
+		[{"parent": "techsonian.com", "name": "http://www.techsonian.com/noticeable-stocks-at-hong-kong-exch-adr-hkxcy-minerco-resources-inc-mine-bitcoin-shop-inc-btcs-informa-plc-ifjpy/12439034/"},{"parent": "techsonian.com", "name": "http://www.techsonian.com/morning-buzzers-federal-national-mortgage-fnma-bitcoin-shop-btcs-oxis-international-oxis-tesco-tscdy/12452909/"}]},
+		{"parent": "Cluster 2", "name": "bgr.in", "_children": 
+		[{"parent": "bgr.in", "name": "http://www.bgr.in/news/artist-hides-bitcoins-worth-rs-1-lakh-in-a-painting-sending-the-bitcoin-world-into-a-tizzy/"},{"parent": "bgr.in", "name": "http://www.bgr.in/news/artist-hides-bitcoins-worth-rs-1-lakh-in-a-painting-sending-the-bitcoin-world-into-a-tizzy/"}]},
+		{"parent": "Cluster 2", "name": "inquisitr.com", "_children": 
+		[{"parent": "inquisitr.com", "name": "http://www.inquisitr.com/1969319/former-secret-service-and-dea-agents-charged-with-stealing-hundreds-of-thousands-in-bitcoins/"},{"parent": "inquisitr.com", "name": "http://cdnsource.inquisitr.com/1969319/former-secret-service-and-dea-agents-charged-with-stealing-hundreds-of-thousands-in-bitcoins/"},{"parent": "inquisitr.com", "name": "http://cdnsource.inquisitr.com/1969319/former-secret-service-and-dea-agents-charged-with-stealing-hundreds-of-thousands-in-bitcoins/"},{"parent": "inquisitr.com", "name": "http://www.inquisitr.com/1969319/former-secret-service-and-dea-agents-charged-with-stealing-hundreds-of-thousands-in-bitcoins/"}]},
+		{"parent": "Cluster 2", "name": "quebec.huffingtonpost.ca", "_children": 
+		[{"parent": "quebec.huffingtonpost.ca", "name": "http://quebec.huffingtonpost.ca/2015/03/30/policiers-millions-bitcoins_n_6971744.html"},{"parent": "quebec.huffingtonpost.ca", "name": "http://quebec.huffingtonpost.ca/2015/03/30/policiers-millions-bitcoins_n_6971744.html"}]},
+		{"parent": "Cluster 2", "name": "azcentral.com", "_children": 
+		[{"parent": "azcentral.com", "name": "http://www.azcentral.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "africanbrains.net", "_children": 
+		[{"parent": "africanbrains.net", "name": "http://africanbrains.net/2015/03/25/mit-sloan-africa-innovate-conference-to-spotlight-new-banking-models-entrepreneurship-increasing-intra-africa-trade-and-the-impact-of-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "lycos.com", "_children": 
+		[{"parent": "lycos.com", "name": "http://news.lycos.com/technology/former-us-agents-charged-for-bitcoin-theft-during-silk-road-probe-0654833aed3c535b17cca4a23aa5df86/"},{"parent": "lycos.com", "name": "http://news.lycos.com/technology/former-us-agents-charged-for-bitcoin-theft-during-black-market-probe-0654833aed3c535b17cca4a23aa5df86/"},{"parent": "lycos.com", "name": "http://news.lycos.com/technology/london-stakes-its-claim-as-global-bitcoin-hub-c8c966601787d44665f3c4287d24be83/"}]},
+		{"parent": "Cluster 2", "name": "bizjournals.com", "_children": 
+		[{"parent": "bizjournals.com", "name": "http://www.bizjournals.com/sanjose/blog/techflash/2015/04/google-backed-buttercoin-shows-bitcoin-failures.html"},{"parent": "bizjournals.com", "name": "http://upstart.bizjournals.com/companies/innovation/2015/04/07/fred-wilson-joins-bitcoin-hackathon.html"}]},
+		{"parent": "Cluster 2", "name": "thedailyrecord.com", "_children": 
+		[{"parent": "thedailyrecord.com", "name": "http://thedailyrecord.com/2015/03/31/federal-agents-charged-bitcoin-theft/"},{"parent": "thedailyrecord.com", "name": "http://thedailyrecord.com/2015/04/16/caveat-bitcoin-towson-attorney-advises-on-cryptocurrency/"}]},
+		{"parent": "Cluster 2", "name": "mondaq.com", "_children": 
+		[{"parent": "mondaq.com", "name": "http://mondaq.com/unitedstates/x/388768/property+taxes/Bitcoin+And+The+Like+Tax+Considerations"}]},
+		{"parent": "Cluster 2", "name": "nydailynews.com", "_children": 
+		[{"parent": "nydailynews.com", "name": "http://www.nydailynews.com/news/national/agents-stole-bitcoins-investigating-silk-road-feds-article-1.2167518"},{"parent": "nydailynews.com", "name": "http://www.nydailynews.com/news/national/agents-stole-bitcoins-investigating-silk-road-feds-article-1.2167518"},{"parent": "nydailynews.com", "name": "http://www.nydailynews.com/news/national/ore-man-seeks-arrest-donating-bitcoin-edward-snowden-article-1.2173716"}]},
+		{"parent": "Cluster 2", "name": "investopedia.com", "_children": 
+		[{"parent": "investopedia.com", "name": "http://www.investopedia.com/articles/investing/032615/can-bitcoin-be-hacked.asp"},{"parent": "investopedia.com", "name": "http://www.investopedia.com/articles/forex/041515/countries-where-bitcoin-legal-illegal.asp"}]},
+		{"parent": "Cluster 2", "name": "computerworld.com.sg", "_children": 
+		[{"parent": "computerworld.com.sg", "name": "http://computerworld.com.sg/tech/industries/new-bitcoin-foundation-chief-eyes-crowdfunding/"},{"parent": "computerworld.com.sg", "name": "http://computerworld.com.sg/tech/internet/new-bitcoin-foundation-chief-eyes-crowdfunding/"}]},
+		{"parent": "Cluster 2", "name": "igamingbusiness.com", "_children": 
+		[{"parent": "igamingbusiness.com", "name": "http://www.igamingbusiness.com/news/endorphina-unveils-first-bitcoin-themed-online-slot"}]},
+		{"parent": "Cluster 2", "name": "lematin.ch", "_children": 
+		[{"parent": "lematin.ch", "name": "http://www.lematin.ch/monde/faits-divers/Enqueteurs-accuses-du-vol-de-plus-d-un-million-en-bitcoins/story/10128303"},{"parent": "lematin.ch", "name": "http://www.lematin.ch/faits-divers/enqueteurs-accuses-vol-million-bitcoins/story/10128303"},{"parent": "lematin.ch", "name": "http://www.lematin.ch/faits-divers/enqueteurs-accuses-vol-million-bitcoins/story/10128303"},{"parent": "lematin.ch", "name": "http://www.lematin.ch/monde/faits-divers/Enqueteurs-accuses-du-vol-de-plus-d-un-million-en-bitcoins/story/10128303"}]},
+		{"parent": "Cluster 2", "name": "fastcompany.com", "_children": 
+		[{"parent": "fastcompany.com", "name": "http://www.fastcompany.com/3044203/the-future-of-work/why-im-getting-5-of-my-salary-paid-in-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "wcnc.com", "_children": 
+		[{"parent": "wcnc.com", "name": "http://www.wcnc.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "breitbart.com", "_children": 
+		[{"parent": "breitbart.com", "name": "http://www.breitbart.com/national-security/2015/04/03/greece-considers-switching-to-drachma-or-maybe-bitcoin-who-knows/"}]},
+		{"parent": "Cluster 2", "name": "smp.se", "_children": 
+		[{"parent": "smp.se", "name": "http://www.smp.se/tt-utrikes/agenter-stal-miljoner-i-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "techinasia.com", "_children": 
+		[{"parent": "techinasia.com", "name": "https://www.techinasia.com/beacon-kickstartermeetsgroupon-site-helps-raise-funds-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "investing.com", "_children": 
+		[{"parent": "investing.com", "name": "http://www.investing.com/news/technology-news/two-silk-road-agents-charged-with-stealing-bitcoin-during-investigation-334925"}]},
+		{"parent": "Cluster 2", "name": "macaubusinessdaily.com", "_children": 
+		[{"parent": "macaubusinessdaily.com", "name": "http://macaubusinessdaily.com/Business/Bitcoin-bravado"}]},
+		{"parent": "Cluster 2", "name": "lefigaro.fr", "_children": 
+		[{"parent": "lefigaro.fr", "name": "http://www.lefigaro.fr/flash-actu/2015/03/30/97001-20150330FILWWW00405-usa-vol-d-un-million-en-bitcoins-par-des-policiers.php"},{"parent": "lefigaro.fr", "name": "http://www.lefigaro.fr/flash-actu/2015/03/30/97001-20150330FILWWW00405-usa-vol-d-un-million-en-bitcoins-par-des-policiers.php"},{"parent": "lefigaro.fr", "name": "http://www.lefigaro.fr/international/2015/04/02/01003-20150402ARTFIG00278-deux-policiers-americains-accuses-d-avoir-vole-un-million-de-dollars-en-bitcoins.php"},{"parent": "lefigaro.fr", "name": "http://www.lefigaro.fr/international/2015/04/02/01003-20150402ARTFIG00278-deux-policiers-americains-accuses-d-avoir-vole-un-million-de-dollars-en-bitcoins.php"}]},
+		{"parent": "Cluster 2", "name": "chron.com", "_children": 
+		[{"parent": "chron.com", "name": "http://www.chron.com/news/article/School-computers-held-hostage-for-bitcoins-6157622.php"},{"parent": "chron.com", "name": "http://www.chron.com/news/article/School-computers-held-hostage-for-bitcoins-6157622.php"}]},
+		{"parent": "Cluster 2", "name": "wmdt.com", "_children": 
+		[{"parent": "wmdt.com", "name": "http://www.wmdt.com/news/politics-elections/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "kfgo.com", "_children": 
+		[{"parent": "kfgo.com", "name": "http://kfgo.com/news/articles/2015/mar/30/former-us-agents-charged-for-bitcoin-theft-during-black-market-probe/"}]},
+		{"parent": "Cluster 2", "name": "wpbf.com", "_children": 
+		[{"parent": "wpbf.com", "name": "http://www.wpbf.com/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "smallcapnetwork.com", "_children": 
+		[{"parent": "smallcapnetwork.com", "name": "http://www.smallcapnetwork.com/Microelectronics-Announces-Participation-at-the-Inside-Bitcoins-Conference-in-New-York/s/via/18950/article/view/p/mid/1/id/6281/"},{"parent": "smallcapnetwork.com", "name": "http://www.smallcapnetwork.com/Microelectronics-Announces-Participation-at-the-Inside-Bitcoins-Conference-in-New-York/s/via/18950/article/view/p/mid/1/id/6281/"}]},
+		{"parent": "Cluster 2", "name": "newsdaily.com", "_children": 
+		[{"parent": "newsdaily.com", "name": "http://newsdaily.com/2015/03/former-u-s-agents-charged-for-bitcoin-theft-during-black-market-probe/"},{"parent": "newsdaily.com", "name": "http://newsdaily.com/2015/04/london-stakes-its-claim-as-global-bitcoin-hub/"}]},
+		{"parent": "Cluster 2", "name": "wusa9.com", "_children": 
+		[{"parent": "wusa9.com", "name": "http://www.wusa9.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "gizmodo.com.au", "_children": 
+		[{"parent": "gizmodo.com.au", "name": "http://www.gizmodo.com.au/2015/04/whats-the-blockchain-and-why-does-bitcoin-depend-on-it/"},{"parent": "gizmodo.com.au", "name": "http://www.gizmodo.com.au/2015/04/whats-the-blockchain-and-why-does-bitcoin-depend-on-it/"}]},
+		{"parent": "Cluster 2", "name": "wcbe.org", "_children": 
+		[{"parent": "wcbe.org", "name": "http://wcbe.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "wcbe.org", "name": "http://wcbe.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "dn.se", "_children": 
+		[{"parent": "dn.se", "name": "http://www.dn.se/nyheter/svenskt-bitcoinbolag-skatteverket-vill-avsloja-vara-kunder/"}]},
+		{"parent": "Cluster 2", "name": "columbiatribune.com", "_children": 
+		[{"parent": "columbiatribune.com", "name": "http://www.columbiatribune.com/news/crime/bitcoin-baron-arrested-in-arizona/article_ff1a4598-0a45-5314-8db8-9a2e897e8e67.html"}]},
+		{"parent": "Cluster 2", "name": "koreaittimes.com", "_children": 
+		[{"parent": "koreaittimes.com", "name": "http://www.koreaittimes.com/story/47606/samsung-electronics-set-introduce-bitcoin-technology"}]},
+		{"parent": "Cluster 2", "name": "northernstar.com.au", "_children": 
+		[{"parent": "northernstar.com.au", "name": "http://www.northernstar.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "fai.informazione.it", "_children": 
+		[{"parent": "fai.informazione.it", "name": "http://fai.informazione.it/6DC11003-B788-4D5D-A6A6-78A86C5A2FAC/Moneta-Digitale-Bitcoin-e-Stato-Creato-dalla-NSA-con-la-Consulenza-di-Goldman-Sachs"},{"parent": "fai.informazione.it", "name": "http://fai.informazione.it/94001ED0-F9BB-4DFE-B39D-B728799D2F35/Moneta-Digitale-Bitcoin-Record-di-Transazioni-e-Non-e-un-Pesce-d-Aprile"}]},
+		{"parent": "Cluster 2", "name": "sophos.com", "_children": 
+		[{"parent": "sophos.com", "name": "https://nakedsecurity.sophos.com/2015/03/31/federal-agents-charged-over-alleged-silk-road-bitcoin-theft/"}]},
+		{"parent": "Cluster 2", "name": "repubblica.it", "_children": 
+		[{"parent": "repubblica.it", "name": "http://www.repubblica.it/economia/2015/04/01/news/grecia_varoufakis_pesce_d_aprile_bitcoin-110984112/"}]},
+		{"parent": "Cluster 2", "name": "computerworld.com.au", "_children": 
+		[{"parent": "computerworld.com.au", "name": "http://www.computerworld.com.au/article/572575/new-bitcoin-foundation-chief-eyes-crowdfunding/"}]},
+		{"parent": "Cluster 2", "name": "fijione.tv", "_children": 
+		[{"parent": "fijione.tv", "name": "http://fijione.tv/2-former-federal-agents-charged-with-stealing-bitcoin-during-silk-road-probe/"}]},
+		{"parent": "Cluster 2", "name": "haarlemsdagblad.nl", "_children": 
+		[{"parent": "haarlemsdagblad.nl", "name": "http://www.haarlemsdagblad.nl/algemeen/technologie/article27353472.ece/Agenten-stalen-bitcoins-bij-onderzoek"},{"parent": "haarlemsdagblad.nl", "name": "http://www.haarlemsdagblad.nl/algemeen/technologie/article27353472.ece/Agenten-stalen-bitcoins-bij-onderzoek"}]},
+		{"parent": "Cluster 2", "name": "disinfo.com", "_children": 
+		[{"parent": "disinfo.com", "name": "http://disinfo.com/2015/03/dea-agents-investigating-silk-road-embezzled-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "memeburn.com", "_children": 
+		[{"parent": "memeburn.com", "name": "http://memeburn.com/2015/04/bitcoin-africa-conference-confirms-erik-wilgenhof-plante-as-guest-speaker/"},{"parent": "memeburn.com", "name": "https://memeburn.com/2015/04/bitcoin-africa-conference-confirms-erik-wilgenhof-plante-as-guest-speaker/"}]},
+		{"parent": "Cluster 2", "name": "apr.org", "_children": 
+		[{"parent": "apr.org", "name": "http://apr.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "apr.org", "name": "http://apr.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "tdm.com", "_children": 
+		[{"parent": "tdm.com", "name": "http://www.tdm.com/Top-News/US/2015/03/30/Silk-Road-investigators-accused-of-stealing-Bitcoins/7211427744899/"},{"parent": "tdm.com", "name": "http://www.tdm.com/Top-News/US/2015/03/30/Silk-Road-investigators-accused-of-stealing-Bitcoins/7211427744899/"}]},
+		{"parent": "Cluster 2", "name": "natmonitor.com", "_children": 
+		[{"parent": "natmonitor.com", "name": "http://natmonitor.com/2015/04/14/cops-pay-bitcoin-ransom-to-end-hostage-drama/"}]},
+		{"parent": "Cluster 2", "name": "wptz.com", "_children": 
+		[{"parent": "wptz.com", "name": "http://www.wptz.com/politics/urgent-2-federal-agents-charged-with-stealing-bitcoin/32088650"},{"parent": "wptz.com", "name": "http://www.wptz.com/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "benzinga.com", "_children": 
+		[{"parent": "benzinga.com", "name": "http://www.benzinga.com/pressreleases/15/03/p5354786/european-startup-is-leading-regulation-to-shape-the-future-of-bitcoin"},{"parent": "benzinga.com", "name": "http://www.benzinga.com/news/15/04/5390326/rand-paul-uses-bitcoin-to-boost-his-campaign"},{"parent": "benzinga.com", "name": "http://www.benzinga.com/news/15/04/5397436/orange-the-latest-company-to-see-benefit-in-blockchain"}]},
+		{"parent": "Cluster 2", "name": "jconline.com", "_children": 
+		[{"parent": "jconline.com", "name": "http://www.jconline.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "ksut.org", "_children": 
+		[{"parent": "ksut.org", "name": "http://ksut.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "ksut.org", "name": "http://ksut.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "delawareonline.com", "_children": 
+		[{"parent": "delawareonline.com", "name": "http://www.delawareonline.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "swissinfo.ch", "_children": 
+		[{"parent": "swissinfo.ch", "name": "http://www.swissinfo.ch/fre/toute-l-actu-en-bref/deux-enqu%C3%AAteurs-accus%C3%A9s-d-avoir-vol%C3%A9-plus-d-un-million-en-bitcoins/41355250"},{"parent": "swissinfo.ch", "name": "http://www.swissinfo.ch/fre/toute-l-actu-en-bref/deux-enqu%C3%AAteurs-accus%C3%A9s-d-avoir-vol%C3%A9-plus-d-un-million-en-bitcoins/41355250"}]},
+		{"parent": "Cluster 2", "name": "bit-post.com", "_children": 
+		[{"parent": "bit-post.com", "name": "http://bit-post.com/market/takeaway-com-order-food-online-and-pay-in-bitcoin-4769"},{"parent": "bit-post.com", "name": "http://bit-post.com/players/bitcoin-lost-its-heart-in-the-netherlands-digest-5329"}]},
+		{"parent": "Cluster 2", "name": "wgbhnews.org", "_children": 
+		[{"parent": "wgbhnews.org", "name": "http://wgbhnews.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "wgbhnews.org", "name": "http://wgbhnews.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "wltx.com", "_children": 
+		[{"parent": "wltx.com", "name": "http://www.wltx.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "businessinsider.com.au", "_children": 
+		[{"parent": "businessinsider.com.au", "name": "http://www.businessinsider.com.au/greek-finance-minister-yanis-varoufakis-bitcoin-documentary-2015-4"},{"parent": "businessinsider.com.au", "name": "http://www.businessinsider.com.au/greek-finance-minister-yanis-varoufakis-bitcoin-documentary-2015-4/"}]},
+		{"parent": "Cluster 2", "name": "nasdaq.com", "_children": 
+		[{"parent": "nasdaq.com", "name": "http://www.nasdaq.com/article/uk-governments-bitcoin-report-the-good-and-the-bad-cm458078"},{"parent": "nasdaq.com", "name": "http://www.nasdaq.com/article/two-silk-road-agents-charged-with-stealing-bitcoin-during-investigation-cm460544"},{"parent": "nasdaq.com", "name": "http://www.nasdaq.com/article/could-bitcoin-destroy-the-global-banking-system-cm460672"}]},
+		{"parent": "Cluster 2", "name": "direktbroker.de", "_children": 
+		[{"parent": "direktbroker.de", "name": "http://www.direktbroker.de/news/international-vol-d-un-million-en-bitcoins-par-des-policiers-42800711"},{"parent": "direktbroker.de", "name": "http://www.direktbroker.de/news/international-vol-d-un-million-en-bitcoins-par-des-policiers-42800711"}]},
+		{"parent": "Cluster 2", "name": "crowdfundinsider.com", "_children": 
+		[{"parent": "crowdfundinsider.com", "name": "http://www.crowdfundinsider.com/2015/04/66336-comedian-political-activist-russell-brand-announces-his-support-for-cryptocurrency-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "bulletinstandard.com", "_children": 
+		[{"parent": "bulletinstandard.com", "name": "http://www.bulletinstandard.com/politics/ore-man-seeks-arrest-for-donating-bitcoin-to-edward-snowden-h5188.html"}]},
+		{"parent": "Cluster 2", "name": "ibtimes.com", "_children": 
+		[{"parent": "ibtimes.com", "name": "http://au.ibtimes.com/us-federal-special-agents-charged-money-laundering-bitcoins-connection-silk-road-probe-1436675"},{"parent": "ibtimes.com", "name": "http://www.ibtimes.com/rand-paul-donations-exceed-24-second-campaign-fundraising-effort-includes-bitcoin-1873291"},{"parent": "ibtimes.com", "name": "http://www.ibtimes.com/rand-paul-donations-exceed-24-minute-campaign-fundraising-effort-includes-bitcoin-1873291"},{"parent": "ibtimes.com", "name": "http://au.ibtimes.com/us-federal-special-agents-charged-money-laundering-bitcoins-connection-silk-road-probe-1436675"},{"parent": "ibtimes.com", "name": "http://www.ibtimes.com/rand-pauls-campaign-website-accepts-bitcoin-donations-1873003"},{"parent": "ibtimes.com", "name": "http://au.ibtimes.com/bitcoin-not-threatening-has-limited-use-australia-1437459"},{"parent": "ibtimes.com", "name": "http://www.ibtimes.com/latest-utorrent-update-wont-hijack-your-computer-mine-bitcoin-1881610"}]},
+		{"parent": "Cluster 2", "name": "invertia.com", "_children": 
+		[{"parent": "invertia.com", "name": "http://www.invertia.com/noticias/claves-entender-exito-bitcoin-3023570.htm"}]},
+		{"parent": "Cluster 2", "name": "4-traders.com", "_children": 
+		[{"parent": "4-traders.com", "name": "http://www.4-traders.com/RAKUTEN-INC-6814873/news/Rakuten--Japanese-ISP-Rakuten-adds-bitcoin-acceptance-20106177/"},{"parent": "4-traders.com", "name": "http://www.4-traders.com/RAKUTEN-INC-6814873/news/Rakuten--Japanese-ISP-Rakuten-adds-bitcoin-acceptance-20137741/"},{"parent": "4-traders.com", "name": "http://www.4-traders.com/RAKUTEN-INC-6814873/news/Rakuten--Japanese-ISP-Rakuten-adds-bitcoin-acceptance-20148650/"},{"parent": "4-traders.com", "name": "http://www.4-traders.com/news/Ciphrex--Co-CEO-Blockchain-Technology-Expert-to-Lead-Workshop-on-Cryptocurrency-Security-at-Inside--20163983/"},{"parent": "4-traders.com", "name": "http://www.4-traders.com/BANK-OF-NEW-YORK-MELLON-C-11848/news/Should-You-Invest-in-Bitcoin-20172695/"},{"parent": "4-traders.com", "name": "http://www.4-traders.com/RAKUTEN-INC-6814873/news/Rakuten--Japanese-ISP-Rakuten-adds-bitcoin-acceptance-20170014/"},{"parent": "4-traders.com", "name": "http://www.4-traders.com/news/London-stakes-its-claim-as-global-bitcoin-hub--20196058/"}]},
+		{"parent": "Cluster 2", "name": "tweaktown.com", "_children": 
+		[{"parent": "tweaktown.com", "name": "http://www.tweaktown.com/news/44320/two-federal-officers-charged-bitcoin-during-investigation/"}]},
+		{"parent": "Cluster 2", "name": "themarketbusiness.com", "_children": 
+		[{"parent": "themarketbusiness.com", "name": "http://www.themarketbusiness.com/2015-04-17-hostage-drama-ends-with-cops-paying-bitcoin-ransoms"}]},
+		{"parent": "Cluster 2", "name": "coinbuzz.com", "_children": 
+		[{"parent": "coinbuzz.com", "name": "http://www.coinbuzz.com/2015/03/20/ukraine-may-block-separatist-bitcoin-accounts/"},{"parent": "coinbuzz.com", "name": "http://www.coinbuzz.com/2015/03/23/uk-bitcoin-startups-positive-about-aml/"},{"parent": "coinbuzz.com", "name": "http://www.coinbuzz.com/2015/03/26/russian-startups-brace-for-bitcoin-ban/"},{"parent": "coinbuzz.com", "name": "http://www.coinbuzz.com/2015/04/02/why-is-the-bitcointalk-forum-down-again/"},{"parent": "coinbuzz.com", "name": "http://www.coinbuzz.com/2015/04/02/spain-makes-first-bitcoin-related-arrest/"},{"parent": "coinbuzz.com", "name": "http://www.coinbuzz.com/2015/04/03/coinbase-requests-sensitive-details-from-us-bitcoin-mining-firms/"},{"parent": "coinbuzz.com", "name": "http://www.coinbuzz.com/2015/04/03/union-bank-of-switzerland-to-open-blockchain-lab/"},{"parent": "coinbuzz.com", "name": "http://www.coinbuzz.com/2015/04/08/reserve-bank-of-australia-says-no-to-bitcoin-regulation/"},{"parent": "coinbuzz.com", "name": "http://www.coinbuzz.com/2015/04/12/bitrated-protecting-bitcoin-consumers-and-merchants/"},{"parent": "coinbuzz.com", "name": "http://www.coinbuzz.com/2015/04/15/kaspersky-lab-releases-tool-remove-bitcoin-ransomware/"},{"parent": "coinbuzz.com", "name": "http://www.coinbuzz.com/2015/04/15/family-puts-bitcoin-test-touring-us-bitcoin-spend/"},{"parent": "coinbuzz.com", "name": "http://www.coinbuzz.com/2015/04/19/rand-paul-attends-bitcoin-event-new-york/"}]},
+		{"parent": "Cluster 2", "name": "publicradioeast.org", "_children": 
+		[{"parent": "publicradioeast.org", "name": "http://publicradioeast.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "publicradioeast.org", "name": "http://publicradioeast.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "afkinsider.com", "_children": 
+		[{"parent": "afkinsider.com", "name": "http://afkinsider.com/92795/why-bitcoin-is-still-not-ready-for-the-unbanked-in-africa/"}]},
+		{"parent": "Cluster 2", "name": "bayoubuzz.com", "_children": 
+		[{"parent": "bayoubuzz.com", "name": "http://www.bayoubuzz.com/louisiana-news/new-orleans-news/item/849879-former-us-agents-charged-for-bitcoin-theft-during-black-market-probe"},{"parent": "bayoubuzz.com", "name": "http://www.bayoubuzz.com/louisiana-news/new-orleans-news/item/849931-former-us-agents-charged-for-bitcoin-theft-during-silk-road-probe"}]},
+		{"parent": "Cluster 2", "name": "asiaone.com", "_children": 
+		[{"parent": "asiaone.com", "name": "http://business.asiaone.com/news/bitcoin-woes-bite-home-miners"}]},
+		{"parent": "Cluster 2", "name": "nassaunewslive.com", "_children": 
+		[{"parent": "nassaunewslive.com", "name": "http://www.nassaunewslive.com/ex-feds-accused-of-pocketing-bitcoins-during-investigation/608146"},{"parent": "nassaunewslive.com", "name": "http://www.nassaunewslive.com/ex-feds-accused-of-pocketing-bitcoins-during-investigation/608146"}]},
+		{"parent": "Cluster 2", "name": "coffscoastadvocate.com.au", "_children": 
+		[{"parent": "coffscoastadvocate.com.au", "name": "http://www.coffscoastadvocate.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "lbc.co.uk", "_children": 
+		[{"parent": "lbc.co.uk", "name": "http://www.lbc.co.uk/us-federal-agents-charged-over-bitcoin-fraud-107326"},{"parent": "lbc.co.uk", "name": "http://www.lbc.co.uk/federal-agents-charged-over-bitcoin-fraud-107326"}]},
+		{"parent": "Cluster 2", "name": "technical.ly", "_children": 
+		[{"parent": "technical.ly", "name": "http://technical.ly/baltimore/2015/03/31/2-federal-agents-allegedly-stole-bitcoin-investigating-silk-road/"},{"parent": "technical.ly", "name": "https://technical.ly/baltimore/2015/03/31/2-federal-agents-allegedly-stole-bitcoin-investigating-silk-road/"}]},
+		{"parent": "Cluster 2", "name": "cnn.com", "_children": 
+		[{"parent": "cnn.com", "name": "http://cnnespanol.cnn.com/2015/03/30/el-fbi-acusa-a-agentes-federales-de-robar-bitcoins-durante-investigacion-de-silk-road/"},{"parent": "cnn.com", "name": "http://cnnespanol.cnn.com/2015/03/30/el-fbi-acusa-a-agentes-federales-de-robar-bitcoins-durante-investigacion-de-silk-road/"},{"parent": "cnn.com", "name": "http://edition.cnn.com/2015/03/30/politics/federal-agents-charged-with-stealing-bitcoin/"},{"parent": "cnn.com", "name": "http://www.cnn.com/2015/03/30/politics/federal-agents-charged-with-stealing-bitcoin/"},{"parent": "cnn.com", "name": "http://www.edition.cnn.com/2015/03/30/politics/federal-agents-charged-with-stealing-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "theiet.org", "_children": 
+		[{"parent": "theiet.org", "name": "http://eandt.theiet.org/news/2015/apr/bitcoin-paedophiles.cfm"}]},
+		{"parent": "Cluster 2", "name": "nytimes.com", "_children": 
+		[{"parent": "nytimes.com", "name": "http://www.nytimes.com/2015/04/10/us/politics/in-accepting-bitcoin-rand-paul-raises-money-and-questions.html"}]},
+		{"parent": "Cluster 2", "name": "prlog.org", "_children": 
+		[{"parent": "prlog.org", "name": "http://www.prlog.org/12445591-bitcoin-conferenceprague-14-of-may-2015.html"}]},
+		{"parent": "Cluster 2", "name": "krcrtv.com", "_children": 
+		[{"parent": "krcrtv.com", "name": "http://www.krcrtv.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "ktvz.com", "_children": 
+		[{"parent": "ktvz.com", "name": "http://www.ktvz.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "vlt.se", "_children": 
+		[{"parent": "vlt.se", "name": "http://vlt.se/nyheter/omvarlden/1.2909074-agenter-stal-miljoner-i-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "bostonglobe.com", "_children": 
+		[{"parent": "bostonglobe.com", "name": "https://www.bostonglobe.com/business/2015/04/06/tewksbury-police-pay-bitcoin-ransom-hackers/PkcE1GBTOfU52p31F9FM5L/story.html"}]},
+		{"parent": "Cluster 2", "name": "geekwire.com", "_children": 
+		[{"parent": "geekwire.com", "name": "http://www.geekwire.com/2015/tech-moves-ex-nike-cio-joins-bitcoin-startup-qumulo-zumobi-liquidplanner-add-new-sales-leaders-and-more/"}]},
+		{"parent": "Cluster 2", "name": "divyabhaskar.co.in", "_children": 
+		[{"parent": "divyabhaskar.co.in", "name": "http://business.divyabhaskar.co.in/news/BIZ-GUJB-soon-you-can-sip-coffee-or-buy-property-with-bitcoins-4938152-NOR.html"},{"parent": "divyabhaskar.co.in", "name": "http://business.divyabhaskar.co.in/news/BIZ-GUJB-soon-you-can-sip-coffee-or-buy-property-with-bitcoins-4938152-NOR.html"}]},
+		{"parent": "Cluster 2", "name": "denik.cz", "_children": 
+		[{"parent": "denik.cz", "name": "http://www.denik.cz/ze_sveta/byvali-americti-agenti-udajne-ukradli-milion-dolaru-v-bitcoinech-20150331.html"}]},
+		{"parent": "Cluster 2", "name": "techeye.net", "_children": 
+		[{"parent": "techeye.net", "name": "http://www.techeye.net/business/california-allows-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "news8000.com", "_children": 
+		[{"parent": "news8000.com", "name": "http://www.news8000.com/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "nsd.se", "_children": 
+		[{"parent": "nsd.se", "name": "http://nsd.se/nyheter/agenter-stal-miljoner-i-bitcoin-9183985.aspx"},{"parent": "nsd.se", "name": "http://www.nsd.se/nyheter/agenter-stal-miljoner-i-bitcoin-9183985.aspx"}]},
+		{"parent": "Cluster 2", "name": "theleafchronicle.com", "_children": 
+		[{"parent": "theleafchronicle.com", "name": "http://www.theleafchronicle.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "gantdaily.com", "_children": 
+		[{"parent": "gantdaily.com", "name": "http://gantdaily.com/2015/03/30/2-former-federal-agents-charged-with-stealing-bitcoin-during-silk-road-probe/"},{"parent": "gantdaily.com", "name": "http://gantdaily.com/2015/03/30/2-federal-agents-charged-with-stealing-bitcoin-during-silk-road-probe/"}]},
+		{"parent": "Cluster 2", "name": "eleconomista.com.mx", "_children": 
+		[{"parent": "eleconomista.com.mx", "name": "http://eleconomista.com.mx/./tecnociencia/2015/03/27/mexico-debe-ser-ejemplo-regulacion-bitcoin"},{"parent": "eleconomista.com.mx", "name": "http://eleconomista.com.mx/tecnociencia/2015/03/27/mexico-debe-ser-ejemplo-regulacion-bitcoin"},{"parent": "eleconomista.com.mx", "name": "http://eleconomista.com.mx/tecnociencia/2015/04/06/mexbt-quiere-llevar-bitcoins-mundo-reglas-innovacion"},{"parent": "eleconomista.com.mx", "name": "http://eleconomista.com.mx/./tecnociencia/2015/04/06/mexbt-quiere-llevar-bitcoins-mundo-reglas-innovacion"},{"parent": "eleconomista.com.mx", "name": "http://eleconomista.com.mx/./tecnociencia/2015/04/06/mexbt-quiere-llevar-bitcoins-mundo-reglas-innovacion"},{"parent": "eleconomista.com.mx", "name": "http://eleconomista.com.mx/tecnociencia/2015/04/06/mexbt-quiere-llevar-bitcoins-mundo-reglas-innovacion"},{"parent": "eleconomista.com.mx", "name": "http://eleconomista.com.mx/fondos/2015/04/08/bitcoin-podria-repuntar-gracias-inversionistas-eu"}]},
+		{"parent": "Cluster 2", "name": "columbiamissourian.com", "_children": 
+		[{"parent": "columbiamissourian.com", "name": "http://www.columbiamissourian.com/a/187665/bitcoin-baron-suspect-in-attack-on-city-of-columbia-website-arrested/"}]},
+		{"parent": "Cluster 2", "name": "wkzo.com", "_children": 
+		[{"parent": "wkzo.com", "name": "http://wkzo.com/news/articles/2015/mar/30/former-us-agents-charged-for-bitcoin-theft-during-black-market-probe/"}]},
+		{"parent": "Cluster 2", "name": "punto-informatico.it", "_children": 
+		[{"parent": "punto-informatico.it", "name": "http://punto-informatico.it/4237641/PI/News/silk-road-federali-usa-rubavano-bitcoin.aspx"},{"parent": "punto-informatico.it", "name": "http://punto-informatico.it/4239122/PI/News/bitcoin-foundation-quasi-bancarotta.aspx"}]},
+		{"parent": "Cluster 2", "name": "lalibre.be", "_children": 
+		[{"parent": "lalibre.be", "name": "http://www.lalibre.be/actu/cyber/usa-deux-enqueteurs-accuses-d-avoir-vole-plus-d-un-million-de-dollars-en-bitcoins-55199d0835707e3e943621d1"},{"parent": "lalibre.be", "name": "http://www.lalibre.be/actu/cyber/usa-deux-enqueteurs-accuses-d-avoir-vole-plus-d-un-million-de-dollars-en-bitcoins-55199d0835707e3e943621d1"}]},
+		{"parent": "Cluster 2", "name": "mprnews.org", "_children": 
+		[{"parent": "mprnews.org", "name": "http://www.mprnews.org/story/2015/03/30/npr-bitcoin-taking"}]},
+		{"parent": "Cluster 2", "name": "gazetteinquirer.com", "_children": 
+		[{"parent": "gazetteinquirer.com", "name": "http://www.gazetteinquirer.com/houston-bitcoin-embassy-provides-new-resources-and-ideas-for-cryptocurrency/2050/"}]},
+		{"parent": "Cluster 2", "name": "theguardian.com", "_children": 
+		[{"parent": "theguardian.com", "name": "http://www.theguardian.com/small-business-network/2015/mar/26/osborne-gives-bitcoin-vote-confidence"},{"parent": "theguardian.com", "name": "http://www.theguardian.com/technology/2015/apr/14/paedophiles-sell-child-abuse-images-for-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "abqjournal.com", "_children": 
+		[{"parent": "abqjournal.com", "name": "http://www.abqjournal.com/562769/news-more/agents-silk-road-site-accused-of-stealing-bitcoins.html"},{"parent": "abqjournal.com", "name": "http://www.abqjournal.com/562769/news-more/agents-silk-road-site-accused-of-stealing-bitcoins.html"}]},
+		{"parent": "Cluster 2", "name": "wyomingpublicmedia.org", "_children": 
+		[{"parent": "wyomingpublicmedia.org", "name": "http://wyomingpublicmedia.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "wyomingpublicmedia.org", "name": "http://wyomingpublicmedia.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "kxly.com", "_children": 
+		[{"parent": "kxly.com", "name": "http://www.kxly.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "wkyc.com", "_children": 
+		[{"parent": "wkyc.com", "name": "http://www.wkyc.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "slashdot.org", "_children": 
+		[{"parent": "slashdot.org", "name": "http://yro.slashdot.org/story/15/04/05/0458256/after-anti-donation-executive-order-bitcoin-donations-for-snowden-jump"}]},
+		{"parent": "Cluster 2", "name": "nationofchange.org", "_children": 
+		[{"parent": "nationofchange.org", "name": "http://www.nationofchange.org/2015/04/01/federal-agents-arrested-for-bitcoin-money-laundering-and-fraud/"}]},
+		{"parent": "Cluster 2", "name": "nextgov.com", "_children": 
+		[{"parent": "nextgov.com", "name": "http://www.nextgov.com/cybersecurity/2015/03/federal-agents-charged-stealing-bitcoin/108757/"}]},
+		{"parent": "Cluster 2", "name": "northjersey.com", "_children": 
+		[{"parent": "northjersey.com", "name": "http://www.northjersey.com/news/school-computers-held-hostage-for-bitcoins-disrupting-tests-1.1295214"},{"parent": "northjersey.com", "name": "http://www.northjersey.com/news/school-computers-held-hostage-for-bitcoins-disrupting-tests-1.1295214"}]},
+		{"parent": "Cluster 2", "name": "yahoo.com", "_children": 
+		[{"parent": "yahoo.com", "name": "http://finance.yahoo.com/news/bitcoin-shop-inc-deploys-transaction-120000074.html"},{"parent": "yahoo.com", "name": "http://finance.yahoo.com/news/rivetz-factom-announce-collaboration-115400223.html"},{"parent": "yahoo.com", "name": "https://au.news.yahoo.com/technology/a/26870682/former-u-s-agents-charged-for-bitcoin-theft-during-silk-road-probe/"},{"parent": "yahoo.com", "name": "http://news.yahoo.com/former-u-agents-charged-bitcoin-theft-during-black-165117453.html"},{"parent": "yahoo.com", "name": "http://finance.yahoo.com/news/redchip-issues-research-profile-bitcoin-113000702.html"},{"parent": "yahoo.com", "name": "https://ca.finance.yahoo.com/news/redchip-issues-research-profile-bitcoin-113000702.html"},{"parent": "yahoo.com", "name": "http://news.yahoo.com/federal-agents-stole-bitcoin-silk-road-probe-us-182049925.html"},{"parent": "yahoo.com", "name": "https://uk.news.yahoo.com/former-u-agents-charged-bitcoin-theft-during-black-165117453.html"},{"parent": "yahoo.com", "name": "http://finance.yahoo.com/news/bitcoin-secret-agents-were-pirates-224007508.html"},{"parent": "yahoo.com", "name": "https://au.news.yahoo.com/thewest/national/a/27004292/bitcoins-not-a-threat-to-australia-rba/"},{"parent": "yahoo.com", "name": "https://au.news.yahoo.com/thewest/national/a/27004292/bitcoins-not-a-threat-to-australia-rba/"},{"parent": "yahoo.com", "name": "https://en-maktoob.news.yahoo.com/rand-pauls-campaign-website-accepts-bitcoin-donations-190714502.html"},{"parent": "yahoo.com", "name": "http://news.yahoo.com/rand-pauls-campaign-website-accepts-bitcoin-donations-190714502.html"},{"parent": "yahoo.com", "name": "http://finance.yahoo.com/news/cryptocurrency-platform-nxt-moving-forward-032500979.html"},{"parent": "yahoo.com", "name": "https://ca.finance.yahoo.com/news/london-stakes-claim-global-bitcoin-hub-171754963--sector.html"},{"parent": "yahoo.com", "name": "https://au.news.yahoo.com/thewest/business/technology/a/27148883/insight-london-stakes-its-claim-as-global-bitcoin-hub/"},{"parent": "yahoo.com", "name": "https://au.news.yahoo.com/thewest/business/technology/a/27149043/london-stakes-its-claim-as-global-bitcoin-hub/"},{"parent": "yahoo.com", "name": "http://news.yahoo.com/london-stakes-claim-global-bitcoin-hub-171754963--sector.html"}]},
+		{"parent": "Cluster 2", "name": "newsworks.org", "_children": 
+		[{"parent": "newsworks.org", "name": "http://www.newsworks.org/index.php/local/item/79971-school-computers-held-hostage-for-bitcoins-disrupting-tests-in-nj"},{"parent": "newsworks.org", "name": "http://www.newsworks.org/index.php/local/item/79971-school-computers-held-hostage-for-bitcoins-disrupting-tests-in-nj"}]},
+		{"parent": "Cluster 2", "name": "itworld.com", "_children": 
+		[{"parent": "itworld.com", "name": "http://www.itworld.com/article/2909715/new-bitcoin-foundation-chief-eyes-crowdfunding.html"}]},
+		{"parent": "Cluster 2", "name": "neoblack.com", "_children": 
+		[{"parent": "neoblack.com", "name": "http://news.neoblack.com/two-maryland-federal-agents-charged-with-stealing-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "upr.org", "_children": 
+		[{"parent": "upr.org", "name": "http://upr.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "upr.org", "name": "http://upr.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "ilsole24ore.com", "_children": 
+		[{"parent": "ilsole24ore.com", "name": "http://www.ilsole24ore.com/art/finanza-e-mercati/2015-04-01/varoufakis-minaccia-usare-bitcoin-se-non-c-e-accordo-l-eurogruppo-154121.shtml"}]},
+		{"parent": "Cluster 2", "name": "wtae.com", "_children": 
+		[{"parent": "wtae.com", "name": "http://www.wtae.com/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "theweek.com", "_children": 
+		[{"parent": "theweek.com", "name": "http://theweek.com/speedreads/548395/rand-pauls-presidential-campaign-accept-bitcoin-donations"}]},
+		{"parent": "Cluster 2", "name": "defenseone.com", "_children": 
+		[{"parent": "defenseone.com", "name": "http://www.defenseone.com/technology/2015/03/federal-agents-charged-using-bitcoin-launder-money/108784/"}]},
+		{"parent": "Cluster 2", "name": "jdsupra.com", "_children": 
+		[{"parent": "jdsupra.com", "name": "http://www.jdsupra.com/legalnews/bitcoin-penetrates-the-presidential-camp-53664/"}]},
+		{"parent": "Cluster 2", "name": "financialpost.com", "_children": 
+		[{"parent": "financialpost.com", "name": "http://business.financialpost.com/fp-tech-desk/two-u-s-agents-on-silk-road-case-accused-of-stealing-bitcoins/"},{"parent": "financialpost.com", "name": "http://business.financialpost.com/fp-tech-desk/two-u-s-agents-on-silk-road-case-accused-of-stealing-bitcoins/"}]},
+		{"parent": "Cluster 2", "name": "sheboyganpress.com", "_children": 
+		[{"parent": "sheboyganpress.com", "name": "http://www.sheboyganpress.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "krem.com", "_children": 
+		[{"parent": "krem.com", "name": "http://www.krem.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "paymentweek.com", "_children": 
+		[{"parent": "paymentweek.com", "name": "http://paymentweek.com/2015-3-20-uk-treasury-plans-to-increase-bitcoin-regulation-through-anti-money-laundering-regulations-6871/"},{"parent": "paymentweek.com", "name": "https://paymentweek.com/2015-3-20-uk-treasury-plans-to-increase-bitcoin-regulation-through-anti-money-laundering-regulations-6871/"},{"parent": "paymentweek.com", "name": "http://paymentweek.com/2015-4-9-coinsetter-acquires-canadian-bitcoin-exchange-cavirtex-6991/"}]},
+		{"parent": "Cluster 2", "name": "maxkeiser.com", "_children": 
+		[{"parent": "maxkeiser.com", "name": "http://www.maxkeiser.com/2015/04/viva-bitcoin-bitcoins-popularity-surging-in-mexico/"},{"parent": "maxkeiser.com", "name": "http://www.maxkeiser.com/2015/04/viva-bitcoin-bitcoins-popularity-surging-in-mexico/"}]},
+		{"parent": "Cluster 2", "name": "scmp.com", "_children": 
+		[{"parent": "scmp.com", "name": "http://www.scmp.com/news/world/article/1752685/us-justice-department-charges-two-former-officials-stealing-bitcoins"},{"parent": "scmp.com", "name": "http://www.scmp.com/news/world/article/1752685/us-justice-department-charges-two-former-officials-stealing-bitcoins"}]},
+		{"parent": "Cluster 2", "name": "ukprogressive.co.uk", "_children": 
+		[{"parent": "ukprogressive.co.uk", "name": "http://ukprogressive.co.uk/bitcoin-foundation-is-effectively-bankrupt-board-member-says/article38182.html"}]},
+		{"parent": "Cluster 2", "name": "gazzetta.gr", "_children": 
+		[{"parent": "gazzetta.gr", "name": "http://www.gazzetta.gr/plus/article/727553/bitcoin-i-plaka-toy-varoyfaki-kai-i-hrimatodotisi-ton-peiraton-elladas"}]},
+		{"parent": "Cluster 2", "name": "rt.com", "_children": 
+		[{"parent": "rt.com", "name": "http://actualidad.rt.com/actualidad/170779-agentes-eeuu-robo-bitcoin"},{"parent": "rt.com", "name": "http://rt.com/uk/247529-bitcoin-exchange-opening-britain/"}]},
+		{"parent": "Cluster 2", "name": "gizmodo.in", "_children": 
+		[{"parent": "gizmodo.in", "name": "http://www.gizmodo.in/news/Whats-the-Blockchain-and-Why-Does-Bitcoin-Depend-On-It/articleshow/46938848.cms"},{"parent": "gizmodo.in", "name": "http://www.gizmodo.in/news/Whats-the-Blockchain-and-Why-Does-Bitcoin-Depend-On-It/articleshow/46938848.cms"}]},
+		{"parent": "Cluster 2", "name": "fdlreporter.com", "_children": 
+		[{"parent": "fdlreporter.com", "name": "http://www.fdlreporter.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "altcointoday.com", "_children": 
+		[{"parent": "altcointoday.com", "name": "http://www.altcointoday.com/clients-prompt-green-energy-supplier-to-accept-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "telegraph.co.uk", "_children": 
+		[{"parent": "telegraph.co.uk", "name": "http://www.telegraph.co.uk/finance/currency/11505504/Undercover-agents-stole-Bitcoin-while-investigating-Silk-Road.html"}]},
+		{"parent": "Cluster 2", "name": "news-mail.com.au", "_children": 
+		[{"parent": "news-mail.com.au", "name": "http://www.news-mail.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "marketwatch.com", "_children": 
+		[{"parent": "marketwatch.com", "name": "http://www.marketwatch.com/story/leading-cryptocurrency-broker-my-wallet-ltd-energizes-the-bitcoin-marketplace-with-limited-time-offer-to-buy-bitcoin-above-market-rates-2015-03-24"},{"parent": "marketwatch.com", "name": "http://www.marketwatch.com/story/bitcoin-shop-inc-deploys-transaction-verification-servers-in-new-facility-resulting-in-30-cost-reduction-over-previous-operations-2015-03-25"},{"parent": "marketwatch.com", "name": "http://www.marketwatch.com/story/ciphrexs-eric-lombrozo-to-address-texas-bitcoin-conference-on-5-critical-areas-of-storage-system-for-cryptocurrency-security-2015-03-27"},{"parent": "marketwatch.com", "name": "http://www.marketwatch.com/story/rivetz-and-factom-announce-collaboration-2015-03-27"},{"parent": "marketwatch.com", "name": "http://www.marketwatch.com/story/ribbitme-forms-strategic-alliance-with-card-capture-international-llc-to-integrate-blockchain-based-ribbitrewards-into-its-expansive-merchant-services-platform-2015-04-03"},{"parent": "marketwatch.com", "name": "http://www.marketwatch.com/story/mind-the-gap-global-online-bitcoin-cryptocurrency-and-payments-seminar-launches-april-10-2015-04-09"},{"parent": "marketwatch.com", "name": "http://www.marketwatch.com/story/bitcoin-and-cryptocurrency-forum-for-women-cryptomoms-celebrates-first-anniversary-continuing-to-encourage-womens-participation-in-digital-currency-2015-04-16"}]},
+		{"parent": "Cluster 2", "name": "20minutes.fr", "_children": 
+		[{"parent": "20minutes.fr", "name": "http://www.20minutes.fr/monde/1575551-20150330-etats-unis-deux-policiers-accuses-avoir-vole-plus-million-bitcoins"},{"parent": "20minutes.fr", "name": "http://www.20minutes.fr/monde/1575551-20150330-etats-unis-deux-policiers-accuses-avoir-vole-plus-million-bitcoins"}]},
+		{"parent": "Cluster 2", "name": "cbslocal.com", "_children": 
+		[{"parent": "cbslocal.com", "name": "http://newyork.cbslocal.com/2015/03/25/nj-school-districts-computers-held-hostage-for-bitcoins-disrupting-tests/"},{"parent": "cbslocal.com", "name": "http://newyork.cbslocal.com/2015/03/25/nj-school-districts-computers-held-hostage-for-bitcoins-disrupting-tests/"}]},
+		{"parent": "Cluster 2", "name": "boisestatepublicradio.org", "_children": 
+		[{"parent": "boisestatepublicradio.org", "name": "http://boisestatepublicradio.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "boisestatepublicradio.org", "name": "http://boisestatepublicradio.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "wn.com", "_children": 
+		[{"parent": "wn.com", "name": "http://article.wn.com/view/2015/03/30/ExUS_Agents_Accused_of_Pocketing_Bitcoins_During_Probe/"},{"parent": "wn.com", "name": "http://article.wn.com/view/2015/03/30/ExUS_Agents_Accused_of_Pocketing_Bitcoins_During_Probe/"}]},
+		{"parent": "Cluster 2", "name": "forexmagnates.com", "_children": 
+		[{"parent": "forexmagnates.com", "name": "http://forexmagnates.com/bitcoin-picks-russia-eying-bitcoin-ban-ransomware-terrorizes-school/"}]},
+		{"parent": "Cluster 2", "name": "afr.com", "_children": 
+		[{"parent": "afr.com", "name": "http://www.afr.com/markets/currencies/richard-branson-calls-for-tougher-bitcoin-rules-20141104-11gq81"}]},
+		{"parent": "Cluster 2", "name": "npr.org", "_children": 
+		[{"parent": "npr.org", "name": "http://www.npr.org/blogs/thetwo-way/2015/03/30/396382304/ex-feds-accused-of-pocketing-bitcoins-during-investigation"},{"parent": "npr.org", "name": "http://www.npr.org/blogs/thetwo-way/2015/03/30/396382304/ex-feds-accused-of-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "news.gnom.es", "_children": 
+		[{"parent": "news.gnom.es", "name": "http://news.gnom.es/pr/digital-currency-student-debt-solutions-offered-by-bitcoin-alternative-dnotes-with-long-term-savings-plans-for-students"},{"parent": "news.gnom.es", "name": "http://news.gnom.es/business/london-stakes-its-claim-as-global-bitcoin-hub"}]},
+		{"parent": "Cluster 2", "name": "kcci.com", "_children": 
+		[{"parent": "kcci.com", "name": "http://www.kcci.com/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "click2houston.com", "_children": 
+		[{"parent": "click2houston.com", "name": "http://www.click2houston.com/news/Politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "greekreporter.com", "_children": 
+		[{"parent": "greekreporter.com", "name": "http://greece.greekreporter.com/2015/04/01/yanis-varoufakis-greece-will-adopt-the-bitcoin-if-eurogroup-doesnt-give-us-a-deal/"}]},
+		{"parent": "Cluster 2", "name": "site", "_children": 
+		[{"parent": "site", "name": "occurrences"}]},
+		{"parent": "Cluster 2", "name": "lecho.be", "_children": 
+		[{"parent": "lecho.be", "name": "http://www.lecho.be/economie_politique/belgique_general/Le_bitcoin_star_a_Gand_prudence.9622749-4003.art"}]},
+		{"parent": "Cluster 2", "name": "ktxs.com", "_children": 
+		[{"parent": "ktxs.com", "name": "http://www.ktxs.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "ilvelino.it", "_children": 
+		[{"parent": "ilvelino.it", "name": "http://www.ilvelino.it/it/article/2015/04/01/grecia-varoufakis-shock-adotteremo-bitcoin-ma-e-un-pesce-daprile/f188167b-bb3a-4e79-93a8-74ed940c945e/"}]},
+		{"parent": "Cluster 2", "name": "theaustralian.com.au", "_children": 
+		[{"parent": "theaustralian.com.au", "name": "http://www.theaustralian.com.au/news/latest-news/bitcoins-not-a-threat-to-australia-rba/story-fn3dxiwe-1227294580064?nk=6d3096cdbd66b36c91e4171ee992d5d6"},{"parent": "theaustralian.com.au", "name": "http://www.theaustralian.com.au/news/latest-news/bitcoins-not-a-threat-to-australia-rba/story-fn3dxiwe-1227294580064?nk=6d3096cdbd66b36c91e4171ee992d5d6"},{"parent": "theaustralian.com.au", "name": "http://www.theaustralian.com.au/business/latest/bitcoin-no-threat-to-financial-system-rba/story-e6frg90f-1227294650490?nk=5b285f41ea41f4cf62446528e73740cd"},{"parent": "theaustralian.com.au", "name": "http://www.theaustralian.com.au/business/latest/bitcoin-no-threat-to-financial-system-rba/story-e6frg90f-1227294650490?nk=3ca1bb119a5320b67a7ef6487199f38e"},{"parent": "theaustralian.com.au", "name": "http://www.theaustralian.com.au/business/latest/bitcoin-no-threat-to-financial-system-rba/story-e6frg90f-1227294650490?nk=7181e78dadc3cafb423b9bf081bf9f55"}]},
+		{"parent": "Cluster 2", "name": "bloomberg.com", "_children": 
+		[{"parent": "bloomberg.com", "name": "http://www.bloomberg.com/news/articles/2015-03-30/two-u-s-agents-in-silk-road-case-accused-of-bitcoin-theft"}]},
+		{"parent": "Cluster 2", "name": "politiken.dk", "_children": 
+		[{"parent": "politiken.dk", "name": "http://politiken.dk/udland/ECE2611005/politifolk-stjal-bitcoins-i-hemmelig-efterforskning/"},{"parent": "politiken.dk", "name": "http://politiken.dk/udland/ECE2611005/politifolk-stjal-bitcoins-i-hemmelig-efterforskning/"}]},
+		{"parent": "Cluster 2", "name": "kvpr.org", "_children": 
+		[{"parent": "kvpr.org", "name": "http://kvpr.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "kvpr.org", "name": "http://kvpr.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "fyens.dk", "_children": 
+		[{"parent": "fyens.dk", "name": "http://www.fyens.dk/udland/Politifolk-stjal-bitcoins-i-hemmelig-efterforskning/artikel/2687246"},{"parent": "fyens.dk", "name": "http://www.fyens.dk/udland/Politifolk-stjal-bitcoins-i-hemmelig-efterforskning/artikel/2687246"}]},
+		{"parent": "Cluster 2", "name": "bostonherald.com", "_children": 
+		[{"parent": "bostonherald.com", "name": "http://www.bostonherald.com/news_opinion/local_coverage/2015/04/feds_put_bite_on_gun_buy_with_bitcoin"}]},
+		{"parent": "Cluster 2", "name": "libertyinvestor.com", "_children": 
+		[{"parent": "libertyinvestor.com", "name": "http://libertyinvestor.com/greek-finmin-greece-will-adopt-the-bitcoin-if-eurogroup-doesnt-give-us-a-deal/"}]},
+		{"parent": "Cluster 2", "name": "kuriren.nu", "_children": 
+		[{"parent": "kuriren.nu", "name": "http://www.kuriren.nu/nyheter/agenter-stal-miljoner-i-bitcoin-8210385.aspx"}]},
+		{"parent": "Cluster 2", "name": "dolezite.sk", "_children": 
+		[{"parent": "dolezite.sk", "name": "http://dolezite.sk/Svet-mody-objevuje-budoucnost-Prvni-bitcoiny-v-prazskych-pro-SmL.html"}]},
+		{"parent": "Cluster 2", "name": "krdo.com", "_children": 
+		[{"parent": "krdo.com", "name": "http://www.krdo.com/news/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "fayerwayer.com", "_children": 
+		[{"parent": "fayerwayer.com", "name": "https://www.fayerwayer.com/2015/03/dos-agentes-del-caso-silk-road-acusados-de-robar-bitcoins/"},{"parent": "fayerwayer.com", "name": "https://www.fayerwayer.com/2015/03/dos-agentes-del-caso-silk-road-acusados-de-robar-bitcoins/"}]},
+		{"parent": "Cluster 2", "name": "newsbtc.com", "_children": 
+		[{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/03/19/former-us-state-department-official-on-advisory-board-of-bitcoin-firm-ripple-labs/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/03/20/bitcoin-present-cebit-2015/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/03/23/price-differential-across-bitcoin-markets/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/03/25/what-bitcoin-startups-have-to-say-on-russias-proposed-btc-ban/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/03/26/no-need-for-legislation-against-bitcoin-trading-in-hong-kong/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/03/30/the-opening-of-houston-bitcoin-embassy/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/04/03/singapore-exchange-expects-japan-to-foster-bitcoin-economy/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/04/03/bitcoin-gathers-massive-support-from-investors-in-india/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/04/05/bitcoin-the-mena-region-scenario/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/04/08/coinsetter-takes-possession-of-canadian-bitcoin-exchange-cavirtex/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/04/08/bitcoin-payments-firm-coinapult-is-back-with-a-bang/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/04/08/australian-central-bank-not-regulating-bitcoin/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/04/14/bitcoin-booming-industry-africa/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/04/14/gaw-bitcoin-miners-sued-by-mississippi-power-company/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/04/16/family-goes-on-vacation-with-only-bitcoin-as-funds/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/04/17/russell-brand-supports-bitcoin-as-part-of-global-revolution/"},{"parent": "newsbtc.com", "name": "http://www.newsbtc.com/2015/04/19/liberland-chooses-bitcoin-national-currency/"}]},
+		{"parent": "Cluster 2", "name": "kcra.com", "_children": 
+		[{"parent": "kcra.com", "name": "http://www.kcra.com/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "wcvb.com", "_children": 
+		[{"parent": "wcvb.com", "name": "http://www.wcvb.com/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "wdbj7.com", "_children": 
+		[{"parent": "wdbj7.com", "name": "http://www.wdbj7.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "pcpro.co.uk", "_children": 
+		[{"parent": "pcpro.co.uk", "name": "http://www.pcpro.co.uk/computing/cebit/1000534/the-best-of-cebit-2015-from-steam-machines-to-bitcoins"},{"parent": "pcpro.co.uk", "name": "http://www.pcpro.co.uk/computing/cebit/1000534/the-best-of-cebit-2015-from-steam-machines-to-bitcoins"}]},
+		{"parent": "Cluster 2", "name": "acnnewswire.com", "_children": 
+		[{"parent": "acnnewswire.com", "name": "http://nasdaqomx.acnnewswire.com/press-release/2/36801/lazycoins---discover-the-new-way-to-trade-bitcoins-in-the-uk"},{"parent": "acnnewswire.com", "name": "http://nasdaqomx.acnnewswire.com/press-release/2/36801/lazycoins---discover-the-new-way-to-trade-bitcoins-in-the-uk"}]},
+		{"parent": "Cluster 2", "name": "recode.net", "_children": 
+		[{"parent": "recode.net", "name": "http://recode.net/2015/03/30/former-u-s-agents-charged-in-bitcoin-theft-during-black-market-probe/"},{"parent": "recode.net", "name": "https://recode.net/2015/03/30/former-u-s-agents-charged-in-bitcoin-theft-during-black-market-probe/"}]},
+		{"parent": "Cluster 2", "name": "kspr.com", "_children": 
+		[{"parent": "kspr.com", "name": "http://www.kspr.com/news/politics/urgent-2-federal-agents-charged-with-stealing-bitcoin/21051736_32088650"},{"parent": "kspr.com", "name": "http://www.kspr.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/21051736_32088790"}]},
+		{"parent": "Cluster 2", "name": "techweekeurope.co.uk", "_children": 
+		[{"parent": "techweekeurope.co.uk", "name": "http://www.techweekeurope.co.uk/e-innovation/leocoin-taking-on-bitcoin-uk-165190"},{"parent": "techweekeurope.co.uk", "name": "http://www.techweekeurope.co.uk/e-enterprise/financial-market/leocoin-bitcoin-uk-digital-cryptocurrency-165134"},{"parent": "techweekeurope.co.uk", "name": "http://www.techweekeurope.co.uk/e-marketing/silk-road-agents-stealing-bitcoin-165508"}]},
+		{"parent": "Cluster 2", "name": "tab.co.uk", "_children": 
+		[{"parent": "tab.co.uk", "name": "http://lse.tab.co.uk/2015/03/25/lse-drug-dealers-sell-weed-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "fxstreet.com", "_children": 
+		[{"parent": "fxstreet.com", "name": "http://www.fxstreet.com/analysis/bitcoin-trading-alert/2015/04/10/"},{"parent": "fxstreet.com", "name": "http://www.fxstreet.com/analysis/bitcoin-trading-alert/2015/04/14/"}]},
+		{"parent": "Cluster 2", "name": "tv2oj.dk", "_children": 
+		[{"parent": "tv2oj.dk", "name": "http://www.tv2oj.dk/artikel/250678:Udland--Politifolk-stjal-bitcoins-i-hemmelig-efterforskning"},{"parent": "tv2oj.dk", "name": "http://www.tv2oj.dk/artikel/250678:Udland--Politifolk-stjal-bitcoins-i-hemmelig-efterforskning"}]},
+		{"parent": "Cluster 2", "name": "aljazeera.com", "_children": 
+		[{"parent": "aljazeera.com", "name": "http://america.aljazeera.com/articles/2015/3/31/ex-us-agents-charged-with-bitcoin-theft-during-silk-road-probe.html"}]},
+		{"parent": "Cluster 2", "name": "washingtontimes.com", "_children": 
+		[{"parent": "washingtontimes.com", "name": "http://www.washingtontimes.com/news/2015/mar/25/school-computers-held-hostage-for-bitcoins-disrupt/"},{"parent": "washingtontimes.com", "name": "http://www.washingtontimes.com/news/2015/mar/25/school-computers-held-hostage-for-bitcoins-disrupt/"},{"parent": "washingtontimes.com", "name": "http://www.washingtontimes.com/news/2015/mar/30/federal-agents-charged-stealing-bitcoins/"},{"parent": "washingtontimes.com", "name": "http://www.washingtontimes.com/news/2015/mar/30/federal-agents-charged-stealing-bitcoins/"}]},
+		{"parent": "Cluster 2", "name": "standard.net", "_children": 
+		[{"parent": "standard.net", "name": "http://www.standard.net/Police-Fire/2015/03/31/DOJ-Two-former-federal-officials-stole-bitcoins-while-investigating-Silk-Road"},{"parent": "standard.net", "name": "http://www.standard.net/Police-Fire/2015/03/31/DOJ-Two-former-federal-officials-stole-bitcoins-while-investigating-Silk-Road.html"},{"parent": "standard.net", "name": "http://www.standard.net/Police-Fire/2015/03/31/DOJ-Two-former-federal-officials-stole-bitcoins-while-investigating-Silk-Road"},{"parent": "standard.net", "name": "http://www.standard.net/Police-Fire/2015/03/31/DOJ-Two-former-federal-officials-stole-bitcoins-while-investigating-Silk-Road.html"}]},
+		{"parent": "Cluster 2", "name": "itnews.com.au", "_children": 
+		[{"parent": "itnews.com.au", "name": "http://www.itnews.com.au/News/402235"}]},
+		{"parent": "Cluster 2", "name": "vk.se", "_children": 
+		[{"parent": "vk.se", "name": "http://www.vk.se/1416062/agenter-stal-miljoner-i-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "huffingtonpost.com", "_children": 
+		[{"parent": "huffingtonpost.com", "name": "http://www.huffingtonpost.com/2015/04/07/rand-paul-bitcoin-donations_n_7019900.html"},{"parent": "huffingtonpost.com", "name": "http://www.huffingtonpost.com/2015/04/13/charities-accepting-bitcoins_n_7054958.html"},{"parent": "huffingtonpost.com", "name": "http://www.huffingtonpost.com/2015/04/13/charities-accepting-bitcoins_n_7054958.html"}]},
+		{"parent": "Cluster 2", "name": "etvradio.org", "_children": 
+		[{"parent": "etvradio.org", "name": "http://etvradio.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "etvradio.org", "name": "http://etvradio.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "idgnow.com.br", "_children": 
+		[{"parent": "idgnow.com.br", "name": "http://idgnow.com.br/internet/2015/03/31/investigadores-do-silk-road-sao-acusados-de-roubar-bitcoins/"},{"parent": "idgnow.com.br", "name": "http://idgnow.com.br/internet/2015/03/31/investigadores-do-silk-road-sao-acusados-de-roubar-bitcoins/"}]},
+		{"parent": "Cluster 2", "name": "actuhightech.com", "_children": 
+		[{"parent": "actuhightech.com", "name": "http://www.actuhightech.com/top-news/bitcoin-une-monnaie-a-encadrer-mais-a-la-technologie-valable-4576.html"}]},
+		{"parent": "Cluster 2", "name": "examiner.com", "_children": 
+		[{"parent": "examiner.com", "name": "http://www.examiner.com/article/federal-agents-under-fire-again-this-time-for-stealing-bitcoins"},{"parent": "examiner.com", "name": "http://www.examiner.com/article/federal-agents-under-fire-again-this-time-for-stealing-bitcoins"}]},
+		{"parent": "Cluster 2", "name": "treasuryinsider.com", "_children": 
+		[{"parent": "treasuryinsider.com", "name": "http://www.treasuryinsider.com/2015/03/26/british-government-starts-taking-bitcoin-seriously/"}]},
+		{"parent": "Cluster 2", "name": "reuters.com", "_children": 
+		[{"parent": "reuters.com", "name": "http://in.reuters.com/article/2015/03/30/usa-justice-bitcoin-theft-idINL2N0WW1IP20150330"},{"parent": "reuters.com", "name": "http://www.reuters.com/article/2015/03/30/usa-justice-bitcoin-theft-idUSL2N0WW1IP20150330"},{"parent": "reuters.com", "name": "http://www.reuters.com/article/2015/03/30/usa-justice-bitcoin-theft-idUSL2N0WW1JN20150330"},{"parent": "reuters.com", "name": "http://in.reuters.com/article/2015/03/30/us-usa-justice-bitcoin-theft-idINKBN0MQ1UF20150330"},{"parent": "reuters.com", "name": "http://www.reuters.com/article/2015/03/30/us-usa-justice-bitcoin-theft-idUSKBN0MQ1UF20150330"},{"parent": "reuters.com", "name": "http://in.reuters.com/article/2015/03/31/usa-justice-bitcoin-theft-idINKBN0MQ1UM20150331"},{"parent": "reuters.com", "name": "http://www.reuters.com/article/2015/04/15/currency-bitcoin-london-idUSL5N0X63BQ20150415"},{"parent": "reuters.com", "name": "http://in.reuters.com/article/2015/04/15/currency-bitcoin-london-idINKBN0N626F20150415"},{"parent": "reuters.com", "name": "http://www.reuters.com/article/2015/04/15/us-currency-bitcoin-london-insight-idUSKBN0N622320150415"},{"parent": "reuters.com", "name": "http://uk.reuters.com/article/2015/04/15/uk-currency-bitcoin-london-insight-idUKKBN0N622720150415"},{"parent": "reuters.com", "name": "http://in.reuters.com/article/2015/04/15/currency-bitcoin-london-idINL5N0X63BQ20150415"},{"parent": "reuters.com", "name": "http://uk.reuters.com/article/2015/04/15/currency-bitcoin-london-idUKL5N0X63BQ20150415"},{"parent": "reuters.com", "name": "http://in.reuters.com/article/2015/04/15/us-currency-bitcoin-london-insight-idINKBN0N622320150415"},{"parent": "reuters.com", "name": "http://in.reuters.com/article/2015/04/16/currency-bitcoin-london-idINL5N0XC4Z620150416"},{"parent": "reuters.com", "name": "http://uk.reuters.com/article/2015/04/16/currency-bitcoin-london-idUKL5N0XC4Z620150416"},{"parent": "reuters.com", "name": "http://www.reuters.com/article/2015/04/16/currency-bitcoin-london-idUSL5N0XC4Z620150416"},{"parent": "reuters.com", "name": "http://www.reuters.com/article/2015/04/16/currency-bitcoin-london-idUSL5N0XC4Z620150416?virtualBrandChannel=11563"}]},
+		{"parent": "Cluster 2", "name": "phys.org", "_children": 
+		[{"parent": "phys.org", "name": "http://phys.org/news/2015-04-conflicting-threaten-negatively-impact-bitcoin.html"}]},
+		{"parent": "Cluster 2", "name": "laliberte.ch", "_children": 
+		[{"parent": "laliberte.ch", "name": "http://www.laliberte.ch/news-agence/detail/deux-enqueteurs-accuses-d-avoir-vole-plus-d-un-million-en-bitcoins/279499"},{"parent": "laliberte.ch", "name": "http://www.laliberte.ch/news-agence/detail/deux-enqueteurs-accuses-d-avoir-vole-plus-d-un-million-en-bitcoins/279499"}]},
+		{"parent": "Cluster 2", "name": "9news.com", "_children": 
+		[{"parent": "9news.com", "name": "http://www.9news.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "tweakers.net", "_children": 
+		[{"parent": "tweakers.net", "name": "http://tweakers.net/nieuws/102197/amerikaanse-overheid-ambtenaren-stalen-bitcoins-van-silk-road.html"},{"parent": "tweakers.net", "name": "http://tweakers.net/nieuws/102197/amerikaanse-overheid-ambtenaren-stalen-bitcoins-van-silk-road.html"},{"parent": "tweakers.net", "name": "http://tweakers.net/nieuws/102285/ubs-bank-opent-lab-voor-onderzoek-naar-blockchain-technologie.html"}]},
+		{"parent": "Cluster 2", "name": "cairnspost.com.au", "_children": 
+		[{"parent": "cairnspost.com.au", "name": "http://www.cairnspost.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnjbnvyh-1227294580064"},{"parent": "cairnspost.com.au", "name": "http://www.cairnspost.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnjbnvyh-1227294580064"}]},
+		{"parent": "Cluster 2", "name": "forexminute.com", "_children": 
+		[{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/bitcoin-gaining-popularity-says-sunny-ray-bitcoin-entrepreneur-in-india-56458"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/anycoin-direct-the-bitcoin-company-now-looking-eastwards-to-focus-eastern-europe-customers-56517"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/zebpay-launches-bitcoin-india-alliance-makes-bitcoin-easy-in-the-country-56676"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/no-need-for-bitcoin-regulation-in-hong-kong-says-the-senior-official-56673"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/bitpay-partners-with-neteller-helps-them-adopt-bitcoin-payments-56646"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/texas-bitcoin-conference-ciphrexs-eric-lombrozo-to-talk-about-bitcoin-security-56731"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/two-fed-agents-charged-for-stealing-bitcoin-from-silk-road-while-investigation-56811"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/bitcoin-is-potential-threat-for-tax-collection-says-the-australia-department-of-the-treasury-56838"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/igot-com-launches-cryptocurrency-payment-processing-services-in-40-countries-57059"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/australian-bitcoin-exchange-to-launch-payment-processing-services-57137"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/coinsetter-acquires-cavirtex-aims-to-expand-to-north-america-57142"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/mississippi-power-company-mpc-is-suing-gaw-miners-for-non-payment-of-dues-57194"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/denarium-brings-physical-bitcoin-for-bitcoin-enthusiasts-57298"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/kaspersky-lab-brings-tool-to-fight-the-coinvault-ransomware-campaign-secures-bitcoin-57357"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/bitcoin-news-mash-up-new-take-overs-bitpay-report-and-more-57387"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/bitcoin-news-mash-up-canada-atm-plan-harsh-gavin-andresen-and-more-57435"},{"parent": "forexminute.com", "name": "http://www.forexminute.com/bitcoin/coinbase-calls-north-carolina-bitcoin-regulation-sensible-and-innovative-57429"}]},
+		{"parent": "Cluster 2", "name": "breakingnewstoday.net", "_children": 
+		[{"parent": "breakingnewstoday.net", "name": "http://breakingnewstoday.net/welcome-to-the-future-us-cops-pay-bitcoin-ransom-to-end-office-hostage-drama/"}]},
+		{"parent": "Cluster 2", "name": "ticotimes.net", "_children": 
+		[{"parent": "ticotimes.net", "name": "http://www.ticotimes.net/2015/03/30/us-federal-agents-stole-hundreds-of-thousands-of-dollars-worth-of-bitcoin-during-infamous-silk-road-probe"}]},
+		{"parent": "Cluster 2", "name": "erietvnews.com", "_children": 
+		[{"parent": "erietvnews.com", "name": "http://www.erietvnews.com/story/28650576/urgent-2-federal-agents-charged-with-stealing-bitcoin"}]},
+		{"parent": "Cluster 2", "name": "wfae.org", "_children": 
+		[{"parent": "wfae.org", "name": "http://wfae.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "wfae.org", "name": "http://wfae.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "siliconangle.com", "_children": 
+		[{"parent": "siliconangle.com", "name": "http://siliconangle.com/blog/2015/04/01/bitcoin-weekly-2015-april-1-rakuten-week-long-30-discount-for-btc-purchases-overstock-com-invests-in-peernova-bitcoin-blockchain-could-house-malware-says-interpol/"},{"parent": "siliconangle.com", "name": "http://siliconangle.com/blog/2015/04/01/bitcoin-weekly-2015-april-1-rakuten-week-long-30-discount-for-btc-purchases-overstock-com-invests-in-peernova-bitcoin-blockchain-could-house-malware-says-interpol/"},{"parent": "siliconangle.com", "name": "http://siliconangle.com/blog/2015/04/02/align-commerce-launches-beta-b2b-global-payments-system-using-the-bitcoin-blockchain/"},{"parent": "siliconangle.com", "name": "http://siliconangle.com/blog/2015/04/02/align-commerce-launches-beta-b2b-global-payments-system-using-the-bitcoin-blockchain/"},{"parent": "siliconangle.com", "name": "http://siliconangle.com/blog/2015/04/05/leocoin-yet-another-bitcoin-alt-with-links-to-ponzi-schemes/"},{"parent": "siliconangle.com", "name": "http://siliconangle.com/blog/2015/04/09/ask-dr-bitcoin-how-do-you-teach-children-to-use-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "lemondeinformatique.fr", "_children": 
+		[{"parent": "lemondeinformatique.fr", "name": "http://www.lemondeinformatique.fr/actualites/lire-1-m$-le-lien-entre-silk-road-et-le-fondateur-de-bitcoin-55786.html"}]},
+		{"parent": "Cluster 2", "name": "press-citizen.com", "_children": 
+		[{"parent": "press-citizen.com", "name": "http://www.press-citizen.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "usatoday.com", "_children": 
+		[{"parent": "usatoday.com", "name": "http://www.usatoday.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"},{"parent": "usatoday.com", "name": "http://experience.usatoday.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "wkms.org", "_children": 
+		[{"parent": "wkms.org", "name": "http://wkms.org/post/rand-paul-first-presidential-candidate-accept-bitcoin-donations"}]},
+		{"parent": "Cluster 2", "name": "keyt.com", "_children": 
+		[{"parent": "keyt.com", "name": "http://www.keyt.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "canberratimes.com.au", "_children": 
+		[{"parent": "canberratimes.com.au", "name": "http://www.canberratimes.com.au/queensland/police-return-seized-bitcoin-atm-20150417-1mnnh2.html"}]},
+		{"parent": "Cluster 2", "name": "firedoglake.com", "_children": 
+		[{"parent": "firedoglake.com", "name": "http://firedoglake.com/2015/03/31/2-federal-agents-charged-with-stealing-bitcoins-during-silk-road-investigation/"},{"parent": "firedoglake.com", "name": "http://firedoglake.com/2015/03/31/2-federal-agents-charged-with-stealing-bitcoins-during-silk-road-investigation/"}]},
+		{"parent": "Cluster 2", "name": "ibtimes.co.uk", "_children": 
+		[{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/cryptocurrency-round-bitreserve-maps-bitcoin-transactions-intel-looks-into-blockchain-1492871"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/cryptocurrency-round-bitreserve-maps-bitcoin-transactions-intel-looks-into-blockchain-1492871"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/cryptocurrency-round-bitcoin-flag-everest-ukraine-separatist-crackdown-1493111"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/cryptocurrency-round-isle-man-bitcoin-regulation-school-held-hostage-darkcoin-dash-1493710"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/cryptocurrency-round-bransons-island-bitcoin-summit-1498765"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/silk-road-scandalous-allegations-dea-agents-stealing-bitcoins-leaking-info-ross-ulbricht-1494307"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/silk-road-scandalous-allegations-dea-agents-stealing-bitcoins-leaking-info-ross-ulbricht-1494307"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/jailed-bitcoin-entrepreneur-charlie-shrem-ponders-using-currency-prison-1494274"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/cryptocurrency-round-czech-police-seize-bitcoin-hack-house-rakuten-integrates-bitnet-1494617"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/leocoin-bitcoin-rival-launches-amid-claims-pump-dump-scam-1494561"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/cryptocurrency-round-leocoin-launches-amid-criticism-london-blockchain-research-1494808"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/cryptocurrency-round-bitcoin-foundation-bankrupt-rand-paul-accepts-bitcoin-donations-1495346"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/rand-paul-becomes-first-presidential-candidate-accept-bitcoin-donations-1495330"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/bitcoin-use-switches-investment-commodity-everyday-currency-new-data-reveals-1496316"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/estonias-lhv-bank-chromaway-win-innovation-award-2016-bitcoin-app-1554989"},{"parent": "ibtimes.co.uk", "name": "http://www.ibtimes.co.uk/cryptocurrency-round-bitcoin-reverses-slump-buttercoin-ceo-warns-against-venture-capital-1496804"}]},
+		{"parent": "Cluster 2", "name": "news.com.au", "_children": 
+		[{"parent": "news.com.au", "name": "http://www.news.com.au/technology/online/federal-agents-charged-with-stealing-bitcoin-during-silk-road-investigation/story-fnjwmwrh-1227287684358"},{"parent": "news.com.au", "name": "http://www.news.com.au/national/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-e6frfku9-1227294580064"},{"parent": "news.com.au", "name": "http://www.news.com.au/national/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-e6frfku9-1227294580064"}]},
+		{"parent": "Cluster 2", "name": "thenextweb.com", "_children": 
+		[{"parent": "thenextweb.com", "name": "http://thenextweb.com/insider/2015/03/29/a-brief-history-of-bitcoin-and-where-its-going-next/"},{"parent": "thenextweb.com", "name": "http://thenextweb.com/insider/2015/04/06/google-ventures-backed-bitcoin-trading-site-buttercoin-is-shutting-down-this-week/"}]},
+		{"parent": "Cluster 2", "name": "smh.com.au", "_children": 
+		[{"parent": "smh.com.au", "name": "http://www.smh.com.au//breaking-news-national/bitcoins-not-a-threat-to-australia-rba-20150407-3tmtp.html"},{"parent": "smh.com.au", "name": "http://www.smh.com.au//breaking-news-national/bitcoins-not-a-threat-to-australia-rba-20150407-3tmtp.html"},{"parent": "smh.com.au", "name": "http://www.smh.com.au/queensland/police-return-seized-bitcoin-atm-20150417-1mnnh2.html"}]},
+		{"parent": "Cluster 2", "name": "busbyway.com", "_children": 
+		[{"parent": "busbyway.com", "name": "http://www.busbyway.com/2015/04/08/cryptocurrency-platform-nxt-moving-forward-in-2015-with-nxt-foundation-conference-sponsorships-and-technical-development/"}]},
+		{"parent": "Cluster 2", "name": "thereporter.com.au", "_children": 
+		[{"parent": "thereporter.com.au", "name": "http://www.thereporter.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "virtual-strategy.com", "_children": 
+		[{"parent": "virtual-strategy.com", "name": "http://www.virtual-strategy.com/2015/03/27/ciphrex%E2%80%99s-eric-lombrozo-address-texas-bitcoin-conference-5-critical-areas-storage-system-"},{"parent": "virtual-strategy.com", "name": "http://www.virtual-strategy.com/2015/04/08/online-billing-service-hiveage-adds-bitcoin-support-coinbase"}]},
+		{"parent": "Cluster 2", "name": "ndtv.com", "_children": 
+		[{"parent": "ndtv.com", "name": "http://www.ndtv.com/world-news/former-us-agents-charged-for-bitcoin-theft-during-silk-road-probe-750958"}]},
+		{"parent": "Cluster 2", "name": "tynmagazine.com", "_children": 
+		[{"parent": "tynmagazine.com", "name": "http://www.tynmagazine.com/aumenta-el-interes-del-sector-financiero-en-bitcoins/"},{"parent": "tynmagazine.com", "name": "http://www.tynmagazine.com/aumenta-el-interes-del-sector-financiero-en-bitcoins/"}]},
+		{"parent": "Cluster 2", "name": "opb.org", "_children": 
+		[{"parent": "opb.org", "name": "http://www.opb.org/news/article/npr-ex-feds-accused-of-pocketing-bitcoins-during-investigation/"},{"parent": "opb.org", "name": "http://www.opb.org/news/article/npr-ex-feds-accused-of-pocketing-bitcoins-during-investigation/"}]},
+		{"parent": "Cluster 2", "name": "rjb.ch", "_children": 
+		[{"parent": "rjb.ch", "name": "http://www.rjb.ch/rjb/Actualite/Region/20150402-Il-developpe-un-distributeur-a-bitcoins.html"},{"parent": "rjb.ch", "name": "http://www.rjb.ch/rjb/Actualite/Region/20150402-Il-developpe-un-distributeur-a-bitcoins.html"}]},
+		{"parent": "Cluster 2", "name": "forbes.com", "_children": 
+		[{"parent": "forbes.com", "name": "http://www.forbes.com/sites/thomasbrewster/2015/03/27/bitcoin-blockchain-pollution-a-criminal-opportunity/"},{"parent": "forbes.com", "name": "http://www.forbes.com/sites/thomasbrewster/2015/03/27/bitcoin-blockchain-pollution-a-criminal-opportunity/"}]},
+		{"parent": "Cluster 2", "name": "middaydaily.com", "_children": 
+		[{"parent": "middaydaily.com", "name": "http://www.middaydaily.com/hackers-block-u-s-police-computers-want-bitcoins-as-ransom/2580/"},{"parent": "middaydaily.com", "name": "http://www.middaydaily.com/hackers-block-u-s-police-computers-want-bitcoins-as-ransom/2580/"}]},
+		{"parent": "Cluster 2", "name": "igdigital.com", "_children": 
+		[{"parent": "igdigital.com", "name": "https://igdigital.com/2015/04/ahora-si-llego-la-hora-de-apostar-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "timesunion.com", "_children": 
+		[{"parent": "timesunion.com", "name": "http://www.timesunion.com/technology/businessinsider/article/The-25-most-exciting-Bitcoin-startups-6152292.php"}]},
+		{"parent": "Cluster 2", "name": "nhpr.org", "_children": 
+		[{"parent": "nhpr.org", "name": "http://nhpr.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "nhpr.org", "name": "http://nhpr.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "jsonline.com", "_children": 
+		[{"parent": "jsonline.com", "name": "http://www.jsonline.com/news/crime/arizona-suspect-said-to-be-bitcoin-baron-who-claimed-credit-for-madison-cyberattack-b99480889z1-299674541.html"}]},
+		{"parent": "Cluster 2", "name": "gooieneemlander.nl", "_children": 
+		[{"parent": "gooieneemlander.nl", "name": "http://www.gooieneemlander.nl/algemeen/technologie/article27353472.ece/Agenten-stalen-bitcoins-bij-onderzoek"},{"parent": "gooieneemlander.nl", "name": "http://www.gooieneemlander.nl/algemeen/technologie/article27353472.ece/Agenten-stalen-bitcoins-bij-onderzoek"}]},
+		{"parent": "Cluster 2", "name": "pt.se", "_children": 
+		[{"parent": "pt.se", "name": "http://www.pt.se/nyheter/agenter-stal-miljoner-i-bitcoin-9183983.aspx"}]},
+		{"parent": "Cluster 2", "name": "technewstoday.com", "_children": 
+		[{"parent": "technewstoday.com", "name": "http://www.technewstoday.com/22913-us-police-department-forced-to-pay-bitcoins-after-hackers-enter-system/"},{"parent": "technewstoday.com", "name": "http://www.technewstoday.com/22913-us-police-department-forced-to-pay-bitcoins-after-hackers-enter-system/"}]},
+		{"parent": "Cluster 2", "name": "ctpost.com", "_children": 
+		[{"parent": "ctpost.com", "name": "http://www.ctpost.com/news/article/School-computers-held-hostage-for-bitcoins-6157622.php"},{"parent": "ctpost.com", "name": "http://www.ctpost.com/news/article/School-computers-held-hostage-for-bitcoins-6157622.php"}]},
+		{"parent": "Cluster 2", "name": "wkar.org", "_children": 
+		[{"parent": "wkar.org", "name": "http://wkar.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "wkar.org", "name": "http://wkar.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "observer.com", "_children": 
+		[{"parent": "observer.com", "name": "http://observer.com/2015/03/supposedly-corrupt-silk-road-narc-shows-us-why-feds-dont-need-to-hack-pgp-or-bitcoin/"}]},
+		{"parent": "Cluster 2", "name": "independent.co.uk", "_children": 
+		[{"parent": "independent.co.uk", "name": "http://www.independent.co.uk/news/uk/crime/more-than-31000-web-pages-found-with-child-sex-abuse-images-as-paedophiles-turn-to-image-sharing-sites-and-bitcoin-10174604.html"},{"parent": "independent.co.uk", "name": "http://www.independent.co.uk/life-style/gadgets-and-tech/news/bitcoin-could-be-the-spanish-piece-of-eight-of-21st-century-says-us-academic-10186316.html"}]},
+		{"parent": "Cluster 2", "name": "nbcmontana.com", "_children": 
+		[{"parent": "nbcmontana.com", "name": "http://www.nbcmontana.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "stargazette.com", "_children": 
+		[{"parent": "stargazette.com", "name": "http://www.stargazette.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "commodityonline.com", "_children": 
+		[{"parent": "commodityonline.com", "name": "http://www.commodityonline.com/news/bitcoin-etf-is-it-for-real-62120-3-62121.html"}]},
+		{"parent": "Cluster 2", "name": "kare11.com", "_children": 
+		[{"parent": "kare11.com", "name": "http://www.kare11.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "cqnews.com.au", "_children": 
+		[{"parent": "cqnews.com.au", "name": "http://www.cqnews.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "geektime.com", "_children": 
+		[{"parent": "geektime.com", "name": "http://www.geektime.com/2015/03/25/move-over-facebook-synereo-wants-to-decentralize-social-networks-and-the-world/"}]},
+		{"parent": "Cluster 2", "name": "straight.com", "_children": 
+		[{"parent": "straight.com", "name": "http://www.straight.com/life/416631/andreas-antonopoulos-future-bitcoin-currency-just-first-app"}]},
+		{"parent": "Cluster 2", "name": "globenewswire.com", "_children": 
+		[{"parent": "globenewswire.com", "name": "http://globenewswire.com/news-release/2015/03/20/717135/10125729/en/Freebitcoins-com-Hits-150-000-Users-in-Three-Weeks.html"},{"parent": "globenewswire.com", "name": "http://globenewswire.com/news-release/2015/03/20/717135/10125729/en/Freebitcoins-com-Hits-150-000-Users-in-Three-Weeks.html"}]},
+		{"parent": "Cluster 2", "name": "newsbreakonline.com", "_children": 
+		[{"parent": "newsbreakonline.com", "name": "http://www.newsbreakonline.com/maine-police-departments-pay-bitcoin-ransom-pioneer-news/"}]},
+		{"parent": "Cluster 2", "name": "wvtm13.com", "_children": 
+		[{"parent": "wvtm13.com", "name": "http://www.wvtm13.com/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "gympietimes.com.au", "_children": 
+		[{"parent": "gympietimes.com.au", "name": "http://www.gympietimes.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "bravenewcoin.com", "_children": 
+		[{"parent": "bravenewcoin.com", "name": "http://bravenewcoin.com/news/bitcoin-job-fair-goes-to-sunnyvale/"},{"parent": "bravenewcoin.com", "name": "http://bravenewcoin.com/news/uk-bitcoin-exchange-partners-with-estonian-bank/"},{"parent": "bravenewcoin.com", "name": "http://bravenewcoin.com/news/andreas-antonopoulos-announces-new-bitcoin-security-firm/"},{"parent": "bravenewcoin.com", "name": "http://bravenewcoin.com/news/rakuten-launches-bitcoin-payments-and-multi-sig-for-us-market/"},{"parent": "bravenewcoin.com", "name": "http://bravenewcoin.com/news/bits-replaces-bitcoin-for-coinbase-customers/"},{"parent": "bravenewcoin.com", "name": "http://bravenewcoin.com/news/ubs-to-open-blockchain-technology-lab/"},{"parent": "bravenewcoin.com", "name": "http://bravenewcoin.com/news/dbs-bank-to-host-blockchain-hackathon/"},{"parent": "bravenewcoin.com", "name": "http://bravenewcoin.com/news/overstock-continues-bitcoin-support/"},{"parent": "bravenewcoin.com", "name": "http://bravenewcoin.com/news/blockchain-university-teaches-bleeding-edge-content/"}]},
+		{"parent": "Cluster 2", "name": "gizmodo.com", "_children": 
+		[{"parent": "gizmodo.com", "name": "http://gizmodo.com/whats-the-blockchain-and-why-does-bitcoin-depend-on-it-1698025216"},{"parent": "gizmodo.com", "name": "http://gizmodo.com/whats-the-blockchain-and-why-does-bitcoin-depend-on-it-1698025216"}]},
+		{"parent": "Cluster 2", "name": "financialbuzz.com", "_children": 
+		[{"parent": "financialbuzz.com", "name": "http://www.financialbuzz.com/former-federal-agents-charged-for-bitcoin-theft-243803"}]},
+		{"parent": "Cluster 2", "name": "siol.net", "_children": 
+		[{"parent": "siol.net", "name": "http://www.siol.net/novice/tehnologija/racunalnistvo/2015/04/bitcoin_revscina.aspx"}]},
+		{"parent": "Cluster 2", "name": "cbronline.com", "_children": 
+		[{"parent": "cbronline.com", "name": "http://www.cbronline.com/news/verticals/finance/hacked-bitcoin-exchange-bought-for-2m-4549996"}]},
+		{"parent": "Cluster 2", "name": "wabe.org", "_children": 
+		[{"parent": "wabe.org", "name": "http://wabe.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "wabe.org", "name": "http://wabe.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "wabe.org", "name": "http://wabe.org/post/bitcoin-advocates-attempt-make-currency-popular-atlanta"}]},
+		{"parent": "Cluster 2", "name": "wbaltv.com", "_children": 
+		[{"parent": "wbaltv.com", "name": "http://www.wbaltv.com/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "allgov.com", "_children": 
+		[{"parent": "allgov.com", "name": "http://www.allgov.com/news/controversies/illinois-and-massachusetts-police-pay-bitcoin-ransom-to-hackers-150407?news=856172"}]},
+		{"parent": "Cluster 2", "name": "sci-tech-today.com", "_children": 
+		[{"parent": "sci-tech-today.com", "name": "http://www.sci-tech-today.com/news/New-Tool-Fights-Bitcoin-Ransomware/story.xhtml?story_id=033003OO7MBC"},{"parent": "sci-tech-today.com", "name": "http://www.sci-tech-today.com/news/New-Tool-Fights-Bitcoin-Ransomware/story.xhtml?story_id=10000B61D9SW"}]},
+		{"parent": "Cluster 2", "name": "lastampa.it", "_children": 
+		[{"parent": "lastampa.it", "name": "http://www.lastampa.it/2015/03/30/tecnologia/oraclize-la-srl-con-capitale-sociale-in-bitcoin-rvk479rlk2a0lshefHw3jI/pagina.html"}]},
+		{"parent": "Cluster 2", "name": "wtvr.com", "_children": 
+		[{"parent": "wtvr.com", "name": "http://wtvr.com/2015/03/30/two-maryland-federal-agents-charged-with-stealing-bitcoin/"},{"parent": "wtvr.com", "name": "http://wtvr.com/2015/03/30/2-federal-agents-charged-with-stealing-bitcoin-during-silk-road-probe/"}]},
+		{"parent": "Cluster 2", "name": "peoriapublicradio.org", "_children": 
+		[{"parent": "peoriapublicradio.org", "name": "http://peoriapublicradio.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "peoriapublicradio.org", "name": "http://peoriapublicradio.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "krcu.org", "_children": 
+		[{"parent": "krcu.org", "name": "http://krcu.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"},{"parent": "krcu.org", "name": "http://krcu.org/post/ex-feds-accused-pocketing-bitcoins-during-investigation"}]},
+		{"parent": "Cluster 2", "name": "uncovercalifornia.com", "_children": 
+		[{"parent": "uncovercalifornia.com", "name": "http://uncovercalifornia.com/content/23845-former-federal-agents-arrested-stealing-bitcoins-during-silk-road-probe"},{"parent": "uncovercalifornia.com", "name": "http://uncovercalifornia.com/content/23845-former-federal-agents-arrested-stealing-bitcoins-during-silk-road-probe"}]},
+		{"parent": "Cluster 2", "name": "insidebitcoins.com", "_children": 
+		[{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/dea-agent-silk-road-case-accused-sending-death-threats-extortion-attempts-dpr/31184"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/closing-high-risk-small-business-bank-accounts-sign-bigger-issue/31169"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/2-federal-agents-allegedly-stole-bitcoins-during-silk-road-investigation/31174"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/dea-agent-silk-road-case-accused-sending-death-threats-extortion-attempts-dpr/31184"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/closing-high-risk-small-business-bank-accounts-sign-bigger-issue/31169"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/2-federal-agents-allegedly-stole-bitcoins-during-silk-road-investigation/31174"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/seans-outpost-wins-satoshi-forest-case/31411"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/seans-outpost-wins-satoshi-forest-case/31411"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/coinkite-now-enables-you-send-bitcoin-via-sms-worldwide/31522"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/coinkite-now-enables-you-send-bitcoin-via-sms-worldwide/31522"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/bitspark-partners-with-bitgo-to-offer-multi-sig-security/31551"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/coinsetter-acquires-cavirtex-bitcoin-exchange-in-expansion/31560"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/coinsetter-acquires-cavirtex-bitcoin-exchange-in-expansion/31560"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/bitspark-partners-with-bitgo-to-offer-multi-sig-security/31551"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/inside-bitcoins-new-york-sarah-martin-to-speak-on-day-3/31706"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/inside-bitcoins-new-york-sarah-martin-to-speak-on-day-3/31706"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/interpol-creates-its-own-cryptocurrency-to-fight-virtual-currency-crime/31803"},{"parent": "insidebitcoins.com", "name": "http://insidebitcoins.com/news/interpol-creates-its-own-cryptocurrency-to-fight-virtual-currency-crime/31803"}]},
+		{"parent": "Cluster 2", "name": "greenfieldreporter.com", "_children": 
+		[{"parent": "greenfieldreporter.com", "name": "http://www.greenfieldreporter.com/view/story/acab12e96fd24cbf9eb76482de6276df/NJ--Testing-Bitcoin-Ransom"}]},
+		{"parent": "Cluster 2", "name": "nationaljournal.com", "_children": 
+		[{"parent": "nationaljournal.com", "name": "http://www.nationaljournal.com/tech/federal-agents-charged-with-stealing-bitcoin-20150330"}]},
+		{"parent": "Cluster 2", "name": "washingtonpost.com", "_children": 
+		[{"parent": "washingtonpost.com", "name": "http://www.washingtonpost.com/blogs/the-switch/wp/2015/03/30/doj-these-federal-officials-stole-bitcoins-from-silk-road-while-investigating-silk-road/"},{"parent": "washingtonpost.com", "name": "http://www.washingtonpost.com/blogs/the-switch/wp/2015/03/30/doj-these-federal-officials-stole-bitcoins-from-silk-road-while-investigating-silk-road/"},{"parent": "washingtonpost.com", "name": "http://www.washingtonpost.com/blogs/the-switch/wp/2015/04/07/rand-pauls-campaign-takes-bitcoins-heres-why-thats-a-genius-political-move/"},{"parent": "washingtonpost.com", "name": "http://www.washingtonpost.com/blogs/the-switch/wp/2015/04/07/rand-pauls-campaign-takes-bitcoins-heres-why-thats-a-genius-political-move/"}]},
+		{"parent": "Cluster 2", "name": "fox59.com", "_children": 
+		[{"parent": "fox59.com", "name": "http://fox59.com/2015/03/30/2-former-federal-agents-charged-with-stealing-bitcoin-during-silk-road-probe/"}]},
+		{"parent": "Cluster 2", "name": "epochtimes.de", "_children": 
+		[{"parent": "epochtimes.de", "name": "http://www.epochtimes.de/Kurz-gemeldet-am-Montag-30032015-ab-18-Uhr-Bericht-Agenten-sollen-Bitcoins-bei-Silk-Road-geklaut-haben-2340-a1229853.html"},{"parent": "epochtimes.de", "name": "http://www.epochtimes.de/Kurz-gemeldet-am-Montag-30032015-ab-18-Uhr-Bericht-Agenten-sollen-Bitcoins-bei-Silk-Road-geklaut-haben-2340-a1229853.html"}]},
+		{"parent": "Cluster 2", "name": "trentonian.com", "_children": 
+		[{"parent": "trentonian.com", "name": "http://www.trentonian.com/general-news/20150325/school-computers-held-hostage-for-bitcoins-disrupting-tests"},{"parent": "trentonian.com", "name": "http://www.trentonian.com/general-news/20150325/school-computers-held-hostage-for-bitcoins-disrupting-tests"}]},
+		{"parent": "Cluster 2", "name": "techdirt.com", "_children": 
+		[{"parent": "techdirt.com", "name": "https://www.techdirt.com/articles/20150323/06185230403/uk-positioning-itself-as-bitcoins-best-friend.shtml"},{"parent": "techdirt.com", "name": "https://www.techdirt.com/articles/20150323/06185230403/uk-positioning-itself-as-bitcoins-best-friend.shtml"},{"parent": "techdirt.com", "name": "https://www.techdirt.com/articles/20150330/13592030490/federal-agents-investigating-silk-road-accused-stealing-bitcoin-abusing-govt-power-issuing-fake-subpoenas.shtml"}]},
+		{"parent": "Cluster 2", "name": "techcrunch.com", "_children": 
+		[{"parent": "techcrunch.com", "name": "http://techcrunch.com/2015/03/26/this-week-on-the-techcrunch-bitcoin-podcast-poker-bitpay-and-growth/"},{"parent": "techcrunch.com", "name": "http://techcrunch.com/2015/04/16/people-arent-algorithms-or-an-argument-for-establishing-trust-in-the-bitcoin-ecosystem/"}]},
+		{"parent": "Cluster 2", "name": "bitcoinist.net", "_children": 
+		[{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/uk-regulate-bitcoin-exchanges/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/rakuten-brings-shopping-bitcoin-us-customers/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/t-mobile-poland-discount-bitcoin-purchases/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/neteller-now-accepts-bitcoin-deposits/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/can-live-solely-bitcoin-coinify-project-trys-find/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/bitrefill-cheapest-airtime-remittance-service/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/neteller-wants-acquire-paysafecard-issuer-skrill/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/secret-service-dea-steal-silk-road-bitcoins-extort-money-ulbricht/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/secret-service-dea-steal-silk-road-bitcoins-extort-money-ulbricht/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/ghent-becomes-belgiums-first-bitcoincity-april-18/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/everything-seems-bigger-texas-even-bitcoin-conferences/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/seans-outpost-wins-satoshi-forest-case/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/rand-paul-accepts-bitcoin-campaign-donations/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/coinsetter-acquires-cavirtex-bitcoin-exchange-expansion/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/bitcoin-future-micropayments/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/bitspark-bitgo-multi-sig/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/cape-town-host-bitcoin-africa-conference/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/inside-first-africa-bitcoin-conference-lorien-gamaroff-sneek-peek/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/inside-bitcoins-new-york-sarah-martin/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/satoshi-citadel-industries-acquires-buybitcoin-philippines/"},{"parent": "bitcoinist.net", "name": "http://bitcoinist.net/inside-bitcoins-new-york-sarah-martin/"}]},
+		{"parent": "Cluster 2", "name": "marketwired.com", "_children": 
+		[{"parent": "marketwired.com", "name": "http://www.marketwired.com/press-release/bitcoin-shop-inc-deploys-transaction-verification-servers-new-facility-resulting-30-otcqb-btcs-2003483.htm"},{"parent": "marketwired.com", "name": "http://www.marketwired.com/press-release/rivetz-and-factom-announce-collaboration-2004320.htm"}]},
+		{"parent": "Cluster 2", "name": "piercepioneer.com", "_children": 
+		[{"parent": "piercepioneer.com", "name": "http://www.piercepioneer.com/maine-police-departments-pay-bitcoin-ransom/39971"}]},
+		{"parent": "Cluster 2", "name": "perthnow.com.au", "_children": 
+		[{"parent": "perthnow.com.au", "name": "http://www.perthnow.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnhrvfuw-1227294580064?nk=2c893ea4b34bf6def7f0eec1dc841e74"},{"parent": "perthnow.com.au", "name": "http://www.perthnow.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnhrvfuw-1227294580064?nk=838f047854bc0d4852b1c2af39ff8cb8"},{"parent": "perthnow.com.au", "name": "http://www.perthnow.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnhrvfuw-1227294580064?nk=838f047854bc0d4852b1c2af39ff8cb8"},{"parent": "perthnow.com.au", "name": "http://www.perthnow.com.au/news/breaking-news/bitcoins-not-a-threat-to-australia-rba/story-fnhrvfuw-1227294580064?nk=2c893ea4b34bf6def7f0eec1dc841e74"}]},
+		{"parent": "Cluster 2", "name": "rtlnieuws.nl", "_children": 
+		[{"parent": "rtlnieuws.nl", "name": "http://www.rtlnieuws.nl/economie/home/ubs-onderzoekt-bitcointechnologie"}]},
+		{"parent": "Cluster 2", "name": "qt.com.au", "_children": 
+		[{"parent": "qt.com.au", "name": "http://www.qt.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "wtsp.com", "_children": 
+		[{"parent": "wtsp.com", "name": "http://www.wtsp.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "cfo.com", "_children": 
+		[{"parent": "cfo.com", "name": "http://ww2.cfo.com/risk-management/2015/04/banks-gouging-marijuana-bitcoin-businesses/"}]},
+		{"parent": "Cluster 2", "name": "rtbf.be", "_children": 
+		[{"parent": "rtbf.be", "name": "http://www.rtbf.be/info/economie/detail_gand-premiere-ville-belge-a-accepter-les-paiements-en-bitcoins?id=8959429"},{"parent": "rtbf.be", "name": "http://www.rtbf.be/info/economie/detail_gand-premiere-ville-belge-a-accepter-les-paiements-en-bitcoins?id=8959429"}]},
+		{"parent": "Cluster 2", "name": "moneymorning.com", "_children": 
+		[{"parent": "moneymorning.com", "name": "http://moneymorning.com/2015/04/01/the-price-of-bitcoin-is-about-to-get-a-little-government-help/"},{"parent": "moneymorning.com", "name": "http://moneymorning.com/2015/04/17/vc-investing-in-bitcoin-rises-to-the-fastest-pace-yet/"}]},
+		{"parent": "Cluster 2", "name": "businessnews.com.au", "_children": 
+		[{"parent": "businessnews.com.au", "name": "http://www.businessnews.com.au/article/Bit-by-bit-bitcoin-makes-inroads"}]},
+		{"parent": "Cluster 2", "name": "myfoxny.com", "_children": 
+		[{"parent": "myfoxny.com", "name": "http://www.myfoxny.com/story/28610635/held-hostage-for-bitcoins"},{"parent": "myfoxny.com", "name": "http://www.myfoxny.com/story/28609900/school-computers-held-hostage-for-bitcoins-disrupting-tests"},{"parent": "myfoxny.com", "name": "http://www.myfoxny.com/story/28609900/school-computers-held-hostage-for-bitcoins-disrupting-tests"},{"parent": "myfoxny.com", "name": "http://www.myfoxny.com/story/28610635/held-hostage-for-bitcoins"}]},
+		{"parent": "Cluster 2", "name": "newsmax.com", "_children": 
+		[{"parent": "newsmax.com", "name": "http://www.newsmax.com/TheWire/us-agents-charged-bitcoin/2015/03/31/id/635526/"}]},
+		{"parent": "Cluster 2", "name": "thestarpress.com", "_children": 
+		[{"parent": "thestarpress.com", "name": "http://www.thestarpress.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "valuewalk.com", "_children": 
+		[{"parent": "valuewalk.com", "name": "http://www.valuewalk.com/2015/04/police-in-maine-pay-bitcoin-ransom-to-free-office-hostage/"}]},
+		{"parent": "Cluster 2", "name": "theverge.com", "_children": 
+		[{"parent": "theverge.com", "name": "http://www.theverge.com/2015/3/31/8320033/bitcoin-force-bridges-federal-corruption-DEA-secret-service"}]},
+		{"parent": "Cluster 2", "name": "freenewspos.com", "_children": 
+		[{"parent": "freenewspos.com", "name": "http://www.freenewspos.com/it/sezioni-news-archivio/d/1694026/oggi/grecia-varoufakis-shock-adotteremo-bitcoin-ma-e-un-pesce-d-aprile-01-apr-2015-ilvelino-agv-news"}]},
+		{"parent": "Cluster 2", "name": "tvn24bis.pl", "_children": 
+		[{"parent": "tvn24bis.pl", "name": "http://tvn24bis.pl/tech-moto"}]},
+		{"parent": "Cluster 2", "name": "wsbt.com", "_children": 
+		[{"parent": "wsbt.com", "name": "http://www.wsbt.com/wsbt-extras/wsbt-radio/21375652//news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"},{"parent": "wsbt.com", "name": "http://www.wsbt.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "channel3000.com", "_children": 
+		[{"parent": "channel3000.com", "name": "http://www.channel3000.com/news/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "thechronicle.com.au", "_children": 
+		[{"parent": "thechronicle.com.au", "name": "http://www.thechronicle.com.au/news/call-to-remove-gst-from-bitcoin/2599762/"}]},
+		{"parent": "Cluster 2", "name": "news4jax.com", "_children": 
+		[{"parent": "news4jax.com", "name": "http://www.news4jax.com/politics/2-federal-agents-charged-in-stealing-bitcoin/32088790"}]},
+		{"parent": "Cluster 2", "name": "dailyrecord.com", "_children": 
+		[{"parent": "dailyrecord.com", "name": "http://www.dailyrecord.com/story/news/2015/03/30/federal-agents-charged-with-stealing-bitcoin-from-silk-road-case/70672058/"}]},
+		{"parent": "Cluster 2", "name": "bolsamania.com", "_children": 
+		[{"parent": "bolsamania.com", "name": "http://www.bolsamania.com/noticias/economia/la-inocentada-de-varoufakis-grecia-adoptara-el-bitcoin-si-el-eurogrupo-no-nos-da-un-acuerdo--676613.html"}]},
+		{"parent": "Cluster 2", "name": "techno.lapresse.ca", "_children": 
+		[{"parent": "techno.lapresse.ca", "name": "http://techno.lapresse.ca/nouvelles/internet/201503/30/01-4856805-deux-policiers-americains-accuses-davoir-vole-plus-dun-million-en-bitcoins.php"},{"parent": "techno.lapresse.ca", "name": "http://techno.lapresse.ca/nouvelles/internet/201503/30/01-4856805-deux-policiers-americains-accuses-davoir-vole-plus-dun-million-en-bitcoins.php"}]}
+]}]

@@ -27,8 +27,24 @@ div.tooltip {
 
 }
 
+    .node circle {
+      fill: #fff;
+      stroke: steelblue;
+      stroke-width: 3px;
+    }
+
+    .node text { font: 10px sans-serif; }
+
+    .link {
+      fill: none;
+      stroke: #ccc;
+      stroke-width: 1px;
+    }
+
+
 </style>
 <div class="container-fluid">
+
 <header>
 
       <div class = "nav">
@@ -52,13 +68,46 @@ div.tooltip {
 <p>Univariate time series clustering via the Ckmeans.1d.dp algorithm identified 27 optimal clusters estimated by Bayesian information criterion and weighted by number of event mentions. </p> 
 <p>The Ckmeans.1d.dp algorithm minimizes sum of squares within-cluster distances. Unlike heuristic clustering methods like Kmeans, Ckmeans.1d.dp consistently creates reproducible, optimal clusters. </p>
 <p>The time series clustering chart below shows all the number of blockchain-related event mentions per day over time. By hovering over any circle in the figure below, the specific date and number of blockchain-related mentions on that date can be viewed. </p>
+<p>Select a cluster to view events from specific websites. Clicking a website's node displays articles produced by the website during the selected cluster's time period. Collapse nodes by clicking again.</p>
+
+<select onchange="loadData()" id="metric">
+                <option selected disabled>Choose cluster</option>
+                   <option >1</option>
+                   <option >2</option>
+                   <option >3</option>
+                   <option >4</option>
+                   <option >5</option>
+                   <option >6</option>
+                   <option >7</option>
+                   <option >8</option>
+                   <option >9</option>
+                   <option >10</option>
+                   <option >11</option>
+                   <option >12</option>
+                   <option >13</option>
+                   <option >14</option>
+                   <option >15</option>
+                   <option >16</option>
+                   <option >17</option>
+                   <option >18</option>
+                   <option >19</option>
+                   <option >20</option>
+                   <option >21</option>
+                   <option >22</option>
+                   <option >23</option>
+                   <option >24</option>
+                   <option >25</option>
+                   <option >26</option>
+                   <option >27</option>
+               </select>
+
 <!-- load the d3.js library -->
 <script src="http://d3js.org/d3.v3.min.js"></script>
 
 <script>
 
 // Set the dimensions of the canvas / graph
-var margin = {top: 30, right: 20, bottom: 30, left: 50},
+var margin = {top: 30, right: 20, bottom: 50, left: 50},
     width = 1200 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
@@ -132,7 +181,7 @@ d3.csv("data/timeSeriesCluster/ALL_clusters.csv", function(error, data) {
     // Add the X Axis
     svg.append("g")
         .attr("class", "x axis")
-        .attr("transform", "translate(0," + height + ")")
+        .attr("transform", "translate(0," + 322 + ")")
         .call(xAxis);
 
     svg.append("text")
@@ -154,18 +203,180 @@ d3.csv("data/timeSeriesCluster/ALL_clusters.csv", function(error, data) {
         .style("text-anchor", "middle")
     .style("font-size", "16px")
         .text("Mentions");
-/*
-    svg.append("text")
-        .attr("x", (width / 2))
-        .attr("y", 0 - (margin.top / 2))
-        .attr("text-anchor", "middle")
-        .style("font-size", "16px")
-        .text("All blockchain-related mentions over time");
-*/
 
 });
 
+/* BEGIN TREE */
+
+var margin = {top: 20, right: 120, bottom: 20, left: 120},
+    width = 1200 - margin.right - margin.left,
+    height = 4500 - margin.top - margin.bottom;
+    
+var i = 0;
+var duration = 750;
+
+var tree = d3.layout.tree()
+    .size([height, width]);
+
+var diagonal = d3.svg.diagonal()
+    .projection(function(d) { return [d.y, d.x]; });
+
+var svg2 = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+ var loadData = function() {
+    var metric = document.getElementById('metric').selectedOptions[0].text;
+    var dataFile = 'data/timeSeriesCluster/cluster' + metric + '.json'
+
+// load the external data
+d3.json(dataFile, function(error, treeData) {
+  root = treeData[0];
+  root.x0 = height / 2;
+    root.y0 = 0;
+  update(root);
+});
+
+d3.select(self.frameElement).style("height", "500px");
+
+function update(source) {
+
+    // Compute the new tree layout.
+    var nodes = tree.nodes(root).reverse(),
+        links = tree.links(nodes);
+
+    // Normalize for fixed-depth.
+    nodes.forEach(function (d) {
+        d.y = d.depth * 250;
+    });
+
+    // Update the nodes…
+    var node = svg2.selectAll("g.node")
+        .data(nodes, function (d) {
+        return d.id || (d.id = ++i);
+    });
+
+    // Enter any new nodes at the parent's previous position.
+    var nodeEnter = node.enter().append("g")
+        .attr("class", "node")
+        .attr("transform", function (d) {
+        return "translate(" + source.y0 + "," + source.x0 + ")";
+    })
+    .on("click", click);
+
+    nodeEnter.append("circle")
+        .attr("r", 1e-6)
+        .style("fill", function (d) {
+        return d._children ? "lightsteelblue" : "#fff";
+    });
+
+    nodeEnter.append("text")
+        .attr("x", function (d) {
+        return d.children || d._children ? -13 : 13;
+    })
+        .attr("dy", ".35em")
+        .attr("text-anchor", function (d) {
+        return d.children || d._children ? "end" : "start";
+    })
+        .text(function (d) {
+        return d.name;
+    })
+        .style("fill-opacity", 1e-6);
+
+    // Transition nodes to their new position.
+    var nodeUpdate = node.transition()
+        .duration(duration)
+        .attr("transform", function (d) {
+        return "translate(" + d.y + "," + d.x + ")";
+    });
+
+    nodeUpdate.select("circle")
+        .attr("r", 4)
+        .style("fill", function (d) {
+        return d._children ? "lightsteelblue" : "#fff";
+    });
+
+    nodeUpdate.select("text")
+      .style("fill-opacity", 1);
+
+    // Transition exiting nodes to the parent's new position.
+    var nodeExit = node.exit().transition()
+        .duration(duration)
+        .attr("transform", function (d) {
+        return "translate(" + source.y + "," + source.x + ")";
+    })
+    .remove();
+
+    nodeExit.select("circle")
+        .attr("r", 1e-6);
+
+    nodeExit.select("text")
+        .style("fill-opacity", 1e-6);
+
+    // Update the links…
+    var link = svg2.selectAll("path.link")
+        .data(links, function (d) {
+        return d.target.id;
+    });
+
+    // Enter any new links at the parent's previous position.
+    link.enter().insert("path", "g")
+        .attr("class", "link")
+        .attr("d", function (d) {
+        var o = {
+            x: source.x0,
+            y: source.y0
+        };
+        return diagonal({
+            source: o,
+            target: o
+        });
+    });
+
+    // Transition links to their new position.
+    link.transition()
+        .duration(duration)
+        .attr("d", diagonal);
+
+    // Transition exiting nodes to the parent's new position.
+    link.exit().transition()
+        .duration(duration)
+        .attr("d", function (d) {
+        var o = {
+            x: source.x,
+            y: source.y
+        };
+        return diagonal({
+            source: o,
+            target: o
+        });
+    })
+        .remove();
+
+    // Stash the old positions for transition.
+    nodes.forEach(function (d) {
+        d.x0 = d.x;
+        d.y0 = d.y;
+    });
+}
+
+// Toggle children on click.
+function click(d) {
+    if (d.children) {
+        d._children = d.children;
+        d.children = null;
+    } else {
+        d.children = d._children;
+        d._children = null;
+    }
+    update(d);
+}
+}
+
 </script>
+
 </body>
 </div>
 </html>

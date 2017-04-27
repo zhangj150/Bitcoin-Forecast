@@ -10,7 +10,7 @@
 
 require(Ckmeans.1d.dp)
 
-data_file = read.csv("ALL_dates_from_earliest.csv")
+data_file = read.csv("data/timeSeriesCluster/ALL_dates_from_earliest.csv")
 
 dates = data_file$date
 occurrences = data_file$occurrences
@@ -18,6 +18,6 @@ distance = data_file$distance
 
 res = Ckmeans.1d.dp(distance, k = c(1:28),occurrences)
 
-write.csv(data.frame(dates, distance, occurrences, res$cluster), "ALL_clusters.csv", quote = FALSE, row.names = FALSE)
+write.csv(data.frame(dates, distance, occurrences, res$cluster), "data/timeSeriesCluster/ALL_clusters.csv", quote = FALSE, row.names = FALSE)
 
 plot(distance, occurrences,col=res$cluster,pch=res$cluster,type="h", xlab="Time (Days)", ylab="Mentions")

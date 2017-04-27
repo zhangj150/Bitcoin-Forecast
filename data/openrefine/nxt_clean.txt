@@ -1,0 +1,4509 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Actor1CharOffset",
+    "columnName": "Actor1CharOffset"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Actor2CharOffset",
+    "columnName": "Actor2CharOffset"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ActionCharOffset",
+    "columnName": "ActionCharOffset"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column InRawText",
+    "columnName": "InRawText"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MentionDocLen",
+    "columnName": "MentionDocLen"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MentionDocTranslationInfo",
+    "columnName": "MentionDocTranslationInfo"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Extras",
+    "columnName": "Extras"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MentionTimeDate",
+    "columnName": "MentionTimeDate"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column SentenceID",
+    "columnName": "SentenceID"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column EventTimeDate using expression grel:value.slice(4,6) + '/' + value.slice(6,8) + '/' + value.slice(0,4)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "EventTimeDate",
+    "expression": "grel:value.slice(4,6) + '/' + value.slice(6,8) + '/' + value.slice(0,4)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "24wrestling.com",
+                "l": "24wrestling.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "411mania.com",
+                "l": "411mania.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "wrestlingnewsworld.com",
+                "l": "wrestlingnewsworld.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "wrestlingnewssource.com",
+                "l": "wrestlingnewssource.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "wrestlinginc.com",
+                "l": "wrestlinginc.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "wrestling-online.com",
+                "l": "wrestling-online.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "wrestlezone.com",
+                "l": "wrestlezone.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "wrestleview.com",
+                "l": "wrestleview.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "wrestlechat.net",
+                "l": "wrestlechat.net"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "tjrwrestling.net",
+                "l": "tjrwrestling.net"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "therock.net.nz",
+                "l": "therock.net.nz"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "surenio.com.ar",
+                "l": "surenio.com.ar"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "p23.com.ar",
+                "l": "p23.com.ar"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "prowrestling.net",
+                "l": "prowrestling.net"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "wafa.ps",
+                "l": "wafa.ps"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "lordsofpain.net",
+                "l": "lordsofpain.net"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "twnpnews.com",
+                "l": "twnpnews.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "regex",
+          "caseSensitive": false,
+          "query": "wwe",
+          "name": "MentionSourceName",
+          "type": "text",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "wwe",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "wrestle",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "fight",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".ps",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".cl",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".es",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "terra",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "aninews",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "takeover",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "bass",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "injured",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "dead",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "hit",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "kick",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "match",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "suspect",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "wrest",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "kordia",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "obama",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "assault",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "palestine",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "alberto",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "bajaj",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "maximum",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "rumble",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "show",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".au",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "jury",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "delta",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "shinsuke",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "arthra",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "thinxtra",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "attack",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxt-energy",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "armed",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "cidade",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "trump",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "python",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "rock",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "cham",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "title",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "fantasy",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".lu",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".rs",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "planxty",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "pence",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "spoiler",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "vote",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "terrorist",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "army",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "glass",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtbook",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "netsuite",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtp",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtra",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "politic",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "galaxy",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "belgium",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "next-plc",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "burger",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "police",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "equality",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "clinton",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "sanders",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "crime",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "denim",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "republic",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "hindu",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "liber",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtm",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "mill",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtn",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtl",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxto",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxts",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtz",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxty",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtq",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtw",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxte",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtt",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtu",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxti",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxta",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtd",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtf",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtg",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxth",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtj",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtk",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtx",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtc",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtv",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxtb",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "xeno",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "artificial",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "morrison",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "wine",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxt-id",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxt-star",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "energy",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "music",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "song",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "talks",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "citizen",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "election",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "house",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "gun",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".tv",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "yemen",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "middle",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "river",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nakamura",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "green",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "asuk",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "bloom",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "unity",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "state",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "virus",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "president",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "may",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "volks",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "rampage",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "daily",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "africa",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "what",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "manuel",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "man",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "india",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "asia",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".za",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "pain",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "hate",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "women",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "terror",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "superstar",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "star",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "home",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".fr",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "japon",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "albany",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxt-capital",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "israel",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "boston",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "united",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "american",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "thoughts",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "nxt-live",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "cage",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "vs",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "balor",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "trust",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".cn",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "twin",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "governor",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".gt",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".gr",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "draft",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".nz",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".nl",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".pl",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".id",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "return",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "profess",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "adnk",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "applaud",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "television",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "leur",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "fr",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "lain",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "banks",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "episode",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "sudan",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "joe",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "lastampa",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "por",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "fashion",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "bank",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "artist",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "james",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "cardio",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "drug",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "power",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "ethic",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "msn",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "day",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "breaking",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "biosystem",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "bear",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "student",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "local",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "farm",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "venture",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".edu",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "Australia",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "coverage",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "brook",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".br",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "alw",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "investorid",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "top",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "hua",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "sky",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".se",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "jait",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "sex",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "media_",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "media-group",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "median",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "royal",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "bbc",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "design",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "amar",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "articlesbase.com",
+                "l": "articlesbase.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "bidnessetc.com",
+                "l": "bidnessetc.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "business-standard.com",
+                "l": "business-standard.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "fxcm.com",
+                "l": "fxcm.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "kpvi.com",
+                "l": "kpvi.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "mynews4.com",
+                "l": "mynews4.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "printweek.in",
+                "l": "printweek.in"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "tweaktown.com",
+                "l": "tweaktown.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "wdef.com",
+                "l": "wdef.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "wtva.com",
+                "l": "wtva.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "wxxv25.com",
+                "l": "wxxv25.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "mackie",
+          "name": "MentionIdentifier",
+          "type": "text",
+          "columnName": "MentionIdentifier"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column GLOBALEVENTID",
+    "columnName": "GLOBALEVENTID"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MentionType",
+    "columnName": "MentionType"
+  }
+]

@@ -1,0 +1,787 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Actor1CharOffset",
+    "columnName": "Actor1CharOffset"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Actor2CharOffset",
+    "columnName": "Actor2CharOffset"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ActionCharOffset",
+    "columnName": "ActionCharOffset"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column InRawText",
+    "columnName": "InRawText"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MentionDocLen",
+    "columnName": "MentionDocLen"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MentionDocTranslationInfo",
+    "columnName": "MentionDocTranslationInfo"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Extras",
+    "columnName": "Extras"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MentionTimeDate",
+    "columnName": "MentionTimeDate"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column SentenceID",
+    "columnName": "SentenceID"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column EventTimeDate using expression grel:value.slice(4,6) + '/' + value.slice(6,8) + '/' + value.slice(0,4)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "EventTimeDate",
+    "expression": "grel:value.slice(4,6) + '/' + value.slice(6,8) + '/' + value.slice(0,4)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": ".cy",
+          "name": "MentionSourceName",
+          "type": "text",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "cihan.com.tr",
+                "l": "cihan.com.tr"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "colombia.com",
+                "l": "colombia.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "diariocambio.com.mx",
+                "l": "diariocambio.com.mx"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "elconfidencial.com",
+                "l": "elconfidencial.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "eldinamo.cl",
+                "l": "eldinamo.cl"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "eleconomista.com.mx",
+                "l": "eleconomista.com.mx"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "elespectador.com",
+                "l": "elespectador.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "gestion.pe",
+                "l": "gestion.pe"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "vozpopuli.com",
+                "l": "vozpopuli.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "inewsgr.com",
+                "l": "inewsgr.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "elsiglodetorreon.com.mx",
+                "l": "elsiglodetorreon.com.mx"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "multi-news.gr",
+                "l": "multi-news.gr"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "protothema.gr",
+                "l": "protothema.gr"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "sigmalive.com",
+                "l": "sigmalive.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "hoytamaulipas.net",
+                "l": "hoytamaulipas.net"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "huffingtonpost.gr",
+                "l": "huffingtonpost.gr"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "iefimerida.gr",
+                "l": "iefimerida.gr"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "surenio.com.ar",
+                "l": "surenio.com.ar"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "voria.gr",
+                "l": "voria.gr"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "ellitoral.com",
+                "l": "ellitoral.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "heraldo.es",
+                "l": "heraldo.es"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "heraldodesoria.es",
+                "l": "heraldodesoria.es"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "lainformacion.com",
+                "l": "lainformacion.com"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "newpost.gr",
+                "l": "newpost.gr"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "que.es",
+                "l": "que.es"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "MentionSourceName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "MentionSourceName"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column GLOBALEVENTID",
+    "columnName": "GLOBALEVENTID"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MentionType",
+    "columnName": "MentionType"
+  }
+]
